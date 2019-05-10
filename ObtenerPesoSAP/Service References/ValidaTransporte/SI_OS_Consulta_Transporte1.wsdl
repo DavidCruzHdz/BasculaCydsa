@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:p1="http://cydsa.com/PL/TM/TM101/Receiver/WebServices/PesoVehiculo_Consulta" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" name="SI_OS_Consulta_Transporte" targetNamespace="http://cydsa.com/PL/TM/TM101/Receiver/WebServices/PesoVehiculo_Consulta" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation />
+  <wsp:UsingPolicy wsdl:required="true" />
+  <wsp:Policy wsu:Id="OP_SI_OS_Consulta_Transporte" />
+  <wsdl:types>
+    <xsd:schema xmlns="http://cydsa.com/PL/TM/TM101/Receiver/WebServices/PesoVehiculo_Consulta" targetNamespace="http://cydsa.com/PL/TM/TM101/Receiver/WebServices/PesoVehiculo_Consulta" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <xsd:element name="MT_Consulta_Tranporte_Resp" type="p1:DT_Consulta_Tranporte_Resp" />
+      <xsd:element name="MT_Consulta_Tranporte" type="p1:DT_Consulta_Tranporte" />
+      <xsd:complexType name="DT_Consulta_Tranporte">
+        <xsd:annotation>
+          <xsd:appinfo source="http://sap.com/xi/VersionID">2e4686f9265511e9b5600000001096ae</xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="0" name="Numero_Transporte" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Centro_Logistico" type="xsd:string" />
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_Consulta_Tranporte_Resp">
+        <xsd:annotation>
+          <xsd:appinfo source="http://sap.com/xi/VersionID">61a7c8902a6911e98dc40000001096ae</xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="OPTIONS">
+            <xsd:annotation>
+              <xsd:appinfo source="http://sap.com/xi/TextID">b2074047265a11e9c951025041000001</xsd:appinfo>
+            </xsd:annotation>
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="0" maxOccurs="unbounded" name="item">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">b2074046265a11e9c8ee025041000001</xsd:appinfo>
+                  </xsd:annotation>
+                  <xsd:complexType>
+                    <xsd:sequence>
+                      <xsd:element minOccurs="0" name="Type" type="xsd:string">
+                        <xsd:annotation>
+                          <xsd:appinfo source="http://sap.com/xi/TextID">8160a7912a6911e9b1ff025041000001</xsd:appinfo>
+                        </xsd:annotation>
+                      </xsd:element>
+                      <xsd:element minOccurs="0" name="Response" type="xsd:string">
+                        <xsd:annotation>
+                          <xsd:appinfo source="http://sap.com/xi/TextID">5dbb655d265b11e9ab38025041000001</xsd:appinfo>
+                        </xsd:annotation>
+                      </xsd:element>
+                    </xsd:sequence>
+                  </xsd:complexType>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="MT_Consulta_Tranporte">
+    <wsdl:documentation />
+    <wsdl:part name="MT_Consulta_Tranporte" element="p1:MT_Consulta_Tranporte" />
+  </wsdl:message>
+  <wsdl:message name="MT_Consulta_Tranporte_Resp">
+    <wsdl:documentation />
+    <wsdl:part name="MT_Consulta_Tranporte_Resp" element="p1:MT_Consulta_Tranporte_Resp" />
+  </wsdl:message>
+  <wsdl:portType name="SI_OS_Consulta_Transporte">
+    <wsdl:documentation />
+    <wsdl:operation name="SI_OS_Consulta_Transporte">
+      <wsdl:documentation />
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_SI_OS_Consulta_Transporte" />
+      </wsp:Policy>
+      <wsdl:input message="p1:MT_Consulta_Tranporte" />
+      <wsdl:output message="p1:MT_Consulta_Tranporte_Resp" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SI_OS_Consulta_TransporteBinding" type="p1:SI_OS_Consulta_Transporte">
+    <binding transport="http://schemas.xmlsoap.org/soap/http" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    <wsdl:operation name="SI_OS_Consulta_Transporte">
+      <operation soapAction="http://sap.com/xi/WebService/soap1.1" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <wsdl:input>
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </wsdl:input>
+      <wsdl:output>
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SI_OS_Consulta_TransporteService">
+    <wsdl:port name="HTTP_Port" binding="p1:SI_OS_Consulta_TransporteBinding">
+      <address location="http://mtyqas09.cydsa.com:50000/XISOAPAdapter/MessageServlet?senderParty=&amp;senderService=ZBS_LEGADOS_PRX&amp;receiverParty=&amp;receiverService=&amp;interface=SI_OS_Consulta_Transporte&amp;interfaceNamespace=http%3A%2F%2Fcydsa.com%2FPL%2FTM%2FTM101%2FReceiver%2FWebServices%2FPesoVehiculo_Consulta" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    </wsdl:port>
+    <wsdl:port name="HTTPS_Port" binding="p1:SI_OS_Consulta_TransporteBinding">
+      <address location="https://mtyqas09.cydsa.com:50001/XISOAPAdapter/MessageServlet?senderParty=&amp;senderService=ZBS_LEGADOS_PRX&amp;receiverParty=&amp;receiverService=&amp;interface=SI_OS_Consulta_Transporte&amp;interfaceNamespace=http%3A%2F%2Fcydsa.com%2FPL%2FTM%2FTM101%2FReceiver%2FWebServices%2FPesoVehiculo_Consulta" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

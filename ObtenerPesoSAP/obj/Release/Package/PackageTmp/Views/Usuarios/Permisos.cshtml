@@ -1,0 +1,46 @@
+﻿@model IList<ObtenerPesoSAP.Models.CPCatEmpresas>
+    @{
+        ViewBag.Title = "Permisos";
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+        <br />
+
+        <h2>Plantas Asignadas</h2>
+
+        <p>
+            <h4>Plantas asignadas al usuario: @ViewBag.mes </h4>
+        </p>
+        @using (Html.BeginForm())
+        {
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <div class="container form-group col-md-12  jumbotron" style="background-color:#5c87b2;">
+                
+                    <br />
+                    @for (var i = 0; i < Model.Count; i++)
+                {
+                        <div class="container form-group col-md-2">
+                            @Html.HiddenFor(x => x[i].CPIdEmpresa, new { @class = "form-control" })
+                            <span></span>
+                        </div>
+
+                        <div class="container form-group col-md-4" style="text-align-last:right; font-size:20px; font-style:normal; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">
+                            @Html.DisplayFor(x => x[i].CPDescripcionEmpresa, new { @class = "form-control", @style = "align-items:right" })
+                        </div>
+
+
+                        <div class="container form-group col-md-6" style="text-align-last:left">
+                            @Html.CheckBoxFor(x => x[i].checkeado, new { @class = "form-control", @style = "align-items:left" })
+                        </div>
+
+
+
+                    }
+                    <br />
+
+
+                </div>
+
+                <input type="submit" value="Guardar" class="btn btn-primary" />
+                <a href="~/Usuarios" , class='btn btn-primary'>Regresar</a>
+                }

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:p1="http://cydsa.com/PL/TM/TM101/Receiver/WebServices/PesoVehiculo_Picking" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" name="SI_OS_UpdatePicking" targetNamespace="http://cydsa.com/PL/TM/TM101/Receiver/WebServices/PesoVehiculo_Picking" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation />
+  <wsp:UsingPolicy wsdl:required="true" />
+  <wsp:Policy wsu:Id="OP_SI_OS_UpdatePicking" />
+  <wsdl:types>
+    <xsd:schema xmlns="http://cydsa.com/PL/TM/TM101/Receiver/WebServices/PesoVehiculo_Picking" targetNamespace="http://cydsa.com/PL/TM/TM101/Receiver/WebServices/PesoVehiculo_Picking" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <xsd:element name="MT_Return_UpdatePicking" type="p1:DT_Return_UpdatePicking" />
+      <xsd:element name="MT_UpdatePicking" type="p1:DT_UpdatePicking" />
+      <xsd:element name="Fault_Exception_UpdatePicking">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="standard" type="p1:ExchangeFaultData" />
+            <xsd:element name="addition" type="p1:DT_Exception_UpdatePicking" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:complexType name="ExchangeLogData">
+        <xsd:annotation>
+          <xsd:appinfo source="http://sap.com/xi/TextID">c87ef4e023d211dca90c0017a4aa3b42</xsd:appinfo>
+          <xsd:appinfo source="http://sap.com/xi/VersionID">48649b4d412211e9843a0000001096ae</xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="severity" type="xsd:string" />
+          <xsd:element name="text" type="xsd:string" />
+          <xsd:element minOccurs="0" name="url" type="xsd:string" />
+          <xsd:element minOccurs="0" name="id" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ExchangeFaultData">
+        <xsd:annotation>
+          <xsd:appinfo source="http://sap.com/xi/TextID">cffbc40023d211dcbea80017a4aa3b42</xsd:appinfo>
+          <xsd:appinfo source="http://sap.com/xi/VersionID">3b0c4a1e412211e996630000001096ae</xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="faultText" type="xsd:string" />
+          <xsd:element minOccurs="0" name="faultUrl" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="faultDetail" type="p1:ExchangeLogData" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_Exception_UpdatePicking">
+        <xsd:annotation>
+          <xsd:appinfo source="http://sap.com/xi/VersionID">08a4c399412211e9c7ce0000001096ae</xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="Name" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Text" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Message">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="0" name="ID" type="xsd:string" />
+                <xsd:element minOccurs="0" name="Number" type="xsd:string" />
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element minOccurs="0" name="Attributes">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="0" name="V1" type="xsd:string" />
+                <xsd:element minOccurs="0" name="V2" type="xsd:string" />
+                <xsd:element minOccurs="0" name="V3" type="xsd:string" />
+                <xsd:element minOccurs="0" name="V4" type="xsd:string" />
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_UpdatePicking">
+        <xsd:annotation>
+          <xsd:appinfo source="http://sap.com/xi/VersionID">b53375262f1b11e9baf80000001096ae</xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="data">
+            <xsd:annotation>
+              <xsd:appinfo source="http://sap.com/xi/TextID">c93f8f0db12811e8b761025041000001</xsd:appinfo>
+            </xsd:annotation>
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="Vehicle_Number" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">c93f8f0ab12811e8c95e025041000001</xsd:appinfo>
+                  </xsd:annotation>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_Return_UpdatePicking">
+        <xsd:annotation>
+          <xsd:appinfo source="http://sap.com/xi/VersionID">af5b8cf733a611e9bd870000001096ae</xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="item">
+            <xsd:annotation>
+              <xsd:appinfo source="http://sap.com/xi/TextID">b4e9c1362f1811e984b5025041000001</xsd:appinfo>
+            </xsd:annotation>
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="0" name="Response" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">b4e9c1352f1811e9a0fd025041000001</xsd:appinfo>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="Message" type="xsd:string" />
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="MT_UpdatePicking">
+    <wsdl:documentation />
+    <wsdl:part name="MT_UpdatePicking" element="p1:MT_UpdatePicking" />
+  </wsdl:message>
+  <wsdl:message name="MT_Return_UpdatePicking">
+    <wsdl:documentation />
+    <wsdl:part name="MT_Return_UpdatePicking" element="p1:MT_Return_UpdatePicking" />
+  </wsdl:message>
+  <wsdl:message name="Fault_Exception_UpdatePicking">
+    <wsdl:documentation />
+    <wsdl:part name="Fault_Exception_UpdatePicking" element="p1:Fault_Exception_UpdatePicking" />
+  </wsdl:message>
+  <wsdl:portType name="SI_OS_UpdatePicking">
+    <wsdl:documentation />
+    <wsdl:operation name="SI_OS_UpdatePicking">
+      <wsdl:documentation />
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_SI_OS_UpdatePicking" />
+      </wsp:Policy>
+      <wsdl:input message="p1:MT_UpdatePicking" />
+      <wsdl:output message="p1:MT_Return_UpdatePicking" />
+      <wsdl:fault name="Fault_Exception_UpdatePicking" message="p1:Fault_Exception_UpdatePicking" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SI_OS_UpdatePickingBinding" type="p1:SI_OS_UpdatePicking">
+    <binding transport="http://schemas.xmlsoap.org/soap/http" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    <wsdl:operation name="SI_OS_UpdatePicking">
+      <operation soapAction="http://sap.com/xi/WebService/soap1.1" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <wsdl:input>
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </wsdl:input>
+      <wsdl:output>
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </wsdl:output>
+      <wsdl:fault name="Fault_Exception_UpdatePicking">
+        <fault use="literal" name="Fault_Exception_UpdatePicking" namespace="" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SI_OS_UpdatePickingService">
+    <wsdl:port name="HTTP_Port" binding="p1:SI_OS_UpdatePickingBinding">
+      <address location="http://mtyqas09.cydsa.com:50000/XISOAPAdapter/MessageServlet?senderParty=&amp;senderService=ZBS_LEGADOS_PRX&amp;receiverParty=&amp;receiverService=&amp;interface=SI_OS_UpdatePicking&amp;interfaceNamespace=http%3A%2F%2Fcydsa.com%2FPL%2FTM%2FTM101%2FReceiver%2FWebServices%2FPesoVehiculo_Picking" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    </wsdl:port>
+    <wsdl:port name="HTTPS_Port" binding="p1:SI_OS_UpdatePickingBinding">
+      <address location="https://mtyqas09.cydsa.com:50001/XISOAPAdapter/MessageServlet?senderParty=&amp;senderService=ZBS_LEGADOS_PRX&amp;receiverParty=&amp;receiverService=&amp;interface=SI_OS_UpdatePicking&amp;interfaceNamespace=http%3A%2F%2Fcydsa.com%2FPL%2FTM%2FTM101%2FReceiver%2FWebServices%2FPesoVehiculo_Picking" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

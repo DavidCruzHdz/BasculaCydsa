@@ -1,0 +1,74 @@
+﻿@model ObtenerPesoSAP.Models.CPPermisosPlantas
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>CPPermisosPlantas</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CPFechaAlta)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CPFechaAlta)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CPUsuarioAlta)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CPUsuarioAlta)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CPFechaCambio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CPFechaCambio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CPUsuarioCambio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CPUsuarioCambio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CPPlantaDefault)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CPPlantaDefault)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CPCatEmpresas.CPDescripcionEmpresa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CPCatEmpresas.CPDescripcionEmpresa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CPUsuario.CPNombreUsuario)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CPUsuario.CPNombreUsuario)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.CPId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

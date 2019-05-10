@@ -1,0 +1,204 @@
+﻿@model ObtenerPesoSAP.Models.CPBitacora
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<br />
+
+<br />
+<div class="col-md-12 jumbotron" style="color:#000000; font:caption; background-color:#5c87b2;">
+
+    <h2>Modificacion</h2>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <h4>Solo es posible cambiar los pesos</h4>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @Html.HiddenFor(model => model.CPId)
+
+            @*<div class="form-group">
+                    @Html.LabelFor(model => model.CPIdEmpresa, "CPIdEmpresa", htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.DropDownList("CPIdEmpresa", null, htmlAttributes: new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.CPIdEmpresa, "", new { @class = "text-danger" })
+                    </div>
+                </div>*@
+
+            @if (ViewBag.Message != "")
+            {
+                <script type="text/javascript">
+                                    window.onload = function ()
+                                    {
+                                        var IdTipo = ""
+                                        IdTipo = "Otros"
+
+                                        var plantaID = @Session["idPlantaDF"];
+                                        var Id = $("#VarConsecutivo").val()
+
+                                        Buscar();
+
+
+                                        $("#listaValores").css("display", "block");
+                                        $("#tablaaqui").css("display", "block");
+                                        $("#TblMateriales").css("display", "block");
+
+
+                                        alert("@ViewBag.Message");
+                                        window.location.href = "Index";                                       
+                                    };
+                </script>
+            }
+
+
+
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.CPIdTransporte, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.CPIdTransporte, new { htmlAttributes = new { @class = "form-control", @disabled = "disabled" } })
+                    @*@Html.ValidationMessageFor(model => model.CPIdTransporte, "", new { @class = "text-danger" })*@
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.CPNumEconomico, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.CPNumEconomico, new { htmlAttributes = new { @class = "form-control", @disabled = "disabled" } })
+                    @*@Html.ValidationMessageFor(model => model.CPNumEconomico, "", new { @class = "text-danger" })*@
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.CPPlaca, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.CPPlaca, new { htmlAttributes = new { @class = "form-control", @disabled = "disabled" } })
+                    @*@Html.ValidationMessageFor(model => model.CPPlaca, "", new { @class = "text-danger" })*@
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.CPNumPorte, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.CPNumPorte, new { htmlAttributes = new { @class = "form-control", @disabled = "disabled" } })
+                   @* @Html.ValidationMessageFor(model => model.CPNumPorte, "", new { @class = "text-danger" })*@
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.CPNomConductor, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.CPNomConductor, new { htmlAttributes = new { @class = "form-control", @disabled = "disabled" } })
+                    @*@Html.ValidationMessageFor(model => model.CPNomConductor, "", new { @class = "text-danger" })*@
+                </div>
+            </div>
+
+
+
+            @*<div class="form-group">
+                @Html.LabelFor(model => model.CPIdTipoVehiculo, "CPIdTipoVehiculo", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.DropDownList("CPIdTipoVehiculo", null, htmlAttributes: new { @class = "form-control", @disabled = "disabled" })
+                    @Html.ValidationMessageFor(model => model.CPIdTipoVehiculo, "", new { @class = "text-danger" })
+                </div>
+            </div>*@
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.CPPesoEntrada, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.CPPesoEntrada, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.CPPesoEntrada, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.CPPesoSalida, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.CPPesoSalida, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.CPPesoSalida, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.CPPesoNeto, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.CPPesoNeto, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.CPPesoNeto, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+
+            @*<div class="form-group">
+                    @Html.LabelFor(model => model.CPFechaEntrada, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.CPFechaEntrada, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.CPFechaEntrada, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.CpFechaSalida, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.CpFechaSalida, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.CpFechaSalida, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.CPEntrada, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        <div class="checkbox">
+                            @Html.EditorFor(model => model.CPEntrada)
+                            @Html.ValidationMessageFor(model => model.CPEntrada, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.CPSalida, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        <div class="checkbox">
+                            @Html.EditorFor(model => model.CPSalida)
+                            @Html.ValidationMessageFor(model => model.CPSalida, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.CPIdUsuarioEnt, "CPIdUsuarioEnt", htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.DropDownList("CPIdUsuarioEnt", null, htmlAttributes: new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.CPIdUsuarioEnt, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.CPIdUsuarioSal, "CPIdUsuarioSal", htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.DropDownList("CPIdUsuarioSal", null, htmlAttributes: new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.CPIdUsuarioSal, "", new { @class = "text-danger" })
+                    </div>
+                </div>*@
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Grabar" class="btn btn-danger btn-lg" />
+                   @Html.ActionLink("Regresar", "Index", "ListadoPesos", null, new { @class = "btn btn-danger btn-lg", @style = "display:inline" })
+                  
+                </div>
+            </div>
+        </div>
+    }
+
+    @*<div>
+            @Html.ActionLink("Back to List", "Index")
+
+
+        </div>*@
+    </div>

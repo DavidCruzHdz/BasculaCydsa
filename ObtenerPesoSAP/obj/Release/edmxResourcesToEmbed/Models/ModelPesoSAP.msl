@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BDObtenerPesoSAPModelStoreContainer" CdmEntityContainer="BDObtenerPesoSAPEntities">
+    <EntitySetMapping Name="CPAutorizaciones">
+      <EntityTypeMapping TypeName="BDObtenerPesoSAPModel.CPAutorizaciones">
+        <MappingFragment StoreEntitySet="CPAutorizaciones">
+          <ScalarProperty Name="CPIdUsuario" ColumnName="CPIdUsuario" />
+          <ScalarProperty Name="CpFechaAutorizacion" ColumnName="CpFechaAutorizacion" />
+          <ScalarProperty Name="CPIdPartidas" ColumnName="CPIdPartidas" />
+          <ScalarProperty Name="CPMotivoAutorizacion" ColumnName="CPMotivoAutorizacion" />
+          <ScalarProperty Name="CPIdDocumento" ColumnName="CPIdDocumento" />
+          <ScalarProperty Name="CPIdTransporte" ColumnName="CPIdTransporte" />
+          <ScalarProperty Name="CPIdEmpresa" ColumnName="CPIdEmpresa" />
+          <ScalarProperty Name="CPIdAutorizacion" ColumnName="CPIdAutorizacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CPBitacora">
+      <EntityTypeMapping TypeName="BDObtenerPesoSAPModel.CPBitacora">
+        <MappingFragment StoreEntitySet="CPBitacora">
+          <ScalarProperty Name="CPEstatus" ColumnName="CPEstatus" />
+          <ScalarProperty Name="CPNumDePasos" ColumnName="CPNumDePasos" />
+          <ScalarProperty Name="CPIdUsuarioSal" ColumnName="CPIdUsuarioSal" />
+          <ScalarProperty Name="CPIdUsuarioEnt" ColumnName="CPIdUsuarioEnt" />
+          <ScalarProperty Name="CPSalida" ColumnName="CPSalida" />
+          <ScalarProperty Name="CPEntrada" ColumnName="CPEntrada" />
+          <ScalarProperty Name="CpFechaSalida" ColumnName="CpFechaSalida" />
+          <ScalarProperty Name="CPFechaEntrada" ColumnName="CPFechaEntrada" />
+          <ScalarProperty Name="CPPartida" ColumnName="CPPartida" />
+          <ScalarProperty Name="CPDescripcionMaterial" ColumnName="CPDescripcionMaterial" />
+          <ScalarProperty Name="CPIdMaterial" ColumnName="CPIdMaterial" />
+          <ScalarProperty Name="CPIdDocumento" ColumnName="CPIdDocumento" />
+          <ScalarProperty Name="CPPesoNeto" ColumnName="CPPesoNeto" />
+          <ScalarProperty Name="CPPesoSalida" ColumnName="CPPesoSalida" />
+          <ScalarProperty Name="CPPesoEntrada" ColumnName="CPPesoEntrada" />
+          <ScalarProperty Name="CPNumCelular" ColumnName="CPNumCelular" />
+          <ScalarProperty Name="CPNomConductor" ColumnName="CPNomConductor" />
+          <ScalarProperty Name="CPNumPorte" ColumnName="CPNumPorte" />
+          <ScalarProperty Name="CPPlaca" ColumnName="CPPlaca" />
+          <ScalarProperty Name="CPNumEconomico" ColumnName="CPNumEconomico" />
+          <ScalarProperty Name="CPIdTransporte" ColumnName="CPIdTransporte" />
+          <ScalarProperty Name="CPIdEmpresa" ColumnName="CPIdEmpresa" />
+          <ScalarProperty Name="CPId" ColumnName="CPId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CPCatEmpresas">
+      <EntityTypeMapping TypeName="BDObtenerPesoSAPModel.CPCatEmpresas">
+        <MappingFragment StoreEntitySet="CPCatEmpresas">
+          <ScalarProperty Name="CPIdTipoCaptura" ColumnName="CPIdTipoCaptura" />
+          <ScalarProperty Name="CPUsuarioCambio" ColumnName="CPUsuarioCambio" />
+          <ScalarProperty Name="CPFechaCambio" ColumnName="CPFechaCambio" />
+          <ScalarProperty Name="CPUsuarioAlta" ColumnName="CPUsuarioAlta" />
+          <ScalarProperty Name="CPFechaAlta" ColumnName="CPFechaAlta" />
+          <ScalarProperty Name="CPDescripcionEmpresa" ColumnName="CPDescripcionEmpresa" />
+          <ScalarProperty Name="CPIdPlanta" ColumnName="CPIdPlanta" />
+          <ScalarProperty Name="CPIdCia" ColumnName="CPIdCia" />
+          <ScalarProperty Name="CPIdEmpresa" ColumnName="CPIdEmpresa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CPCatMateriales">
+      <EntityTypeMapping TypeName="BDObtenerPesoSAPModel.CPCatMateriales">
+        <MappingFragment StoreEntitySet="CPCatMateriales">
+          <ScalarProperty Name="CPUsuarioCambio" ColumnName="CPUsuarioCambio" />
+          <ScalarProperty Name="CPFechaCambio" ColumnName="CPFechaCambio" />
+          <ScalarProperty Name="CPUsuarioAlta" ColumnName="CPUsuarioAlta" />
+          <ScalarProperty Name="CPFechaAlta" ColumnName="CPFechaAlta" />
+          <ScalarProperty Name="CPIdUnidadMedida" ColumnName="CPIdUnidadMedida" />
+          <ScalarProperty Name="CPRequiereAutoriza" ColumnName="CPRequiereAutoriza" />
+          <ScalarProperty Name="CPSePesa" ColumnName="CPSePesa" />
+          <ScalarProperty Name="CPFactorMax" ColumnName="CPFactorMax" />
+          <ScalarProperty Name="CPFactorMin" ColumnName="CPFactorMin" />
+          <ScalarProperty Name="CPPesoRequerido" ColumnName="CPPesoRequerido" />
+          <ScalarProperty Name="CPDescripcionMaterial" ColumnName="CPDescripcionMaterial" />
+          <ScalarProperty Name="CPIdMaterialSAP" ColumnName="CPIdMaterialSAP" />
+          <ScalarProperty Name="CPIdMaterialAnt" ColumnName="CPIdMaterialAnt" />
+          <ScalarProperty Name="CPIdEmpresa" ColumnName="CPIdEmpresa" />
+          <ScalarProperty Name="CPIdMaterial" ColumnName="CPIdMaterial" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CPCatTipoCaptura">
+      <EntityTypeMapping TypeName="BDObtenerPesoSAPModel.CPCatTipoCaptura">
+        <MappingFragment StoreEntitySet="CPCatTipoCaptura">
+          <ScalarProperty Name="CPUsuarioCambio" ColumnName="CPUsuarioCambio" />
+          <ScalarProperty Name="CPFechaCambio" ColumnName="CPFechaCambio" />
+          <ScalarProperty Name="CPUsuarioAlta" ColumnName="CPUsuarioAlta" />
+          <ScalarProperty Name="CPFechaAlta" ColumnName="CPFechaAlta" />
+          <ScalarProperty Name="CPDescripcion" ColumnName="CPDescripcion" />
+          <ScalarProperty Name="CPIdTipoCaptura" ColumnName="CPIdTipoCaptura" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CPCatTiposDeVehiculos">
+      <EntityTypeMapping TypeName="BDObtenerPesoSAPModel.CPCatTiposDeVehiculos">
+        <MappingFragment StoreEntitySet="CPCatTiposDeVehiculos">
+          <ScalarProperty Name="CPUsuarioCambio" ColumnName="CPUsuarioCambio" />
+          <ScalarProperty Name="CPFechaCambio" ColumnName="CPFechaCambio" />
+          <ScalarProperty Name="CPUsuarioAlta" ColumnName="CPUsuarioAlta" />
+          <ScalarProperty Name="CPFechaAlta" ColumnName="CPFechaAlta" />
+          <ScalarProperty Name="CPIdUnidadMedida" ColumnName="CPIdUnidadMedida" />
+          <ScalarProperty Name="CPCapacidad" ColumnName="CPCapacidad" />
+          <ScalarProperty Name="CPDescripcionVehiculo" ColumnName="CPDescripcionVehiculo" />
+          <ScalarProperty Name="CPIdTipoVehiculo" ColumnName="CPIdTipoVehiculo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CPCatUnidades">
+      <EntityTypeMapping TypeName="BDObtenerPesoSAPModel.CPCatUnidades">
+        <MappingFragment StoreEntitySet="CPCatUnidades">
+          <ScalarProperty Name="CPUsuarioCambio" ColumnName="CPUsuarioCambio" />
+          <ScalarProperty Name="CPFechaCambio" ColumnName="CPFechaCambio" />
+          <ScalarProperty Name="CPUsuarioAlta" ColumnName="CPUsuarioAlta" />
+          <ScalarProperty Name="CPFechaAlta" ColumnName="CPFechaAlta" />
+          <ScalarProperty Name="CPDescripcionUnidadMedida" ColumnName="CPDescripcionUnidadMedida" />
+          <ScalarProperty Name="CPIdUnidadMedida" ColumnName="CPIdUnidadMedida" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CPPantallas">
+      <EntityTypeMapping TypeName="BDObtenerPesoSAPModel.CPPantallas">
+        <MappingFragment StoreEntitySet="CPPantallas">
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CPPantallasPermisos">
+      <EntityTypeMapping TypeName="BDObtenerPesoSAPModel.CPPantallasPermisos">
+        <MappingFragment StoreEntitySet="CPPantallasPermisos">
+          <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+          <ScalarProperty Name="IdPantalla" ColumnName="IdPantalla" />
+          <ScalarProperty Name="idPantallasPermisos" ColumnName="idPantallasPermisos" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CPPartidas">
+      <EntityTypeMapping TypeName="BDObtenerPesoSAPModel.CPPartidas">
+        <MappingFragment StoreEntitySet="CPPartidas">
+          <ScalarProperty Name="CPEstatus" ColumnName="CPEstatus" />
+          <ScalarProperty Name="CPIdUsuario" ColumnName="CPIdUsuario" />
+          <ScalarProperty Name="CPFecha" ColumnName="CPFecha" />
+          <ScalarProperty Name="CPPartida" ColumnName="CPPartida" />
+          <ScalarProperty Name="CPIdUnidadMedida" ColumnName="CPIdUnidadMedida" />
+          <ScalarProperty Name="CPDescripcion" ColumnName="CPDescripcion" />
+          <ScalarProperty Name="CPIdMaterial" ColumnName="CPIdMaterial" />
+          <ScalarProperty Name="CPIdCodigo" ColumnName="CPIdCodigo" />
+          <ScalarProperty Name="CPPesoRequerido" ColumnName="CPPesoRequerido" />
+          <ScalarProperty Name="CPIdDocumento" ColumnName="CPIdDocumento" />
+          <ScalarProperty Name="CPIdTransporte" ColumnName="CPIdTransporte" />
+          <ScalarProperty Name="CPIdEmpresa" ColumnName="CPIdEmpresa" />
+          <ScalarProperty Name="CPId" ColumnName="CPId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CPPermisosPlantas">
+      <EntityTypeMapping TypeName="BDObtenerPesoSAPModel.CPPermisosPlantas">
+        <MappingFragment StoreEntitySet="CPPermisosPlantas">
+          <ScalarProperty Name="CPIdTipoCaptura" ColumnName="CPIdTipoCaptura" />
+          <ScalarProperty Name="CPPlantaDefault" ColumnName="CPPlantaDefault" />
+          <ScalarProperty Name="CPUsuarioCambio" ColumnName="CPUsuarioCambio" />
+          <ScalarProperty Name="CPFechaCambio" ColumnName="CPFechaCambio" />
+          <ScalarProperty Name="CPUsuarioAlta" ColumnName="CPUsuarioAlta" />
+          <ScalarProperty Name="CPFechaAlta" ColumnName="CPFechaAlta" />
+          <ScalarProperty Name="CPIdUsuario" ColumnName="CPIdUsuario" />
+          <ScalarProperty Name="CPIdEmpresa" ColumnName="CPIdEmpresa" />
+          <ScalarProperty Name="CPId" ColumnName="CPId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CPRol">
+      <EntityTypeMapping TypeName="BDObtenerPesoSAPModel.CPRol">
+        <MappingFragment StoreEntitySet="CPRol">
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CPUsuario">
+      <EntityTypeMapping TypeName="BDObtenerPesoSAPModel.CPUsuario">
+        <MappingFragment StoreEntitySet="CPUsuario">
+          <ScalarProperty Name="Estatus" ColumnName="Estatus" />
+          <ScalarProperty Name="CPPassword" ColumnName="CPPassword" />
+          <ScalarProperty Name="CPCorreo" ColumnName="CPCorreo" />
+          <ScalarProperty Name="CPNombreUsuario" ColumnName="CPNombreUsuario" />
+          <ScalarProperty Name="CPRol_id" ColumnName="CPRol_id" />
+          <ScalarProperty Name="CPIdUsuario" ColumnName="CPIdUsuario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

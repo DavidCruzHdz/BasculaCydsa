@@ -1,0 +1,82 @@
+﻿@model ObtenerPesoSAP.Models.CPBitacora
+
+@{
+    ViewBag.Title = "Configurar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h2>Configurar puerto de Bascula</h2>
+
+<div class="container form-group col-md-12">
+@using (Html.BeginForm("LeerBascula", "Bascula", FormMethod.Post))
+{
+    @Html.DropDownList("Puertos", (IEnumerable<SelectListItem>)ViewBag.dropdownPuertos, "Seleccione PUERTO", new { id = "IdPuertos", @class = "form-control" })
+
+    <div class="col-md-3">
+        <input maxlength="255" class="form-control" id="VarConsecutivo" name="information[name]" oninvalid="check(this)" placeholder="Numero de Transporte" required="required" size="30" style="width:528px;height:25px;" tabindex="3" type="text">
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.CPNumEconomico, htmlAttributes: new { @class = "control-label col-md-2 Eco" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.CPNumEconomico, "Teclee el numero de economico", new { @class = "form-control Eco" })
+            @Html.ValidationMessageFor(model => model.CPNumEconomico, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.CPPesoEntrada, htmlAttributes: new { @class = "control-label col-md-2 Ent" })
+        <div class="col-md-10 " style="color:black" id="">
+            @Html.EditorFor(model => model.CPPesoEntrada, "Teclee el Peso Tara", new { @class = "form-control Ent" })
+            @Html.ValidationMessageFor(model => model.CPPesoEntrada, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.CPPesoSalida, htmlAttributes: new { @class = "control-label col-md-2 Sal" })
+        <div class="col-md-10 " style="color:black" id="">
+            @Html.EditorFor(model => model.CPPesoSalida, "Teclee el Peso Bruto", new { @class = "form-control Sal" })
+            @Html.ValidationMessageFor(model => model.CPPesoSalida, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.CPPesoNeto, htmlAttributes: new { @class = "control-label col-md-2 Sal" })
+        <div class="col-md-10 " style="color:black" id="">
+            @Html.EditorFor(model => model.CPPesoNeto, "Teclee el Peso Neto", new { @class = "form-control Sal" })
+            @Html.ValidationMessageFor(model => model.CPPesoNeto, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.CPPlaca, htmlAttributes: new { @class = "control-label col-md-2 Placa" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.CPPlaca, "Teclee el numero de placa", new { @class = "form-control Placa" })
+            @Html.ValidationMessageFor(model => model.CPPlaca, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+
+    @*<input type="submit" value="Bascula" id="LeerBascula" class="btn btn-primary btn-lg" name="btn-bascula" data-toggle="modal" />*@
+   @* <button type="button" class="btn btn-info" onclick='window.location = "@Url.Action("Index", "ReviewPendingApprovals", new object[] { object_name = Model.})";'>*@
+        @*<input type="button" value="Detail" onclick="location.href='@Url.Action("LeerBascula", "Bascula")?id=' + $('#Id_Of_Textbox').val()" />
+    <input type="button" class="btn btn-info" value="Bascula" onclick="location.href='@Url.Action("LeerBascula", "Configurar")'" />
+    <input type="button" value="Detail" onclick="location.href='@Url.Action("Detail", "Home")?id=' + $('#Id_Of_Textbox').val()" />*@
+
+    <input type="text" id="txtId">
+    <input type="submit" value="LeerBascula" class="btn btn-success btn-lg" />
+}
+</div>
+
+
+<script type="text/javascript">
+	function LeerBascula()
+	{
+	    $("#IdDelInput").data("@ViewBag.VarConsecutivo");
+
+	}
+</script>

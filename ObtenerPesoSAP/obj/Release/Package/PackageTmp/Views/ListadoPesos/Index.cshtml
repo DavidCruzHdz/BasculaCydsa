@@ -1,0 +1,262 @@
+﻿@model IEnumerable<ObtenerPesoSAP.Models.CPBitacora>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@*<script src="http://code.jquery.com/jquery-2.0.3.min.js" data-semver="2.0.3" data-require="jquery"></script>*@
+
+@*<link rel="stylesheet" href="~/Content/bootstrap.min.css">
+<link rel="stylesheet" href="~/Content/jquery.dataTables_themeroller.css" data-semver="1.9.4" data-require="datatables" />
+<link rel="stylesheet" href="~/Content/jquery.dataTables.css" data-semver="1.9.4" data-require="datatables" />
+<link rel="stylesheet" href="~/Content/demo_table_jui.css" data-semver="1.9.4" data-require="datatables" />
+<link rel="stylesheet" href="~/Content/demo_table.css" data-semver="1.9.4" data-require="datatables" />
+<link rel="stylesheet" href="~/Content/demo_page.css" data-semver="1.9.4" data-require="datatables" />
+<link rel="stylesheet" href="~/Content/jquery-ui-1.10.0.custom.min.css" data-semver="1.10.0" data-require="jqueryui" />
+<link rel="stylesheet" href="~/Content/jquery.dataTables.min.css" data-semver="1.10.13" data-require="jqueryui" />
+
+
+<script src="~/Scripts/jquery-2.0.3.min.js" type="text/javascript"></script> 
+<script src="~/Scripts/jquery.min.js" data-semver="2.0.3" data-require="jquery" type="text/javascript"></script>
+<script src="~/Scripts/jquery-ui.js" data-require="jqueryui" data-semver="1.10.0" type="text/javascript"></script>
+<script src="~/Scripts/jquery.dataTables.js" data-semver="1.9.4" data-require="datatables" type="text/javascript"></script>
+<script src="~/Scripts/jquery.dataTables.min.js" type="text/javascript"></script>
+<script src="~/Scripts/bootstrap.min.js" type="text/javascript"></script>
+<script src="~/Scripts/jquery-1.12.4.js" type="text/javascript"></script>
+<script src="~/Scripts/jquery-latest.js" type="text/javascript"></script>
+
+<script src="http://code.jquery.com/jquery-2.0.3.min.js" data-semver="2.0.3" data-require="jquery"></script>*@
+
+
+<script src="~/Scripts/jquery-3.4.1.min.js" type="text/javascript"></script>
+<link rel="stylesheet" href="~/Content/jquery.dataTables_themeroller.css" data-semver="1.9.4" data-require="datatables" />
+<link rel="stylesheet" href="~/Content/jquery.dataTables.css" data-semver="1.9.4" data-require="datatables" />
+
+<link rel="stylesheet" href="~/Content/demo_table_jui.css" data-semver="1.9.4" data-require="datatables" />
+<link rel="stylesheet" href="~/Content/demo_table.css" data-semver="1.9.4" data-require="datatables" />
+<link rel="stylesheet" href="~/Content/demo_page.css" data-semver="1.9.4" data-require="datatables" />
+
+<link rel="stylesheet" href="~/Content/jquery-ui-1.10.0.custom.min.css" data-semver="1.10.0" data-require="jqueryui" />
+<script src="~/Scripts/jquery-ui.js" type="text/javascript"></script>
+<script src="~/Scripts/jquery.dataTables.js" data-semver="1.9.4" data-require="datatables" type="text/javascript"></script>
+
+<br />
+<br />
+<h2>Modificacion de Pesos</h2>
+
+<script type="text/javascript" class="init">
+
+    $(document).ready(function () {
+        $(function () {
+            var oTable = $('#datatable').DataTable({
+                language: {
+                    "decimal": "",
+                    "emptyTable": "No hay información",
+                    "info": "Mostrando _START_ a _END_ de _TOTAL_ Reglones",
+                    "infoEmpty": "Mostrando 0 to 0 of 0 Entradas",
+                    "infoFiltered": "(Filtrado de _MAX_ total entradas)",
+                    "infoPostFix": "",
+                    "thousands": ",",
+                    "lengthMenu": "Mostrar _MENU_ Reglones",
+                    "loadingRecords": "Cargando...",
+                    "processing": "Procesando...",
+                    "search": "Buscar:",
+                    "zeroRecords": "Sin resultados encontrados",
+                    "paginate": {
+                        "first": "Primero",
+                        "last": "Ultimo",
+                        "next": "Siguiente",
+                        "previous": "Anterior"
+                    }
+                }
+            }
+            );
+
+
+
+            $("#datepicker_from").datepicker({
+                showOn: "button",
+                dateFormat: 'dd-mm-yy',
+                buttonImage: "/Content/images/calendar.png",
+
+                buttonImageOnly: false,
+                "onSelect": function (date) {
+                    minDateFilter = new Date(date).getTime();
+                    oTable.fnDraw();
+                }
+            }).keyup(function () {
+                minDateFilter = new Date(this.value).getTime();
+                oTable.fnDraw();
+            });
+
+            $("#datepicker_to").datepicker({
+                showOn: "button",
+                dateFormat: 'dd-mm-yy',
+                buttonImage: "/Content/images/calendar.png",
+                buttonImageOnly: false,
+                "onSelect": function (date) {
+                    maxDateFilter = new Date(date).getTime();
+                    oTable.fnDraw();
+                }
+            }).keyup(function () {
+                maxDateFilter = new Date(this.value).getTime();
+                oTable.fnDraw();
+            });
+
+        });
+
+        // Date range filter
+        minDateFilter = "";
+        maxDateFilter = "";
+
+        $.fn.dataTableExt.afnFiltering.push(
+          function (oSettings, aData, iDataIndex) {
+              if (typeof aData._date == 'undefined') {
+                  aData._date = new Date(aData[8]).getTime();
+              }
+
+              if (minDateFilter && !isNaN(minDateFilter)) {
+                  if (aData._date < minDateFilter) {
+                      return false;
+                  }
+              }
+
+              if (maxDateFilter && !isNaN(maxDateFilter)) {
+                  if (aData._date > maxDateFilter) {
+                      return false;
+                  }
+              }
+
+              return true;
+          }
+        );
+
+
+        $("#PlantaId").val(@Session["idPlantaDF"]);
+    });
+
+
+</script>
+
+
+@*<p>
+        @Html.ActionLink("Create New", "Create")
+    </p>*@
+<div class="form-horizontal container-fluid col-lg-push-12" style="background-color:#6a9bcc">
+
+    <br />
+    <p class="form-horizontal container-fluid col-lg-push-12" id="date_filter" style="background-color:#6a9bcc">
+        <span id="date-label-from" class="date-label">Fecha Inicial: </span><input class="date_range_filter date" type="text" id="datepicker_from" />
+        <span id="date-label-to" class="date-label">Fecha Final: </span><input class="date_range_filter date" type="text" id="datepicker_to" />
+    </p>
+
+    <table class="table display" style="background-color:#D6EAF8" id="datatable">
+        <thead style="background-color:#D6EAF8">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.CPIdTransporte)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CPNumEconomico)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CPPlaca)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CPNumPorte)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CPNomConductor)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CPPesoEntrada)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CPPesoSalida)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CPPesoNeto)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CPFechaEntrada)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CpFechaSalida)
+                </th>
+                @*
+                     <th>
+                         @Html.DisplayNameFor(model => model.CPCatMateriales.CPDescripcionMaterial)
+                     </th>
+                    <th>
+                         @Html.DisplayNameFor(model => model.CPUsuario.CPNombreUsuario)
+                     </th>
+                     <th>
+                         @Html.DisplayNameFor(model => model.CPUsuario1.CPNombreUsuario)
+                     </th>*@
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CPIdTransporte)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CPNumEconomico)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CPPlaca)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CPNumPorte)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CPNomConductor)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CPPesoEntrada)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CPPesoSalida)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CPPesoNeto)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CPFechaEntrada)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CpFechaSalida)
+                    </td>
+
+                    @*
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CPCatMateriales.CPDescripcionMaterial)
+                        </td>
+                        *<td>
+                            @Html.DisplayFor(modelItem => item.CPUsuario.CPNombreUsuario)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CPUsuario1.CPNombreUsuario)
+                        </td>*@
+                    <td>
+                        @Html.ActionLink("Cambiar", "Edit", new { id = item.CPId }) |
+                        @Html.ActionLink("Borrar", "Delete", new { id = item.CPId })
+
+                        @*@Html.ActionLink("Details", "Details", new { id=item.CPId }) |
+                            @Html.ActionLink("Delete", "Delete", new { id=item.CPId })*@
+                    </td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+
+    <br />
+</div>

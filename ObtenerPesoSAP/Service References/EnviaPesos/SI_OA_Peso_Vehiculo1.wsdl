@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:p1="http://cydsa.com/PL/TM/TM101/Receiver/WebServices/PesoVehiculo" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" name="SI_OA_Peso_Vehiculo" targetNamespace="http://cydsa.com/PL/TM/TM101/Receiver/WebServices/PesoVehiculo" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation />
+  <wsp:UsingPolicy wsdl:required="true" />
+  <wsp:Policy wsu:Id="OP_SI_OA_Peso_Vehiculo" />
+  <wsdl:types>
+    <xsd:schema xmlns="http://cydsa.com/PL/TM/TM101/Receiver/WebServices/PesoVehiculo" targetNamespace="http://cydsa.com/PL/TM/TM101/Receiver/WebServices/PesoVehiculo" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <xsd:element name="MT_Peso_Vehiculo" type="p1:DT_Peso_Vehiculo" />
+      <xsd:element name="MT_Return_Peso_Vehiculo" type="p1:DT_Return_Peso_Vehiculo" />
+      <xsd:complexType name="DT_Peso_Vehiculo">
+        <xsd:annotation>
+          <xsd:appinfo source="http://sap.com/xi/VersionID">a93fc1ad2bee11e9a4230000001096ae</xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="data">
+            <xsd:annotation>
+              <xsd:appinfo source="http://sap.com/xi/TextID">c93f8f0db12811e8b761025041000001</xsd:appinfo>
+            </xsd:annotation>
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="Vehicle_Number" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">c93f8f0ab12811e8c95e025041000001</xsd:appinfo>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="Weight_Initial" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">c93f8f0bb12811e8ca85025041000001</xsd:appinfo>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="Weight_Final" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">c93f8f0cb12811e8a2a7025041000001</xsd:appinfo>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="Economic_Number" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">5ad45976fa3e11e897b7025041000001</xsd:appinfo>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="Licence_Plate" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">5ad45977fa3e11e89c9d025041000001</xsd:appinfo>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="Driver_Name" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">5ad45978fa3e11e89f80025041000001</xsd:appinfo>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="Carriage_Number" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">7db8316a258711e980ad025041000001</xsd:appinfo>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="Check_In" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">aa83dc712bee11e9c933025041000001</xsd:appinfo>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="Load_Start" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">aa83dc722bee11e9846d025041000001</xsd:appinfo>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" name="Load_End" type="xsd:string" />
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_Return_Peso_Vehiculo">
+        <xsd:annotation>
+          <xsd:appinfo source="http://sap.com/xi/VersionID">64e4611afa4211e889400000001096ae</xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="item">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="0" name="TYPE" type="xsd:string" />
+                <xsd:element minOccurs="0" name="ID" type="xsd:string" />
+                <xsd:element minOccurs="0" name="NUMBER" type="xsd:string" />
+                <xsd:element minOccurs="0" name="MESSAGE" type="xsd:string" />
+                <xsd:element minOccurs="0" name="LOG_NO" type="xsd:string" />
+                <xsd:element minOccurs="0" name="LOG_MSG_NO" type="xsd:string" />
+                <xsd:element minOccurs="0" name="MESSAGE_V1" type="xsd:string" />
+                <xsd:element minOccurs="0" name="MESSAGE_V2" type="xsd:string" />
+                <xsd:element minOccurs="0" name="MESSAGE_V3" type="xsd:string" />
+                <xsd:element minOccurs="0" name="MESSAGE_V4" type="xsd:string" />
+                <xsd:element minOccurs="0" name="PARAMETER" type="xsd:string" />
+                <xsd:element minOccurs="0" name="ROW" type="xsd:string" />
+                <xsd:element minOccurs="0" name="FIELD" type="xsd:string" />
+                <xsd:element minOccurs="0" name="SYSTEM" type="xsd:string" />
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="MT_Peso_Vehiculo">
+    <wsdl:documentation />
+    <wsdl:part name="MT_Peso_Vehiculo" element="p1:MT_Peso_Vehiculo" />
+  </wsdl:message>
+  <wsdl:message name="MT_Return_Peso_Vehiculo">
+    <wsdl:documentation />
+    <wsdl:part name="MT_Return_Peso_Vehiculo" element="p1:MT_Return_Peso_Vehiculo" />
+  </wsdl:message>
+  <wsdl:portType name="SI_OA_Peso_Vehiculo">
+    <wsdl:documentation />
+    <wsdl:operation name="SI_OA_Peso_Vehiculo">
+      <wsdl:documentation />
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_SI_OA_Peso_Vehiculo" />
+      </wsp:Policy>
+      <wsdl:input message="p1:MT_Peso_Vehiculo" />
+      <wsdl:output message="p1:MT_Return_Peso_Vehiculo" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SI_OA_Peso_VehiculoBinding" type="p1:SI_OA_Peso_Vehiculo">
+    <binding transport="http://schemas.xmlsoap.org/soap/http" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    <wsdl:operation name="SI_OA_Peso_Vehiculo">
+      <operation soapAction="http://sap.com/xi/WebService/soap1.1" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <wsdl:input>
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </wsdl:input>
+      <wsdl:output>
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SI_OA_Peso_VehiculoService">
+    <wsdl:port name="HTTP_Port" binding="p1:SI_OA_Peso_VehiculoBinding">
+      <address location="http://mtyqas09.cydsa.com:50000/XISOAPAdapter/MessageServlet?senderParty=&amp;senderService=ZBS_LEGADOS_PRX&amp;receiverParty=&amp;receiverService=&amp;interface=SI_OA_Peso_Vehiculo&amp;interfaceNamespace=http%3A%2F%2Fcydsa.com%2FPL%2FTM%2FTM101%2FReceiver%2FWebServices%2FPesoVehiculo" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    </wsdl:port>
+    <wsdl:port name="HTTPS_Port" binding="p1:SI_OA_Peso_VehiculoBinding">
+      <address location="https://mtyqas09.cydsa.com:50001/XISOAPAdapter/MessageServlet?senderParty=&amp;senderService=ZBS_LEGADOS_PRX&amp;receiverParty=&amp;receiverService=&amp;interface=SI_OA_Peso_Vehiculo&amp;interfaceNamespace=http%3A%2F%2Fcydsa.com%2FPL%2FTM%2FTM101%2FReceiver%2FWebServices%2FPesoVehiculo" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

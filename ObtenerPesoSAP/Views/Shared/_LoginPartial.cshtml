@@ -1,0 +1,29 @@
+﻿@{
+				if (Session["logeado"] == null)
+				{
+					Session["logeado"] = false;
+				}
+}
+
+@if ((bool)Session["logeado"])
+{
+
+	@Html.AntiForgeryToken()
+
+	<ul class="nav navbar-nav navbar-right">
+		<li>			
+			@Html.ActionLink("Planta: " + Session["NombrePlanta"].ToString() + ".", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })
+		</li>
+		<li><a href="/Usuarios/Deslogear">Cerrar sesión</a></li>
+	</ul>
+
+}
+else
+{
+	<ul class="nav navbar-nav navbar-right">
+		@*<li>@Html.ActionLink("Registrarse", "Create", "Usuarios", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>*@
+		<li>@Html.ActionLink("Iniciar sesión", "Login", "Usuarios", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+		<li>@Html.ActionLink("Acerca de", "About", "Home")</li>
+		<li>@Html.ActionLink("Contacto", "Contact", "Home")</li>
+	</ul>
+}

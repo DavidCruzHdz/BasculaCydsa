@@ -1,0 +1,123 @@
+﻿@model IEnumerable<ObtenerPesoSAP.Models.CPBitacora>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CPIdTransporte)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CPNumEconomico)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CPPlaca)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CPNumPorte)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CPNomConductor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CPPesoEntrada)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CPPesoSalida)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CPPesoNeto)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CPFechaEntrada)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CpFechaSalida)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CPEntrada)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CPSalida)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CPCatEmpresas.CPDescripcionEmpresa)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CPCatTiposDeVehiculos.CPDescripcionVehiculo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CPUsuario.CPNombreUsuario)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CPUsuario1.CPNombreUsuario)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.CPIdTransporte)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CPNumEconomico)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CPPlaca)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CPNumPorte)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CPNomConductor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CPPesoEntrada)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CPPesoSalida)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CPPesoNeto)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CPFechaEntrada)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CpFechaSalida)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CPEntrada)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CPSalida)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CPCatEmpresas.CPDescripcionEmpresa)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CPCatTiposDeVehiculos.CPDescripcionVehiculo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CPUsuario.CPNombreUsuario)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CPUsuario1.CPNombreUsuario)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.CPId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.CPId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.CPId })
+        </td>
+    </tr>
+}
+
+</table>

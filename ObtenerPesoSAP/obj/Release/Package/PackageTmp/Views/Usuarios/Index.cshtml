@@ -1,0 +1,144 @@
+﻿@model IEnumerable<ObtenerPesoSAP.Models.CPUsuario>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script src="http://code.jquery.com/jquery-2.0.3.min.js" data-semver="2.0.3" data-require="jquery"></script>
+<link href="//cdnjs.cloudflare.com/ajax/libs/datatables/1.9.4/css/jquery.dataTables_themeroller.css" rel="stylesheet" data-semver="1.9.4" data-require="datatables" />
+<link href="//cdnjs.cloudflare.com/ajax/libs/datatables/1.9.4/css/jquery.dataTables.css" rel="stylesheet" data-semver="1.9.4" data-require="datatables" />
+<link href="//cdnjs.cloudflare.com/ajax/libs/datatables/1.9.4/css/demo_table_jui.css" rel="stylesheet" data-semver="1.9.4" data-require="datatables" />
+<link href="//cdnjs.cloudflare.com/ajax/libs/datatables/1.9.4/css/demo_table.css" rel="stylesheet" data-semver="1.9.4" data-require="datatables" />
+<link href="//cdnjs.cloudflare.com/ajax/libs/datatables/1.9.4/css/demo_page.css" rel="stylesheet" data-semver="1.9.4" data-require="datatables" />
+<link data-require="jqueryui" data-semver="1.10.0" rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.0/css/smoothness/jquery-ui-1.10.0.custom.min.css" />
+<script data-require="jqueryui" data-semver="1.10.0" src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.0/jquery-ui.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/datatables/1.9.4/jquery.dataTables.js" data-semver="1.9.4" data-require="datatables"></script>
+
+
+
+<script type="text/javascript" class="init">
+    $(document).ready(function () {
+        var table = $('#example').DataTable({
+
+            language: {
+                "decimal": "",
+                "emptyTable": "No hay información",
+                "info": "Mostrando _START_ a _END_ de _TOTAL_ Reglones",
+                "infoEmpty": "Mostrando 0 to 0 of 0 Entradas",
+                "infoFiltered": "(Filtrado de _MAX_ total entradas)",
+                "infoPostFix": "",
+                "thousands": ",",
+                "lengthMenu": "Mostrar _MENU_ Reglones",
+                "loadingRecords": "Cargando...",
+                "processing": "Procesando...",
+                "search": "Buscar:",
+                "zeroRecords": "Sin resultados encontrados",
+                "paginate": {
+                    "first": "Primero",
+                    "last": "Ultimo",
+                    "next": "Siguiente",
+                    "previous": "Anterior"
+                }
+            }
+        }
+            );
+
+
+    });
+</script>
+
+
+
+<br />
+<br />
+<br />
+
+<h2>Usuarios</h2>
+
+<h4>
+    @Html.ActionLink("Agregar Nuevo", "Create")
+</h4>
+
+<div class="form-horizontal container-fluid col-lg-push-8 img-rounded " style="background-color:#5c87b2">
+    <br />
+    <div class="panel panel-primary">
+        <div class="panel-body" style="background-color:#D6EAF8">
+
+            <table class="table display" style="background-color:#D6EAF8" id="example">
+
+                <thead>
+                    <tr>
+                        @*<th>
+                                @Html.DisplayNameFor(model => model.IdsRol_id)
+                            </th>*@
+                        <th>
+                            @Html.DisplayNameFor(model => model.CPNombreUsuario)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.CPCorreo)
+                        </th>
+
+                        <th>
+                            @Html.DisplayNameFor(model => model.CPPermisosPlantas)
+                        </th>
+                        @*
+                            <th>
+                                 @Html.DisplayNameFor(model => model.IdsIdEmpresa)
+                             </th>*@
+                        <th></th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @foreach (var item in Model)
+            {
+                        <tr>
+                            @*<td>
+                                    @Html.DisplayFor(modelItem => item.IdsRol_id)
+                                </td>*@
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CPNombreUsuario)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CPCorreo)
+                            </td>
+                            @*<td>
+                                    @Html.PasswordFor(modelItem => item.IdsPassword)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.IdsIdEmpresa)
+                                </td>*@
+                            <td>
+                                @*@Html.ActionLink("Plantas", "Permisos", new { id = item.CPIdUsuario }) |*@
+                                @Html.ActionLink("Pantallas", "Pantallas", new { id = item.CPIdUsuario }) |
+                                @Html.ActionLink("Modificar", "Edit", new { id = item.CPIdUsuario }) |
+                                @Html.ActionLink("Borrar", "Delete", new { id = item.CPIdUsuario })
+                            </td>
+                        </tr>
+                    }
+
+                </tbody>
+
+            </table>
+
+
+        </div>
+    </div>
+
+</div>
+
+
+<style>
+    table div {
+        background-color: #D6EAF8 !important;
+    }
+
+    table tr {
+        background-color: #D6EAF8 !important;
+    }
+
+    .sorting_1 {
+        background-color: #D6EAF8 !important;
+    }
+</style>
+

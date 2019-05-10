@@ -1,0 +1,139 @@
+﻿@model ObtenerPesoSAP.Models.CPCatMateriales
+
+@{
+    ViewBag.Title = "Eliminar Descripcion de Materiales";
+}
+
+<br />
+
+<div class="col-md-12 jumbotron" style="color:#000000; font:caption; background-color:#5c87b2;">
+    <h2>Borrar registro</h2>
+
+    <h4>Asegurese que la informacion a borrar se la correcta?</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CPIdMaterialAnt)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CPIdMaterialAnt)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CPIdMaterialSAP)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CPIdMaterialSAP)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CPDescripcionMaterial)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CPDescripcionMaterial)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CPPesoRequerido)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CPPesoRequerido)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CPFactorMin)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CPFactorMin)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CPFactorMax)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CPFactorMax)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CPSePesa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CPSePesa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CPRequiereAutoriza)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CPRequiereAutoriza)
+        </dd>
+
+        @*<dt>
+        @Html.DisplayNameFor(model => model.CPFechaAlta)
+    </dt>
+
+    <dd>
+        @Html.DisplayFor(model => model.CPFechaAlta)
+    </dd>
+
+    <dt>
+        @Html.DisplayNameFor(model => model.CPFechaCambio)
+    </dt>
+
+    <dd>
+        @Html.DisplayFor(model => model.CPFechaCambio)
+    </dd>
+
+    <dt>
+        @Html.DisplayNameFor(model => model.CPCatEmpresas.CPDescripcionEmpresa)
+    </dt>
+
+    <dd>
+        @Html.DisplayFor(model => model.CPCatEmpresas.CPDescripcionEmpresa)
+    </dd>
+        *@
+        <dt>
+            @Html.DisplayNameFor(model => model.CPCatUnidades.CPDescripcionUnidadMedida)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CPCatUnidades.CPDescripcionUnidadMedida)
+        </dd>
+
+        @*<dt>
+            @Html.DisplayNameFor(model => model.CPUsuario.CPNombreUsuario)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CPUsuario.CPNombreUsuario)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CPUsuario1.CPNombreUsuario)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CPUsuario1.CPNombreUsuario)
+        </dd>*@
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Borrar" class="btn btn-danger" />
+            @Html.ActionLink("Regresar", "Index", "Materiales", new { IdPlanta = @ViewBag.IdPlanta, IdAnio = @ViewBag.anio }, new { @class = "btn btn-danger", @style = "display:inline" })
+
+        </div>
+    }
+</div>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:p1="http://cydsa.com/PL/TM/TM101/Sender/WebServices/PesoVehiculo_ConsultaEntrega" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" name="SI_OA_TM101_Consulta_Entrega" targetNamespace="http://cydsa.com/PL/TM/TM101/Sender/WebServices/PesoVehiculo_ConsultaEntrega" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation />
+  <wsp:UsingPolicy wsdl:required="true" />
+  <wsp:Policy wsu:Id="OP_SI_OA_TM101_Consulta_Entrega" />
+  <wsdl:types>
+    <xsd:schema xmlns="http://cydsa.com/PL/TM/TM101/Sender/WebServices/PesoVehiculo_ConsultaEntrega" targetNamespace="http://cydsa.com/PL/TM/TM101/Sender/WebServices/PesoVehiculo_ConsultaEntrega" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <xsd:element name="MT_TM101_Consulta_Entrega_Resp" type="p1:DT_TM101_Consulta_Entrega_Resp" />
+      <xsd:element name="MT_TM101_Consulta_Entrega_Req" type="p1:DT_TM101_Consulta_Entrega_Req" />
+      <xsd:complexType name="DT_TM101_Consulta_Entrega_Resp">
+        <xsd:annotation>
+          <xsd:appinfo source="http://sap.com/xi/VersionID">82ab86d139f111e99a240000001096ae</xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="ET_DELIVERY_ITEM">
+            <xsd:annotation>
+              <xsd:appinfo source="http://sap.com/xi/TextID">f5d953fb39e311e9bfe0025041000001</xsd:appinfo>
+            </xsd:annotation>
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="0" maxOccurs="unbounded" name="item">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">3eea697239e411e99ef0025041000001</xsd:appinfo>
+                  </xsd:annotation>
+                  <xsd:complexType>
+                    <xsd:sequence>
+                      <xsd:element minOccurs="0" name="POSNR" type="xsd:string">
+                        <xsd:annotation>
+                          <xsd:appinfo source="http://sap.com/xi/TextID">3eea3a6239e411e9bdf9025041000001</xsd:appinfo>
+                        </xsd:annotation>
+                      </xsd:element>
+                      <xsd:element minOccurs="0" name="MATNR" type="xsd:string">
+                        <xsd:annotation>
+                          <xsd:appinfo source="http://sap.com/xi/TextID">3eea3a6339e411e98691025041000001</xsd:appinfo>
+                        </xsd:annotation>
+                      </xsd:element>
+                      <xsd:element minOccurs="0" name="ARKTX" type="xsd:string">
+                        <xsd:annotation>
+                          <xsd:appinfo source="http://sap.com/xi/TextID">3eea3a6439e411e9cd75025041000001</xsd:appinfo>
+                        </xsd:annotation>
+                      </xsd:element>
+                      <xsd:element minOccurs="0" name="LFIMG" type="xsd:string">
+                        <xsd:annotation>
+                          <xsd:appinfo source="http://sap.com/xi/TextID">3eea3a6539e411e98665025041000001</xsd:appinfo>
+                        </xsd:annotation>
+                      </xsd:element>
+                      <xsd:element minOccurs="0" name="MEINS" type="xsd:string">
+                        <xsd:annotation>
+                          <xsd:appinfo source="http://sap.com/xi/TextID">3eea3a6639e411e9b05f025041000001</xsd:appinfo>
+                        </xsd:annotation>
+                      </xsd:element>
+                    </xsd:sequence>
+                  </xsd:complexType>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element minOccurs="0" name="RETURN">
+            <xsd:annotation>
+              <xsd:appinfo source="http://sap.com/xi/TextID">f5d9540839e311e9c26d025041000001</xsd:appinfo>
+            </xsd:annotation>
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="0" maxOccurs="unbounded" name="item">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">f5d9540739e311e9c1c5025041000001</xsd:appinfo>
+                  </xsd:annotation>
+                  <xsd:complexType>
+                    <xsd:sequence>
+                      <xsd:element minOccurs="0" name="TYPE" type="xsd:string">
+                        <xsd:annotation>
+                          <xsd:appinfo source="http://sap.com/xi/TextID">f5d953fc39e311e9b37b025041000001</xsd:appinfo>
+                        </xsd:annotation>
+                      </xsd:element>
+                      <xsd:element minOccurs="0" name="ID" type="xsd:string">
+                        <xsd:annotation>
+                          <xsd:appinfo source="http://sap.com/xi/TextID">f5d953fd39e311e992b7025041000001</xsd:appinfo>
+                        </xsd:annotation>
+                      </xsd:element>
+                      <xsd:element minOccurs="0" name="NUMBER" type="xsd:string">
+                        <xsd:annotation>
+                          <xsd:appinfo source="http://sap.com/xi/TextID">f5d953fe39e311e9c048025041000001</xsd:appinfo>
+                        </xsd:annotation>
+                      </xsd:element>
+                      <xsd:element minOccurs="0" name="MESSAGE" type="xsd:string" />
+                      <xsd:element minOccurs="0" name="LOG_NO" type="xsd:string">
+                        <xsd:annotation>
+                          <xsd:appinfo source="http://sap.com/xi/TextID">f5d953ff39e311e995cd025041000001</xsd:appinfo>
+                        </xsd:annotation>
+                      </xsd:element>
+                      <xsd:element minOccurs="0" name="LOG_MSG_NO" type="xsd:string">
+                        <xsd:annotation>
+                          <xsd:appinfo source="http://sap.com/xi/TextID">f5d9540039e311e98c13025041000001</xsd:appinfo>
+                        </xsd:annotation>
+                      </xsd:element>
+                      <xsd:element minOccurs="0" name="MESSAGE_V1" type="xsd:string">
+                        <xsd:annotation>
+                          <xsd:appinfo source="http://sap.com/xi/TextID">f5d9540139e311e9a9fc025041000001</xsd:appinfo>
+                        </xsd:annotation>
+                      </xsd:element>
+                      <xsd:element minOccurs="0" name="MESSAGE_V2" type="xsd:string">
+                        <xsd:annotation>
+                          <xsd:appinfo source="http://sap.com/xi/TextID">f5d9540239e311e9c72d025041000001</xsd:appinfo>
+                        </xsd:annotation>
+                      </xsd:element>
+                      <xsd:element minOccurs="0" name="MESSAGE_V3" type="xsd:string">
+                        <xsd:annotation>
+                          <xsd:appinfo source="http://sap.com/xi/TextID">f5d9540339e311e9a542025041000001</xsd:appinfo>
+                        </xsd:annotation>
+                      </xsd:element>
+                      <xsd:element minOccurs="0" name="MESSAGE_V4" type="xsd:string">
+                        <xsd:annotation>
+                          <xsd:appinfo source="http://sap.com/xi/TextID">f5d9540439e311e9b344025041000001</xsd:appinfo>
+                        </xsd:annotation>
+                      </xsd:element>
+                      <xsd:element minOccurs="0" name="PARAMETER" type="xsd:string" />
+                      <xsd:element minOccurs="0" name="ROW" type="xsd:string">
+                        <xsd:annotation>
+                          <xsd:appinfo source="http://sap.com/xi/TextID">f5d9540539e311e9b184025041000001</xsd:appinfo>
+                        </xsd:annotation>
+                      </xsd:element>
+                      <xsd:element minOccurs="0" name="FIELD" type="xsd:string">
+                        <xsd:annotation>
+                          <xsd:appinfo source="http://sap.com/xi/TextID">f5d9540639e311e9c356025041000001</xsd:appinfo>
+                        </xsd:annotation>
+                      </xsd:element>
+                    </xsd:sequence>
+                  </xsd:complexType>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_TM101_Consulta_Entrega_Req">
+        <xsd:annotation>
+          <xsd:appinfo source="http://sap.com/xi/VersionID">a6ca704739dd11e980870000001096ae</xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="item">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="0" name="DELIV_NUMB" type="xsd:string" />
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="MT_TM101_Consulta_Entrega_Req">
+    <wsdl:documentation />
+    <wsdl:part name="MT_TM101_Consulta_Entrega_Req" element="p1:MT_TM101_Consulta_Entrega_Req" />
+  </wsdl:message>
+  <wsdl:message name="MT_TM101_Consulta_Entrega_Resp">
+    <wsdl:documentation />
+    <wsdl:part name="MT_TM101_Consulta_Entrega_Resp" element="p1:MT_TM101_Consulta_Entrega_Resp" />
+  </wsdl:message>
+  <wsdl:portType name="SI_OA_TM101_Consulta_Entrega">
+    <wsdl:documentation />
+    <wsdl:operation name="SI_OA_TM101_Consulta_Entrega">
+      <wsdl:documentation />
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_SI_OA_TM101_Consulta_Entrega" />
+      </wsp:Policy>
+      <wsdl:input message="p1:MT_TM101_Consulta_Entrega_Req" />
+      <wsdl:output message="p1:MT_TM101_Consulta_Entrega_Resp" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SI_OA_TM101_Consulta_EntregaBinding" type="p1:SI_OA_TM101_Consulta_Entrega">
+    <binding transport="http://schemas.xmlsoap.org/soap/http" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    <wsdl:operation name="SI_OA_TM101_Consulta_Entrega">
+      <operation soapAction="http://sap.com/xi/WebService/soap1.1" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <wsdl:input>
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </wsdl:input>
+      <wsdl:output>
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SI_OA_TM101_Consulta_EntregaService">
+    <wsdl:port name="HTTP_Port" binding="p1:SI_OA_TM101_Consulta_EntregaBinding">
+      <address location="http://mtyqas09.cydsa.com:50000/XISOAPAdapter/MessageServlet?senderParty=&amp;senderService=ZBS_LEGADOS_PRX&amp;receiverParty=&amp;receiverService=&amp;interface=SI_OA_TM101_Consulta_Entrega&amp;interfaceNamespace=http%3A%2F%2Fcydsa.com%2FPL%2FTM%2FTM101%2FSender%2FWebServices%2FPesoVehiculo_ConsultaEntrega" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    </wsdl:port>
+    <wsdl:port name="HTTPS_Port" binding="p1:SI_OA_TM101_Consulta_EntregaBinding">
+      <address location="https://mtyqas09.cydsa.com:50001/XISOAPAdapter/MessageServlet?senderParty=&amp;senderService=ZBS_LEGADOS_PRX&amp;receiverParty=&amp;receiverService=&amp;interface=SI_OA_TM101_Consulta_Entrega&amp;interfaceNamespace=http%3A%2F%2Fcydsa.com%2FPL%2FTM%2FTM101%2FSender%2FWebServices%2FPesoVehiculo_ConsultaEntrega" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

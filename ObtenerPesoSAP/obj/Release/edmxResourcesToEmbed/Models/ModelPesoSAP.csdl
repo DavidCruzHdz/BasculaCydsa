@@ -1,0 +1,589 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BDObtenerPesoSAPModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="BDObtenerPesoSAPEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CPAutorizaciones" EntityType="BDObtenerPesoSAPModel.CPAutorizaciones" />
+    <EntitySet Name="CPBitacora" EntityType="BDObtenerPesoSAPModel.CPBitacora" />
+    <EntitySet Name="CPCatEmpresas" EntityType="BDObtenerPesoSAPModel.CPCatEmpresas" />
+    <EntitySet Name="CPCatMateriales" EntityType="BDObtenerPesoSAPModel.CPCatMateriales" />
+    <EntitySet Name="CPCatTipoCaptura" EntityType="BDObtenerPesoSAPModel.CPCatTipoCaptura" />
+    <EntitySet Name="CPCatTiposDeVehiculos" EntityType="BDObtenerPesoSAPModel.CPCatTiposDeVehiculos" />
+    <EntitySet Name="CPCatUnidades" EntityType="BDObtenerPesoSAPModel.CPCatUnidades" />
+    <EntitySet Name="CPPantallas" EntityType="BDObtenerPesoSAPModel.CPPantallas" />
+    <EntitySet Name="CPPantallasPermisos" EntityType="BDObtenerPesoSAPModel.CPPantallasPermisos" />
+    <EntitySet Name="CPPartidas" EntityType="BDObtenerPesoSAPModel.CPPartidas" />
+    <EntitySet Name="CPPermisosPlantas" EntityType="BDObtenerPesoSAPModel.CPPermisosPlantas" />
+    <EntitySet Name="CPRol" EntityType="BDObtenerPesoSAPModel.CPRol" />
+    <EntitySet Name="CPUsuario" EntityType="BDObtenerPesoSAPModel.CPUsuario" />
+    <AssociationSet Name="FK__CPAutoriz__CPIdE__16CE6296" Association="BDObtenerPesoSAPModel.FK__CPAutoriz__CPIdE__16CE6296">
+      <End Role="CPCatEmpresas" EntitySet="CPCatEmpresas" />
+      <End Role="CPAutorizaciones" EntitySet="CPAutorizaciones" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CPAutoriz__CPIdU__17C286CF" Association="BDObtenerPesoSAPModel.FK__CPAutoriz__CPIdU__17C286CF">
+      <End Role="CPUsuario" EntitySet="CPUsuario" />
+      <End Role="CPAutorizaciones" EntitySet="CPAutorizaciones" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CPBitacor__CPIdE__18B6AB08" Association="BDObtenerPesoSAPModel.FK__CPBitacor__CPIdE__18B6AB08">
+      <End Role="CPCatEmpresas" EntitySet="CPCatEmpresas" />
+      <End Role="CPBitacora" EntitySet="CPBitacora" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CPBitacor__CPIdU__19AACF41" Association="BDObtenerPesoSAPModel.FK__CPBitacor__CPIdU__19AACF41">
+      <End Role="CPUsuario" EntitySet="CPUsuario" />
+      <End Role="CPBitacora" EntitySet="CPBitacora" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CPBitacor__CPIdU__1A9EF37A" Association="BDObtenerPesoSAPModel.FK__CPBitacor__CPIdU__1A9EF37A">
+      <End Role="CPUsuario" EntitySet="CPUsuario" />
+      <End Role="CPBitacora" EntitySet="CPBitacora" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CPCatEmpr__CPIdT__1B9317B3" Association="BDObtenerPesoSAPModel.FK__CPCatEmpr__CPIdT__1B9317B3">
+      <End Role="CPCatTipoCaptura" EntitySet="CPCatTipoCaptura" />
+      <End Role="CPCatEmpresas" EntitySet="CPCatEmpresas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CPCatEmpr__CPUsu__1C873BEC" Association="BDObtenerPesoSAPModel.FK__CPCatEmpr__CPUsu__1C873BEC">
+      <End Role="CPUsuario" EntitySet="CPUsuario" />
+      <End Role="CPCatEmpresas" EntitySet="CPCatEmpresas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CPCatMate__CPIdE__12FDD1B2" Association="BDObtenerPesoSAPModel.FK__CPCatMate__CPIdE__12FDD1B2">
+      <End Role="CPCatEmpresas" EntitySet="CPCatEmpresas" />
+      <End Role="CPCatMateriales" EntitySet="CPCatMateriales" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CPPartida__CPIdE__09746778" Association="BDObtenerPesoSAPModel.FK__CPPartida__CPIdE__09746778">
+      <End Role="CPCatEmpresas" EntitySet="CPCatEmpresas" />
+      <End Role="CPPartidas" EntitySet="CPPartidas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CPPartida__CPIdE__72910220" Association="BDObtenerPesoSAPModel.FK__CPPartida__CPIdE__72910220">
+      <End Role="CPCatEmpresas" EntitySet="CPCatEmpresas" />
+      <End Role="CPPartidas" EntitySet="CPPartidas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CPPermiso__CPIdE__1D7B6025" Association="BDObtenerPesoSAPModel.FK__CPPermiso__CPIdE__1D7B6025">
+      <End Role="CPCatEmpresas" EntitySet="CPCatEmpresas" />
+      <End Role="CPPermisosPlantas" EntitySet="CPPermisosPlantas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CPCatMate__CPIdU__13F1F5EB" Association="BDObtenerPesoSAPModel.FK__CPCatMate__CPIdU__13F1F5EB">
+      <End Role="CPCatUnidades" EntitySet="CPCatUnidades" />
+      <End Role="CPCatMateriales" EntitySet="CPCatMateriales" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CPCatMate__CPUsu__14E61A24" Association="BDObtenerPesoSAPModel.FK__CPCatMate__CPUsu__14E61A24">
+      <End Role="CPUsuario" EntitySet="CPUsuario" />
+      <End Role="CPCatMateriales" EntitySet="CPCatMateriales" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CPCatMate__CPUsu__15DA3E5D" Association="BDObtenerPesoSAPModel.FK__CPCatMate__CPUsu__15DA3E5D">
+      <End Role="CPUsuario" EntitySet="CPUsuario" />
+      <End Role="CPCatMateriales" EntitySet="CPCatMateriales" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CPPermiso__CPIdT__1E6F845E" Association="BDObtenerPesoSAPModel.FK__CPPermiso__CPIdT__1E6F845E">
+      <End Role="CPCatTipoCaptura" EntitySet="CPCatTipoCaptura" />
+      <End Role="CPPermisosPlantas" EntitySet="CPPermisosPlantas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CPCatTipo__CPIdU__531856C7" Association="BDObtenerPesoSAPModel.FK__CPCatTipo__CPIdU__531856C7">
+      <End Role="CPCatUnidades" EntitySet="CPCatUnidades" />
+      <End Role="CPCatTiposDeVehiculos" EntitySet="CPCatTiposDeVehiculos" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CPPartida__CPIdU__0A688BB1" Association="BDObtenerPesoSAPModel.FK__CPPartida__CPIdU__0A688BB1">
+      <End Role="CPCatUnidades" EntitySet="CPCatUnidades" />
+      <End Role="CPPartidas" EntitySet="CPPartidas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CPPartida__CPIdU__73852659" Association="BDObtenerPesoSAPModel.FK__CPPartida__CPIdU__73852659">
+      <End Role="CPCatUnidades" EntitySet="CPCatUnidades" />
+      <End Role="CPPartidas" EntitySet="CPPartidas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CPPartida__CPIdU__0B5CAFEA" Association="BDObtenerPesoSAPModel.FK__CPPartida__CPIdU__0B5CAFEA">
+      <End Role="CPUsuario" EntitySet="CPUsuario" />
+      <End Role="CPPartidas" EntitySet="CPPartidas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CPPartida__CPIdU__74794A92" Association="BDObtenerPesoSAPModel.FK__CPPartida__CPIdU__74794A92">
+      <End Role="CPUsuario" EntitySet="CPUsuario" />
+      <End Role="CPPartidas" EntitySet="CPPartidas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CPPermiso__CPIdU__1F63A897" Association="BDObtenerPesoSAPModel.FK__CPPermiso__CPIdU__1F63A897">
+      <End Role="CPUsuario" EntitySet="CPUsuario" />
+      <End Role="CPPermisosPlantas" EntitySet="CPPermisosPlantas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CPUsuario__CPRol__5AB9788F" Association="BDObtenerPesoSAPModel.FK__CPUsuario__CPRol__5AB9788F">
+      <End Role="CPRol" EntitySet="CPRol" />
+      <End Role="CPUsuario" EntitySet="CPUsuario" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="CPAutorizaciones">
+    <Key>
+      <PropertyRef Name="CPIdAutorizacion" />
+    </Key>
+    <Property Name="CPIdAutorizacion" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CPIdEmpresa" Type="Int32" Nullable="false" />
+    <Property Name="CPIdTransporte" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CPIdDocumento" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CPMotivoAutorizacion" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="CPIdPartidas" Type="Int32" Nullable="false" />
+    <Property Name="CpFechaAutorizacion" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CPIdUsuario" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="CPCatEmpresas" Relationship="BDObtenerPesoSAPModel.FK__CPAutoriz__CPIdE__16CE6296" FromRole="CPAutorizaciones" ToRole="CPCatEmpresas" />
+    <NavigationProperty Name="CPUsuario" Relationship="BDObtenerPesoSAPModel.FK__CPAutoriz__CPIdU__17C286CF" FromRole="CPAutorizaciones" ToRole="CPUsuario" />
+  </EntityType>
+  <EntityType Name="CPBitacora">
+    <Key>
+      <PropertyRef Name="CPId" />
+    </Key>
+    <Property Name="CPId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CPIdEmpresa" Type="Int32" Nullable="false" />
+    <Property Name="CPIdTransporte" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CPNumEconomico" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="CPPlaca" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="CPNumPorte" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="CPNomConductor" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="CPNumCelular" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="CPPesoEntrada" Type="Double" />
+    <Property Name="CPPesoSalida" Type="Double" />
+    <Property Name="CPPesoNeto" Type="Double" />
+    <Property Name="CPIdDocumento" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CPIdMaterial" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CPDescripcionMaterial" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="CPPartida" Type="Int32" />
+    <Property Name="CPFechaEntrada" Type="DateTime" Precision="3" />
+    <Property Name="CpFechaSalida" Type="DateTime" Precision="3" />
+    <Property Name="CPEntrada" Type="Boolean" />
+    <Property Name="CPSalida" Type="Boolean" />
+    <Property Name="CPIdUsuarioEnt" Type="Int32" Nullable="false" />
+    <Property Name="CPIdUsuarioSal" Type="Int32" Nullable="false" />
+    <Property Name="CPNumDePasos" Type="Int32" />
+    <Property Name="CPEstatus" Type="Int32" />
+    <NavigationProperty Name="CPCatEmpresas" Relationship="BDObtenerPesoSAPModel.FK__CPBitacor__CPIdE__18B6AB08" FromRole="CPBitacora" ToRole="CPCatEmpresas" />
+    <NavigationProperty Name="CPUsuario" Relationship="BDObtenerPesoSAPModel.FK__CPBitacor__CPIdU__19AACF41" FromRole="CPBitacora" ToRole="CPUsuario" />
+    <NavigationProperty Name="CPUsuario1" Relationship="BDObtenerPesoSAPModel.FK__CPBitacor__CPIdU__1A9EF37A" FromRole="CPBitacora" ToRole="CPUsuario" />
+  </EntityType>
+  <EntityType Name="CPCatEmpresas">
+    <Key>
+      <PropertyRef Name="CPIdEmpresa" />
+    </Key>
+    <Property Name="CPIdEmpresa" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CPIdCia" Type="Int32" Nullable="false" />
+    <Property Name="CPIdPlanta" Type="Int32" Nullable="false" />
+    <Property Name="CPDescripcionEmpresa" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="CPFechaAlta" Type="DateTime" Precision="3" />
+    <Property Name="CPUsuarioAlta" Type="Int32" />
+    <Property Name="CPFechaCambio" Type="DateTime" Precision="3" />
+    <Property Name="CPUsuarioCambio" Type="Int32" />
+    <Property Name="CPIdTipoCaptura" Type="Int32" />
+    <NavigationProperty Name="CPAutorizaciones" Relationship="BDObtenerPesoSAPModel.FK__CPAutoriz__CPIdE__16CE6296" FromRole="CPCatEmpresas" ToRole="CPAutorizaciones" />
+    <NavigationProperty Name="CPBitacora" Relationship="BDObtenerPesoSAPModel.FK__CPBitacor__CPIdE__18B6AB08" FromRole="CPCatEmpresas" ToRole="CPBitacora" />
+    <NavigationProperty Name="CPCatTipoCaptura" Relationship="BDObtenerPesoSAPModel.FK__CPCatEmpr__CPIdT__1B9317B3" FromRole="CPCatEmpresas" ToRole="CPCatTipoCaptura" />
+    <NavigationProperty Name="CPUsuario" Relationship="BDObtenerPesoSAPModel.FK__CPCatEmpr__CPUsu__1C873BEC" FromRole="CPCatEmpresas" ToRole="CPUsuario" />
+    <NavigationProperty Name="CPCatMateriales" Relationship="BDObtenerPesoSAPModel.FK__CPCatMate__CPIdE__12FDD1B2" FromRole="CPCatEmpresas" ToRole="CPCatMateriales" />
+    <NavigationProperty Name="CPPartidas" Relationship="BDObtenerPesoSAPModel.FK__CPPartida__CPIdE__09746778" FromRole="CPCatEmpresas" ToRole="CPPartidas" />
+    <NavigationProperty Name="CPPartidas1" Relationship="BDObtenerPesoSAPModel.FK__CPPartida__CPIdE__72910220" FromRole="CPCatEmpresas" ToRole="CPPartidas" />
+    <NavigationProperty Name="CPPermisosPlantas" Relationship="BDObtenerPesoSAPModel.FK__CPPermiso__CPIdE__1D7B6025" FromRole="CPCatEmpresas" ToRole="CPPermisosPlantas" />
+  </EntityType>
+  <EntityType Name="CPCatMateriales">
+    <Key>
+      <PropertyRef Name="CPIdMaterial" />
+    </Key>
+    <Property Name="CPIdMaterial" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CPIdEmpresa" Type="Int32" Nullable="false" />
+    <Property Name="CPIdMaterialAnt" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CPIdMaterialSAP" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CPDescripcionMaterial" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="CPPesoRequerido" Type="Double" />
+    <Property Name="CPFactorMin" Type="Decimal" Nullable="false" Precision="6" Scale="2" />
+    <Property Name="CPFactorMax" Type="Decimal" Nullable="false" Precision="6" Scale="2" />
+    <Property Name="CPSePesa" Type="String" Nullable="false" MaxLength="1" FixedLength="true" Unicode="true" />
+    <Property Name="CPRequiereAutoriza" Type="String" Nullable="false" MaxLength="1" FixedLength="true" Unicode="true" />
+    <Property Name="CPIdUnidadMedida" Type="Int32" Nullable="false" />
+    <Property Name="CPFechaAlta" Type="DateTime" Precision="3" />
+    <Property Name="CPUsuarioAlta" Type="Int32" />
+    <Property Name="CPFechaCambio" Type="DateTime" Precision="3" />
+    <Property Name="CPUsuarioCambio" Type="Int32" />
+    <NavigationProperty Name="CPCatEmpresas" Relationship="BDObtenerPesoSAPModel.FK__CPCatMate__CPIdE__12FDD1B2" FromRole="CPCatMateriales" ToRole="CPCatEmpresas" />
+    <NavigationProperty Name="CPCatUnidades" Relationship="BDObtenerPesoSAPModel.FK__CPCatMate__CPIdU__13F1F5EB" FromRole="CPCatMateriales" ToRole="CPCatUnidades" />
+    <NavigationProperty Name="CPUsuario" Relationship="BDObtenerPesoSAPModel.FK__CPCatMate__CPUsu__14E61A24" FromRole="CPCatMateriales" ToRole="CPUsuario" />
+    <NavigationProperty Name="CPUsuario1" Relationship="BDObtenerPesoSAPModel.FK__CPCatMate__CPUsu__15DA3E5D" FromRole="CPCatMateriales" ToRole="CPUsuario" />
+  </EntityType>
+  <EntityType Name="CPCatTipoCaptura">
+    <Key>
+      <PropertyRef Name="CPIdTipoCaptura" />
+    </Key>
+    <Property Name="CPIdTipoCaptura" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CPDescripcion" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="CPFechaAlta" Type="DateTime" Precision="3" />
+    <Property Name="CPUsuarioAlta" Type="Int32" />
+    <Property Name="CPFechaCambio" Type="DateTime" Precision="3" />
+    <Property Name="CPUsuarioCambio" Type="Int32" />
+    <NavigationProperty Name="CPCatEmpresas" Relationship="BDObtenerPesoSAPModel.FK__CPCatEmpr__CPIdT__1B9317B3" FromRole="CPCatTipoCaptura" ToRole="CPCatEmpresas" />
+    <NavigationProperty Name="CPPermisosPlantas" Relationship="BDObtenerPesoSAPModel.FK__CPPermiso__CPIdT__1E6F845E" FromRole="CPCatTipoCaptura" ToRole="CPPermisosPlantas" />
+  </EntityType>
+  <EntityType Name="CPCatTiposDeVehiculos">
+    <Key>
+      <PropertyRef Name="CPIdTipoVehiculo" />
+    </Key>
+    <Property Name="CPIdTipoVehiculo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CPDescripcionVehiculo" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="CPCapacidad" Type="Int32" />
+    <Property Name="CPIdUnidadMedida" Type="Int32" />
+    <Property Name="CPFechaAlta" Type="DateTime" Precision="3" />
+    <Property Name="CPUsuarioAlta" Type="Int32" />
+    <Property Name="CPFechaCambio" Type="DateTime" Precision="3" />
+    <Property Name="CPUsuarioCambio" Type="Int32" />
+    <NavigationProperty Name="CPCatUnidades" Relationship="BDObtenerPesoSAPModel.FK__CPCatTipo__CPIdU__531856C7" FromRole="CPCatTiposDeVehiculos" ToRole="CPCatUnidades" />
+  </EntityType>
+  <EntityType Name="CPCatUnidades">
+    <Key>
+      <PropertyRef Name="CPIdUnidadMedida" />
+    </Key>
+    <Property Name="CPIdUnidadMedida" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CPDescripcionUnidadMedida" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="CPFechaAlta" Type="DateTime" Precision="3" />
+    <Property Name="CPUsuarioAlta" Type="Int32" />
+    <Property Name="CPFechaCambio" Type="DateTime" Precision="3" />
+    <Property Name="CPUsuarioCambio" Type="Int32" />
+    <NavigationProperty Name="CPCatMateriales" Relationship="BDObtenerPesoSAPModel.FK__CPCatMate__CPIdU__13F1F5EB" FromRole="CPCatUnidades" ToRole="CPCatMateriales" />
+    <NavigationProperty Name="CPCatTiposDeVehiculos" Relationship="BDObtenerPesoSAPModel.FK__CPCatTipo__CPIdU__531856C7" FromRole="CPCatUnidades" ToRole="CPCatTiposDeVehiculos" />
+    <NavigationProperty Name="CPPartidas" Relationship="BDObtenerPesoSAPModel.FK__CPPartida__CPIdU__0A688BB1" FromRole="CPCatUnidades" ToRole="CPPartidas" />
+    <NavigationProperty Name="CPPartidas1" Relationship="BDObtenerPesoSAPModel.FK__CPPartida__CPIdU__73852659" FromRole="CPCatUnidades" ToRole="CPPartidas" />
+  </EntityType>
+  <EntityType Name="CPPantallas">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="CPPantallasPermisos">
+    <Key>
+      <PropertyRef Name="idPantallasPermisos" />
+    </Key>
+    <Property Name="idPantallasPermisos" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdPantalla" Type="Int32" Nullable="false" />
+    <Property Name="IdUsuario" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CPPartidas">
+    <Key>
+      <PropertyRef Name="CPId" />
+    </Key>
+    <Property Name="CPId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CPIdEmpresa" Type="Int32" Nullable="false" />
+    <Property Name="CPIdTransporte" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CPIdDocumento" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CPPesoRequerido" Type="Double" />
+    <Property Name="CPIdCodigo" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="CPIdMaterial" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="CPDescripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="CPIdUnidadMedida" Type="Int32" />
+    <Property Name="CPPartida" Type="Int32" />
+    <Property Name="CPFecha" Type="DateTime" Precision="3" />
+    <Property Name="CPIdUsuario" Type="Int32" Nullable="false" />
+    <Property Name="CPEstatus" Type="Int32" />
+    <NavigationProperty Name="CPCatEmpresas" Relationship="BDObtenerPesoSAPModel.FK__CPPartida__CPIdE__09746778" FromRole="CPPartidas" ToRole="CPCatEmpresas" />
+    <NavigationProperty Name="CPCatEmpresas1" Relationship="BDObtenerPesoSAPModel.FK__CPPartida__CPIdE__72910220" FromRole="CPPartidas" ToRole="CPCatEmpresas" />
+    <NavigationProperty Name="CPCatUnidades" Relationship="BDObtenerPesoSAPModel.FK__CPPartida__CPIdU__0A688BB1" FromRole="CPPartidas" ToRole="CPCatUnidades" />
+    <NavigationProperty Name="CPCatUnidades1" Relationship="BDObtenerPesoSAPModel.FK__CPPartida__CPIdU__73852659" FromRole="CPPartidas" ToRole="CPCatUnidades" />
+    <NavigationProperty Name="CPUsuario" Relationship="BDObtenerPesoSAPModel.FK__CPPartida__CPIdU__0B5CAFEA" FromRole="CPPartidas" ToRole="CPUsuario" />
+    <NavigationProperty Name="CPUsuario1" Relationship="BDObtenerPesoSAPModel.FK__CPPartida__CPIdU__74794A92" FromRole="CPPartidas" ToRole="CPUsuario" />
+  </EntityType>
+  <EntityType Name="CPPermisosPlantas">
+    <Key>
+      <PropertyRef Name="CPId" />
+    </Key>
+    <Property Name="CPId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CPIdEmpresa" Type="Int32" Nullable="false" />
+    <Property Name="CPIdUsuario" Type="Int32" Nullable="false" />
+    <Property Name="CPFechaAlta" Type="DateTime" Precision="3" />
+    <Property Name="CPUsuarioAlta" Type="Int32" />
+    <Property Name="CPFechaCambio" Type="DateTime" Precision="3" />
+    <Property Name="CPUsuarioCambio" Type="Int32" />
+    <Property Name="CPPlantaDefault" Type="Boolean" />
+    <Property Name="CPIdTipoCaptura" Type="Int32" />
+    <NavigationProperty Name="CPCatEmpresas" Relationship="BDObtenerPesoSAPModel.FK__CPPermiso__CPIdE__1D7B6025" FromRole="CPPermisosPlantas" ToRole="CPCatEmpresas" />
+    <NavigationProperty Name="CPCatTipoCaptura" Relationship="BDObtenerPesoSAPModel.FK__CPPermiso__CPIdT__1E6F845E" FromRole="CPPermisosPlantas" ToRole="CPCatTipoCaptura" />
+    <NavigationProperty Name="CPUsuario" Relationship="BDObtenerPesoSAPModel.FK__CPPermiso__CPIdU__1F63A897" FromRole="CPPermisosPlantas" ToRole="CPUsuario" />
+  </EntityType>
+  <EntityType Name="CPRol">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CPUsuario" Relationship="BDObtenerPesoSAPModel.FK__CPUsuario__CPRol__5AB9788F" FromRole="CPRol" ToRole="CPUsuario" />
+  </EntityType>
+  <EntityType Name="CPUsuario">
+    <Key>
+      <PropertyRef Name="CPIdUsuario" />
+    </Key>
+    <Property Name="CPIdUsuario" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CPRol_id" Type="Int32" Nullable="false" />
+    <Property Name="CPNombreUsuario" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="CPCorreo" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="CPPassword" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Estatus" Type="Boolean" />
+    <NavigationProperty Name="CPAutorizaciones" Relationship="BDObtenerPesoSAPModel.FK__CPAutoriz__CPIdU__17C286CF" FromRole="CPUsuario" ToRole="CPAutorizaciones" />
+    <NavigationProperty Name="CPBitacora" Relationship="BDObtenerPesoSAPModel.FK__CPBitacor__CPIdU__19AACF41" FromRole="CPUsuario" ToRole="CPBitacora" />
+    <NavigationProperty Name="CPBitacora1" Relationship="BDObtenerPesoSAPModel.FK__CPBitacor__CPIdU__1A9EF37A" FromRole="CPUsuario" ToRole="CPBitacora" />
+    <NavigationProperty Name="CPCatEmpresas" Relationship="BDObtenerPesoSAPModel.FK__CPCatEmpr__CPUsu__1C873BEC" FromRole="CPUsuario" ToRole="CPCatEmpresas" />
+    <NavigationProperty Name="CPCatMateriales" Relationship="BDObtenerPesoSAPModel.FK__CPCatMate__CPUsu__14E61A24" FromRole="CPUsuario" ToRole="CPCatMateriales" />
+    <NavigationProperty Name="CPCatMateriales1" Relationship="BDObtenerPesoSAPModel.FK__CPCatMate__CPUsu__15DA3E5D" FromRole="CPUsuario" ToRole="CPCatMateriales" />
+    <NavigationProperty Name="CPPartidas" Relationship="BDObtenerPesoSAPModel.FK__CPPartida__CPIdU__0B5CAFEA" FromRole="CPUsuario" ToRole="CPPartidas" />
+    <NavigationProperty Name="CPPartidas1" Relationship="BDObtenerPesoSAPModel.FK__CPPartida__CPIdU__74794A92" FromRole="CPUsuario" ToRole="CPPartidas" />
+    <NavigationProperty Name="CPPermisosPlantas" Relationship="BDObtenerPesoSAPModel.FK__CPPermiso__CPIdU__1F63A897" FromRole="CPUsuario" ToRole="CPPermisosPlantas" />
+    <NavigationProperty Name="CPRol" Relationship="BDObtenerPesoSAPModel.FK__CPUsuario__CPRol__5AB9788F" FromRole="CPUsuario" ToRole="CPRol" />
+  </EntityType>
+  <Association Name="FK__CPAutoriz__CPIdE__16CE6296">
+    <End Type="BDObtenerPesoSAPModel.CPCatEmpresas" Role="CPCatEmpresas" Multiplicity="1" />
+    <End Type="BDObtenerPesoSAPModel.CPAutorizaciones" Role="CPAutorizaciones" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CPCatEmpresas">
+        <PropertyRef Name="CPIdEmpresa" />
+      </Principal>
+      <Dependent Role="CPAutorizaciones">
+        <PropertyRef Name="CPIdEmpresa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CPAutoriz__CPIdU__17C286CF">
+    <End Type="BDObtenerPesoSAPModel.CPUsuario" Role="CPUsuario" Multiplicity="1" />
+    <End Type="BDObtenerPesoSAPModel.CPAutorizaciones" Role="CPAutorizaciones" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CPUsuario">
+        <PropertyRef Name="CPIdUsuario" />
+      </Principal>
+      <Dependent Role="CPAutorizaciones">
+        <PropertyRef Name="CPIdUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CPBitacor__CPIdE__18B6AB08">
+    <End Type="BDObtenerPesoSAPModel.CPCatEmpresas" Role="CPCatEmpresas" Multiplicity="1" />
+    <End Type="BDObtenerPesoSAPModel.CPBitacora" Role="CPBitacora" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CPCatEmpresas">
+        <PropertyRef Name="CPIdEmpresa" />
+      </Principal>
+      <Dependent Role="CPBitacora">
+        <PropertyRef Name="CPIdEmpresa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CPBitacor__CPIdU__19AACF41">
+    <End Type="BDObtenerPesoSAPModel.CPUsuario" Role="CPUsuario" Multiplicity="1" />
+    <End Type="BDObtenerPesoSAPModel.CPBitacora" Role="CPBitacora" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CPUsuario">
+        <PropertyRef Name="CPIdUsuario" />
+      </Principal>
+      <Dependent Role="CPBitacora">
+        <PropertyRef Name="CPIdUsuarioSal" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CPBitacor__CPIdU__1A9EF37A">
+    <End Type="BDObtenerPesoSAPModel.CPUsuario" Role="CPUsuario" Multiplicity="1" />
+    <End Type="BDObtenerPesoSAPModel.CPBitacora" Role="CPBitacora" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CPUsuario">
+        <PropertyRef Name="CPIdUsuario" />
+      </Principal>
+      <Dependent Role="CPBitacora">
+        <PropertyRef Name="CPIdUsuarioEnt" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CPCatEmpr__CPIdT__1B9317B3">
+    <End Type="BDObtenerPesoSAPModel.CPCatTipoCaptura" Role="CPCatTipoCaptura" Multiplicity="0..1" />
+    <End Type="BDObtenerPesoSAPModel.CPCatEmpresas" Role="CPCatEmpresas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CPCatTipoCaptura">
+        <PropertyRef Name="CPIdTipoCaptura" />
+      </Principal>
+      <Dependent Role="CPCatEmpresas">
+        <PropertyRef Name="CPIdTipoCaptura" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CPCatEmpr__CPUsu__1C873BEC">
+    <End Type="BDObtenerPesoSAPModel.CPUsuario" Role="CPUsuario" Multiplicity="0..1" />
+    <End Type="BDObtenerPesoSAPModel.CPCatEmpresas" Role="CPCatEmpresas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CPUsuario">
+        <PropertyRef Name="CPIdUsuario" />
+      </Principal>
+      <Dependent Role="CPCatEmpresas">
+        <PropertyRef Name="CPUsuarioCambio" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CPCatMate__CPIdE__12FDD1B2">
+    <End Type="BDObtenerPesoSAPModel.CPCatEmpresas" Role="CPCatEmpresas" Multiplicity="1" />
+    <End Type="BDObtenerPesoSAPModel.CPCatMateriales" Role="CPCatMateriales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CPCatEmpresas">
+        <PropertyRef Name="CPIdEmpresa" />
+      </Principal>
+      <Dependent Role="CPCatMateriales">
+        <PropertyRef Name="CPIdEmpresa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CPPartida__CPIdE__09746778">
+    <End Type="BDObtenerPesoSAPModel.CPCatEmpresas" Role="CPCatEmpresas" Multiplicity="1" />
+    <End Type="BDObtenerPesoSAPModel.CPPartidas" Role="CPPartidas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CPCatEmpresas">
+        <PropertyRef Name="CPIdEmpresa" />
+      </Principal>
+      <Dependent Role="CPPartidas">
+        <PropertyRef Name="CPIdEmpresa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CPPartida__CPIdE__72910220">
+    <End Type="BDObtenerPesoSAPModel.CPCatEmpresas" Role="CPCatEmpresas" Multiplicity="1" />
+    <End Type="BDObtenerPesoSAPModel.CPPartidas" Role="CPPartidas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CPCatEmpresas">
+        <PropertyRef Name="CPIdEmpresa" />
+      </Principal>
+      <Dependent Role="CPPartidas">
+        <PropertyRef Name="CPIdEmpresa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CPPermiso__CPIdE__1D7B6025">
+    <End Type="BDObtenerPesoSAPModel.CPCatEmpresas" Role="CPCatEmpresas" Multiplicity="1" />
+    <End Type="BDObtenerPesoSAPModel.CPPermisosPlantas" Role="CPPermisosPlantas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CPCatEmpresas">
+        <PropertyRef Name="CPIdEmpresa" />
+      </Principal>
+      <Dependent Role="CPPermisosPlantas">
+        <PropertyRef Name="CPIdEmpresa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CPCatMate__CPIdU__13F1F5EB">
+    <End Type="BDObtenerPesoSAPModel.CPCatUnidades" Role="CPCatUnidades" Multiplicity="1" />
+    <End Type="BDObtenerPesoSAPModel.CPCatMateriales" Role="CPCatMateriales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CPCatUnidades">
+        <PropertyRef Name="CPIdUnidadMedida" />
+      </Principal>
+      <Dependent Role="CPCatMateriales">
+        <PropertyRef Name="CPIdUnidadMedida" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CPCatMate__CPUsu__14E61A24">
+    <End Type="BDObtenerPesoSAPModel.CPUsuario" Role="CPUsuario" Multiplicity="0..1" />
+    <End Type="BDObtenerPesoSAPModel.CPCatMateriales" Role="CPCatMateriales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CPUsuario">
+        <PropertyRef Name="CPIdUsuario" />
+      </Principal>
+      <Dependent Role="CPCatMateriales">
+        <PropertyRef Name="CPUsuarioAlta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CPCatMate__CPUsu__15DA3E5D">
+    <End Type="BDObtenerPesoSAPModel.CPUsuario" Role="CPUsuario" Multiplicity="0..1" />
+    <End Type="BDObtenerPesoSAPModel.CPCatMateriales" Role="CPCatMateriales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CPUsuario">
+        <PropertyRef Name="CPIdUsuario" />
+      </Principal>
+      <Dependent Role="CPCatMateriales">
+        <PropertyRef Name="CPUsuarioCambio" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CPPermiso__CPIdT__1E6F845E">
+    <End Type="BDObtenerPesoSAPModel.CPCatTipoCaptura" Role="CPCatTipoCaptura" Multiplicity="0..1" />
+    <End Type="BDObtenerPesoSAPModel.CPPermisosPlantas" Role="CPPermisosPlantas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CPCatTipoCaptura">
+        <PropertyRef Name="CPIdTipoCaptura" />
+      </Principal>
+      <Dependent Role="CPPermisosPlantas">
+        <PropertyRef Name="CPIdTipoCaptura" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CPCatTipo__CPIdU__531856C7">
+    <End Type="BDObtenerPesoSAPModel.CPCatUnidades" Role="CPCatUnidades" Multiplicity="0..1" />
+    <End Type="BDObtenerPesoSAPModel.CPCatTiposDeVehiculos" Role="CPCatTiposDeVehiculos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CPCatUnidades">
+        <PropertyRef Name="CPIdUnidadMedida" />
+      </Principal>
+      <Dependent Role="CPCatTiposDeVehiculos">
+        <PropertyRef Name="CPIdUnidadMedida" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CPPartida__CPIdU__0A688BB1">
+    <End Type="BDObtenerPesoSAPModel.CPCatUnidades" Role="CPCatUnidades" Multiplicity="0..1" />
+    <End Type="BDObtenerPesoSAPModel.CPPartidas" Role="CPPartidas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CPCatUnidades">
+        <PropertyRef Name="CPIdUnidadMedida" />
+      </Principal>
+      <Dependent Role="CPPartidas">
+        <PropertyRef Name="CPIdUnidadMedida" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CPPartida__CPIdU__73852659">
+    <End Type="BDObtenerPesoSAPModel.CPCatUnidades" Role="CPCatUnidades" Multiplicity="0..1" />
+    <End Type="BDObtenerPesoSAPModel.CPPartidas" Role="CPPartidas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CPCatUnidades">
+        <PropertyRef Name="CPIdUnidadMedida" />
+      </Principal>
+      <Dependent Role="CPPartidas">
+        <PropertyRef Name="CPIdUnidadMedida" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CPPartida__CPIdU__0B5CAFEA">
+    <End Type="BDObtenerPesoSAPModel.CPUsuario" Role="CPUsuario" Multiplicity="1" />
+    <End Type="BDObtenerPesoSAPModel.CPPartidas" Role="CPPartidas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CPUsuario">
+        <PropertyRef Name="CPIdUsuario" />
+      </Principal>
+      <Dependent Role="CPPartidas">
+        <PropertyRef Name="CPIdUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CPPartida__CPIdU__74794A92">
+    <End Type="BDObtenerPesoSAPModel.CPUsuario" Role="CPUsuario" Multiplicity="1" />
+    <End Type="BDObtenerPesoSAPModel.CPPartidas" Role="CPPartidas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CPUsuario">
+        <PropertyRef Name="CPIdUsuario" />
+      </Principal>
+      <Dependent Role="CPPartidas">
+        <PropertyRef Name="CPIdUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CPPermiso__CPIdU__1F63A897">
+    <End Type="BDObtenerPesoSAPModel.CPUsuario" Role="CPUsuario" Multiplicity="1" />
+    <End Type="BDObtenerPesoSAPModel.CPPermisosPlantas" Role="CPPermisosPlantas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CPUsuario">
+        <PropertyRef Name="CPIdUsuario" />
+      </Principal>
+      <Dependent Role="CPPermisosPlantas">
+        <PropertyRef Name="CPIdUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CPUsuario__CPRol__5AB9788F">
+    <End Type="BDObtenerPesoSAPModel.CPRol" Role="CPRol" Multiplicity="1" />
+    <End Type="BDObtenerPesoSAPModel.CPUsuario" Role="CPUsuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CPRol">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="CPUsuario">
+        <PropertyRef Name="CPRol_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f1ea55b78ddc442eb7052a9c6737e30a" Name="Diagram1">
+        <EntityTypeShape EntityType="BDObtenerPesoSAPModel.CPAutorizaciones" Width="1.5" PointX="8.375" PointY="1.125" />
+        <EntityTypeShape EntityType="BDObtenerPesoSAPModel.CPBitacora" Width="1.5" PointX="3.625" PointY="2.5" />
+        <EntityTypeShape EntityType="BDObtenerPesoSAPModel.CPCatEmpresas" Width="1.5" PointX="5.625" PointY="6.875" />
+        <EntityTypeShape EntityType="BDObtenerPesoSAPModel.CPCatMateriales" Width="1.5" PointX="12.375" PointY="4.875" />
+        <EntityTypeShape EntityType="BDObtenerPesoSAPModel.CPCatTipoCaptura" Width="1.5" PointX="10.125" PointY="6" />
+        <EntityTypeShape EntityType="BDObtenerPesoSAPModel.CPCatTiposDeVehiculos" Width="1.5" PointX="17.875" PointY="1.625" />
+        <EntityTypeShape EntityType="BDObtenerPesoSAPModel.CPCatUnidades" Width="1.5" PointX="13.75" PointY="0.625" />
+        <EntityTypeShape EntityType="BDObtenerPesoSAPModel.CPPantallas" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="BDObtenerPesoSAPModel.CPPantallasPermisos" Width="1.75" PointX="0.75" PointY="2.5" />
+        <EntityTypeShape EntityType="BDObtenerPesoSAPModel.CPPartidas" Width="1.5" PointX="15.875" PointY="1.625" />
+        <EntityTypeShape EntityType="BDObtenerPesoSAPModel.CPPermisosPlantas" Width="1.5" PointX="7.875" PointY="6" />
+        <EntityTypeShape EntityType="BDObtenerPesoSAPModel.CPRol" Width="1.5" PointX="5.625" PointY="0.5" />
+        <EntityTypeShape EntityType="BDObtenerPesoSAPModel.CPUsuario" Width="1.5" PointX="5.625" PointY="2.5" />
+        <AssociationConnector Association="BDObtenerPesoSAPModel.FK__CPAutoriz__CPIdE__16CE6296" />
+        <AssociationConnector Association="BDObtenerPesoSAPModel.FK__CPAutoriz__CPIdU__17C286CF" />
+        <AssociationConnector Association="BDObtenerPesoSAPModel.FK__CPBitacor__CPIdE__18B6AB08" />
+        <AssociationConnector Association="BDObtenerPesoSAPModel.FK__CPBitacor__CPIdU__19AACF41" />
+        <AssociationConnector Association="BDObtenerPesoSAPModel.FK__CPBitacor__CPIdU__1A9EF37A" />
+        <AssociationConnector Association="BDObtenerPesoSAPModel.FK__CPCatEmpr__CPIdT__1B9317B3" />
+        <AssociationConnector Association="BDObtenerPesoSAPModel.FK__CPCatEmpr__CPUsu__1C873BEC" />
+        <AssociationConnector Association="BDObtenerPesoSAPModel.FK__CPCatMate__CPIdE__12FDD1B2" />
+        <AssociationConnector Association="BDObtenerPesoSAPModel.FK__CPPartida__CPIdE__09746778" />
+        <AssociationConnector Association="BDObtenerPesoSAPModel.FK__CPPartida__CPIdE__72910220" />
+        <AssociationConnector Association="BDObtenerPesoSAPModel.FK__CPPermiso__CPIdE__1D7B6025" />
+        <AssociationConnector Association="BDObtenerPesoSAPModel.FK__CPCatMate__CPIdU__13F1F5EB" />
+        <AssociationConnector Association="BDObtenerPesoSAPModel.FK__CPCatMate__CPUsu__14E61A24" />
+        <AssociationConnector Association="BDObtenerPesoSAPModel.FK__CPCatMate__CPUsu__15DA3E5D" />
+        <AssociationConnector Association="BDObtenerPesoSAPModel.FK__CPPermiso__CPIdT__1E6F845E" />
+        <AssociationConnector Association="BDObtenerPesoSAPModel.FK__CPCatTipo__CPIdU__531856C7" />
+        <AssociationConnector Association="BDObtenerPesoSAPModel.FK__CPPartida__CPIdU__0A688BB1" />
+        <AssociationConnector Association="BDObtenerPesoSAPModel.FK__CPPartida__CPIdU__73852659" />
+        <AssociationConnector Association="BDObtenerPesoSAPModel.FK__CPPartida__CPIdU__0B5CAFEA" />
+        <AssociationConnector Association="BDObtenerPesoSAPModel.FK__CPPartida__CPIdU__74794A92" />
+        <AssociationConnector Association="BDObtenerPesoSAPModel.FK__CPPermiso__CPIdU__1F63A897" />
+        <AssociationConnector Association="BDObtenerPesoSAPModel.FK__CPUsuario__CPRol__5AB9788F" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

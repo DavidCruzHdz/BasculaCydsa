@@ -1,0 +1,146 @@
+﻿@model ObtenerPesoSAP.Models.CPBitacora
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>CPBitacora</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CPIdTransporte)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CPIdTransporte)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CPNumEconomico)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CPNumEconomico)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CPPlaca)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CPPlaca)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CPNumPorte)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CPNumPorte)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CPNomConductor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CPNomConductor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CPPesoEntrada)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CPPesoEntrada)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CPPesoSalida)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CPPesoSalida)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CPPesoNeto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CPPesoNeto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CPFechaEntrada)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CPFechaEntrada)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CpFechaSalida)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CpFechaSalida)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CPEntrada)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CPEntrada)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CPSalida)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CPSalida)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CPCatEmpresas.CPDescripcionEmpresa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CPCatEmpresas.CPDescripcionEmpresa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CPCatTiposDeVehiculos.CPDescripcionVehiculo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CPCatTiposDeVehiculos.CPDescripcionVehiculo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CPUsuario.CPNombreUsuario)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CPUsuario.CPNombreUsuario)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CPUsuario1.CPNombreUsuario)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CPUsuario1.CPNombreUsuario)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.CPId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,1979 @@
+﻿@model ObtenerPesoSAP.Models.CPBitacora
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1 user-scalable=no">
+    <script src="~/Scripts/sweetalert2@8.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="~/Content/animate.css">
+</head>
+
+@Html.Hidden("TipoVehiculo")
+
+@{
+    ViewBag.Title = "Bascula";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="col-md-12 jumbotron" style="color:#000000; font:caption; background-color:#5c87b2;">
+    <h2>Bascula</h2>
+    <h4>Captura de Pesos de camiones</h4>
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+    <div>
+        <div class="form-horizontal">
+            <div class="col-md-12">
+                <label for="formGroupExampleInput" id="PlantaId"><span></span></label>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.CPIdTransporte, htmlAttributes: new { @class = "control-label col-md-2", @id = "LblTransporte" })
+
+                <div class="col-md-4">
+                    <div>
+                        <input maxlength="255" class="form-control" id="VarConsecutivo" name="VarConsecutivo" placeholder="Numero de Transporte" required="required" size="30" style="width:528px;height:30px;" tabindex="3" type="text">
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+                    <button data-ajax="true" class="btn btn-danger btn-lg" id="Validar" style="text-align-last:right">Validar</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        @using (Html.BeginForm())
+            {
+            <div class="form-horizontal">
+                <div class="col-md-12">
+                    @TempData["Mensaje"]
+                </div>
+
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.CPNumPorte, htmlAttributes: new { @class = "control-label col-md-2 Porte" })
+                    <div class="col-md-10">
+                        @Html.TextBoxFor(model => model.CPNumPorte, "Teclee el numero de carta porte", new { @class = "form-control  Porte", @maxlength = "10" })
+                        @Html.ValidationMessageFor(model => model.CPNumPorte, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.CPNumEconomico, htmlAttributes: new { @class = "control-label col-md-2 Eco" })
+                    <div class="col-md-10">
+                        @Html.TextBoxFor(model => model.CPNumEconomico, "Teclee el numero de economico", new { @class = "form-control Eco" })
+                        @Html.ValidationMessageFor(model => model.CPNumEconomico, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.CPNomConductor, htmlAttributes: new { @class = "control-label col-md-2 Nom" })
+                    <div class="col-md-10">
+                        @Html.TextBoxFor(model => model.CPNomConductor, "Teclee correctamente el nombre del conductor", new { @class = "form-control Nom" })
+                        @Html.ValidationMessageFor(model => model.CPNomConductor, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.CPNumCelular, htmlAttributes: new { @class = "control-label col-md-2 Cel" })
+                    <div class="col-md-10">
+                        @Html.TextBoxFor(model => model.CPNumCelular, "Teclee correctamente el nombre del conductor", new { @class = "form-control Cel" })
+                        @Html.ValidationMessageFor(model => model.CPNumCelular, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.CPPlaca, htmlAttributes: new { @class = "control-label col-md-2 Placa" })
+                    <div class="col-md-10">
+                        @Html.TextBoxFor(model => model.CPPlaca, "Teclee el numero de placa", new { @class = "form-control Placa" })
+                        @Html.ValidationMessageFor(model => model.CPPlaca, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.CPIdMaterial, htmlAttributes: new { @class = "control-label col-md-2", @id = "LblMaterial" })
+                    <div class="col-md-10">
+                        <table class="table table-striped" id="TblMateriales">
+                            <tr>
+                                <th>Cantidad</th>
+                                <th>Codigo</th>
+                                <th>Descripcion de Materiales</th>
+                            </tr>
+                            <tbody class="tablaAqui"></tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <Label asp-for="Movimiento"></Label>
+                    <div class="col-md-1">
+
+                    </div>
+                    <div class="col-md-5">
+                        <div class="col-md-6">
+                            <div class="col-md-4">
+                                <h4 id="TipoEnt">Entrada</h4>
+                            </div>
+                            <div class="col-md-8" style="display:inline">
+                                <input type="radio" asp-for="Movimiento" name="radio" class="form-control" value="Entrada" id="Entra" style="display:inline" />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="col-md-4">
+                                <h4 id="TipoSal">Salida</h4>
+                            </div>
+                            <div class="col-md-8">
+                                <input type="radio" asp-for="Movimiento" name="radio" class="form-control" value="Salida" id="Sale" style="display:inline" />
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-2">
+                        @Html.LabelFor(model => model.CPPesoEntrada, htmlAttributes: new { @class = "control-label LblEnt" })
+                    </div>
+
+                    <div class="col-md-3 " style="color:black" id="">
+                        @Html.TextBoxFor(model => model.CPPesoEntrada, "Teclee el Peso Taras", new { @class = "form-control TxtEnt" })
+                        @Html.ValidationMessageFor(model => model.CPPesoEntrada, "", new { @class = "text-danger" })
+
+                    </div>
+
+                    <div class="col-md-5">
+                        <input class="form-control" id="LeerPesoEnt" name="LeerPesoEnt" placeholder="Seleccione el archivo de la pesa" style="height:40px; background:none" type="file">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-2">
+                        @Html.LabelFor(model => model.CPPesoSalida, htmlAttributes: new { @class = "control-label LblSal" })
+                    </div>
+
+                    <div class="col-md-3 " style="color:black" id="">
+                        @Html.TextBoxFor(model => model.CPPesoSalida, "Teclee el Peso Bruto", new { @class = "form-control TxtSal" })
+                        @Html.ValidationMessageFor(model => model.CPPesoSalida, "", new { @class = "text-danger" })
+
+                    </div>
+
+                    <div class="col-md-5">
+                        <input class="form-control" id="LeerPesoSal" name="LeerPesoSal" placeholder="Seleccione el archivo de la pesa" style="height:40px; background:none" type="file">
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-2">
+                        @Html.LabelFor(model => model.CPPesoNeto, htmlAttributes: new { @class = "control-label LblNeto" })
+                    </div>
+
+                    <div class="col-md-10" style="color:black" id="">
+                        @Html.TextBoxFor(model => model.CPPesoNeto, "Teclee el Peso Neto", new { @class = "form-control TxtNeto" })
+                        @Html.ValidationMessageFor(model => model.CPPesoNeto, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <br />
+
+
+                <div class="container">
+                    <div class="col-md-offset-2 col-md-12" id="OpGraba">
+
+                        <div class="col-md-offset-2 col-md-6">
+                            <input data-ajax="true" type="submit" value="Grabar" id="graba" class="btn btn-danger btn-lg" href="#ventana2" name="btn-graba" data-toggle="modal" />
+
+                            <input data-ajax="true" type="submit" value="Autorizacion" id="Autorizacion" class="btn btn-danger btn-lg" href="#ventana3" name="Autorizacion" data-toggle="modal" />
+
+                            <a href="/Bascula/Bascula" , class='btn btn-danger btn-lg' id='Nvo' data-toggle="modal" type="reset">Regresar </a>
+                        </div>
+
+                        <div class="col-md-offset-2 col-md-5">
+
+                        </div>
+                        @if (ViewBag.Message != "")
+                        {
+                            <script type="text/javascript">
+                                window.onload = function ()
+                                {
+                                    var IdTipo = ""
+                                    IdTipo = "Otros"
+
+                                    var plantaID = @Session["idPlantaDF"];
+                                    var Id = $("#VarConsecutivo").val()
+
+                                    Buscar();
+
+
+                                    $("#listaValores").css("display", "block");
+                                    $("#tablaaqui").css("display", "block");
+                                    $("#TblMateriales").css("display", "block");
+
+
+                                    //alert("@ViewBag.Message");
+
+                                    if (@ViewBag.IsOk == 1)
+                                    {
+                                        Swal.fire("@ViewBag.Message", 'Presione el boton para cerrar!', 'success');
+
+                                    }
+                                    else
+                                    {
+                                        //Swal.fire("@ViewBag.Message", 'Presione el boton para cerrar!', 'error');
+                                        Swal.fire({
+                                            title: '@ViewBag.Message',
+                                            text: "Presione el boton para cerrar!",
+                                            type: "error",
+                                            animation: false,
+                                            customClass: {
+                                                popup: 'animated tada'
+                                            }
+                                        })
+
+                                    }
+
+
+                                };
+                            </script>
+                        }
+
+
+
+
+
+                        <div class="modal face" style="align-content:center" id="ventana2">                           
+                                <div class="modal-dialog jumbotron alert-danger">
+                                    <div class="modal-content alert-danger">
+                                        <div class="modal-header alert-danger" >
+                                            <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times</button>
+                                            <h2 class="modal-title w-100; alert-danger" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight:bolder">Validando Datos</h2>
+                                        </div>
+
+                                        <div class="modal-body alert-danger">
+                                            <p>
+                                                <h1 class="modal-title w-100; alert-danger" style="text-align:center; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">Espere</h1>
+                                                <h1 class="modal-title alert-danger" style="text-align:center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Por el Momento</h1>
+                                                <h2 class="modal-title alert-danger" style="text-align:center; font-style:oblique">No use este Numero de transporte en </h2>
+                                                <h2 class="modal-title alert-danger" style="text-align:center; font-style:oblique">SAP porque se esta actualizando</h2>
+                                            </p>
+                                        </div>
+
+                                        <div class="modal-footer animated alert-danger">
+                                            <div id="progress">
+                                                <img class="img-responsive center-block" src="~/Content/images/espera.svg" alt="image" style="text-align:center"/>                                              
+                                            </div>
+                                            @*<button type="button" class="btn btn-danger btn-lg" data-dismiss="modal">Cerrar</button>*@
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+                        <div class="modal face" id="ventana3">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times</button>
+                                        <h2 class="modal-title">Autorizacion de Pesos</h2>
+                                    </div>
+
+                                    <div class="modal-body">
+                                        <p>
+                                            <h4 class="modal-title">Solamente los supervisores podra hacer esta autorizacion</h4>
+                                        </p>
+
+                                        <div class="col-md-offset-2 col-md-12">
+                                            <br />
+                                        </div>
+
+                                        <div class="col-md-offset-2 col-md-12">
+                                            <div class="col-md-2" style="text-align-last:right">
+                                                <label for="formGroupExampleInput">Usuario: </label>
+                                            </div>
+
+                                            <div class="col-md-7">
+                                                @Html.DropDownList("IdUsuarioAutoriza", (IEnumerable<SelectListItem>)ViewBag.dropdownUsuario, "Seleccione la Usuario", new { id = "CPIdUsuario", @class = "form-control" })
+                                            </div>
+
+                                            <div class="col-md-3" style="text-align-last:right">
+                                                <span></span>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="col-md-offset-2 col-md-12">
+                                            <br />
+                                        </div>
+
+                                        <div class="col-md-offset-2 col-md-12">
+                                            <div class="col-md-2" style="text-align-last:right">
+                                                <label for="formGroupExampleInput">Contraseña: </label>
+                                            </div>
+
+                                            <div class="col-md-3">
+                                                <input type="password" maxlength="255" class="form-control" id="CveAcceso" name="CveAcceso" placeholder="Contraseña de usuario" required="required" size="30" style="width:528px;height:30px;" tabindex="1">
+                                            </div>
+
+                                            <div class="col-md-7" style="text-align-last:right">
+                                                <span></span>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="col-md-offset-2 col-md-12">
+                                            <br />
+                                        </div>
+
+                                        <div class="col-md-offset-2 col-md-12">
+                                            <div class="col-md-2" style="text-align-last:right">
+                                                <label for="formGroupExampleInput">Motivo: </label>
+                                            </div>
+
+                                            <div class="col-md-3">
+                                                <input type="Text" TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Visible" maxlength="500" class="form-control" id="MotivoAutoriza" name="MotivoAutoriza" placeholder="Describa el motivo de la autorizacion" required="required" size="30" style="width:528px;height:30px;" tabindex="3">
+                                            </div>
+
+                                            <div class="col-md-7" style="text-align-last:right">
+                                                <span></span>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="col-md-offset-2 col-md-12">
+                                            <br />
+                                        </div>
+
+                                        <div class="col-md-offset-2 col-md-12">
+                                            <br />
+                                        </div>
+
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-success btn-lg" data-dismiss="modal">Cerrar</button>
+                                            <input type="submit" value="Autoriza" id="Autoriza" class="btn btn-success btn-lg" name="Autoriza" data-toggle="modal" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+
+
+
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+
+
+
+<script type="text/javascript">
+
+
+    $(document).ready(function () {
+
+
+        if ("@ViewBag.VarConsecutivo" != null || "@ViewBag.VarConsecutivo" != "")
+            $("#VarConsecutivo").val("@ViewBag.VarConsecutivo");
+
+        $("#IdMaterial").css("display", "none");
+        $("#LblMaterial").css("display", "none");
+
+        $("#lblTipoPipa").css("display", "none");
+        $("#radTipoPipa").css("display", "none");
+
+        $("#lblIso").css("display", "none");
+        $("#radIso").css("display", "none");
+
+        $("#lblOtros").css("display", "none");
+        $("#radOtros").css("display", "none");
+
+        $("#Validar").css("display", "none");
+        $("#transporte").css("display", "none");
+
+        $("#CPPesoSalida").css("display", "none");
+        $(".LblSal").css("display", "none");
+        $(".TxtEnt").css("display", "none");
+
+        $("#CPPesoEntrada").css("display", "none");
+        $(".LblEnt").css("display", "none");
+        $(".TxtEnt").css("display", "none");
+
+        $("#CPPesoNeto").css("display", "none");
+        $(".LblNeto").css("display", "none");
+        $(".TxtNeto").css("display", "none");
+
+        $("#CPNumEconomico").css("display", "none");
+        $(".Eco").css("display", "none");
+
+        $("#CPNumPorte").css("display", "none");
+        $(".Porte").css("display", "none");
+
+        $("#CPNomConductor").css("display", "none");
+        $(".Nom").css("display", "none");
+
+        $("#CPNumCelular").css("display", "none");
+        $(".Cel").css("display", "none");
+
+        $("#CPPlaca").css("display", "none");
+        $(".Placa").css("display", "none");
+
+        $("#Entra").css("display", "none");
+        $("#Sale").css("display", "none");
+
+        $("#TipoEnt").css("display", "none");
+        $("#TipoSal").css("display", "none");
+
+        $("#OpGraba").css("display", "none");
+
+        $("#EntradaPeso").css("display", "none");
+        $("#SalidaPeso").css("display", "none");
+        $("#transporte").css("display", "none");
+        $(".TipoVehiculo").css("display", "none");
+
+        if(@Session["Validacion"]==1)
+        {
+            $("#Validar").css("display", "block");
+        }
+        else
+        {
+            $("#Validar").css("display", "none");
+            $("#transporte").css("display", "none");
+            $(".TipoVehiculo").css("display", "none");
+        }
+
+
+        $("#PesoEnt").css("display", "none");
+        $("#PesoSal").css("display", "none");
+        $("#PesoNeto").css("display", "none");
+
+        $("#LeerEntradaSC").css("display", "none");
+        $("#LeerArchivoSC").css("display", "none");
+        $("#LeerPesoSal").css("display", "none");
+        $("#LeerPesoEnt").css("display", "none");
+
+        $("#listaValores").css("display", "none");
+        $("#tablaaqui").css("display", "none");
+
+        $("#TblMateriales").css("display", "none");
+
+    });
+
+
+    $("#Entra").change(function () {
+        $("#CPPesoSalida").css("display", "none");
+        $(".LblSal").css("display", "none");
+        $(".TxtSal").css("display", "none");
+
+        $("#CPPesoEntrada").css("display", "block");
+        $(".LblEnt").css("display", "block");
+        $(".TxtEnt").css("display", "block");
+
+        $("#LeerEntradaSC").css("display", "none");
+        $("#LeerArchivoSC").css("display", "none");
+        $("#LeerPesoSal").css("display", "none");
+        $("#LeerPesoEnt").css("display", "none");
+
+        var Captura = @Session["TipoCaptura"];
+        if (Captura == 3)
+        {
+            $("#LeerPesoSal").css("display", "none");
+            $("#LeerPesoEnt").css("display", "block");
+        }
+
+
+
+        if (Captura == 2)
+        {
+            $("#LeerEntradaSC").css("display", "none");
+            $("#LeerArchivoSC").css("display", "none");
+            $("#LeerPesoEnt").css("display", "block");
+            $("#LeerPesoSal").css("display", "none");
+        }
+    });
+
+
+    $(document).on('keypress',function(e)
+    {
+        if(e.which == 13)
+        {
+            //alert('You pressed enter!');
+            if ($("#CPPesoSalida").val() > 0)
+            {
+                $("#CPPesoNeto").val($("#CPPesoSalida").val()-$("#CPPesoEntrada").val());
+            }
+            else
+            {
+                $("#CPPesoNeto").val($("#CPPesoEntrada").val());
+            }
+
+        }
+    });
+
+
+
+    $("#Sale").change(function () {
+        $("#CPPesoSalida").css("display", "block");
+        $(".LblSal").css("display", "block");
+        $(".TxtSal").css("display", "block");
+
+        $("#CPPesoNeto").css("display", "block");
+        $(".LblNeto").css("display", "block");
+        $(".TxtNeto").css("display", "block");
+
+        $("#CPPesoEntrada").css("display", "none");
+        $(".LblEnt").css("display", "none");
+        $(".TxtEnt").css("display", "none");
+
+        $("#LeerArchivoSC").css("display", "none");
+        $("#LeerPesoSal").css("display", "none");
+        $("#LeerPesoEnt").css("display", "none");
+
+        var Captura = @Session["TipoCaptura"];
+        if (Captura == 3)
+        {
+            //$("#LeerEntradaSC").css("display", "none");
+            //$("#LeerArchivoSC").css("display", "block");
+            $("#LeerPesoSal").css("display", "none");
+            $("#LeerPesoEnt").css("display", "block");
+        }
+
+
+
+        if (Captura == 2)
+        {
+            $("#LeerEntradaSC").css("display", "none");
+            $("#LeerArchivoSC").css("display", "none");
+            $("#LeerPesoEnt").css("display", "none");
+            $("#LeerPesoSal").css("display", "block");
+        }
+
+    });
+
+
+
+    $(function()
+    {
+        $("#Autoriza").click(function ()
+        {
+            var IdUser = 0;
+            IdUser = $("#CPIdUsuario").val();
+
+            var params =
+            {
+                IdAutoriza: IdUser,
+                IdClave: $("#CveAcceso").val(),
+                MotivoAuto: $("#MotivoAutoriza").val(),
+            };
+
+
+            $.ajax(
+                {
+                    url: "/Bascula/Autorizacion",
+                    method: "post",
+                    data: params,
+                    success: function (result)
+                    {
+                        if(result.toString()=="fallo")
+                        {
+                            //alert("La usuario no existe");
+                            //Swal.fire("La usuario no existe", 'Presione el boton para cerrar!', 'error');
+                            Swal.fire({
+                                title: 'El usuario no existe',
+                                text: "Presione el boton para cerrar!",
+                                type: "error",
+                                animation: false,
+                                customClass: {
+                                    popup: 'animated tada'
+                                }
+                            })
+
+                        }
+                        else
+                        {
+                            if(result != -1)
+                            {
+                                $.each(result, function (index, item)
+                                {
+                                    //alert("La Autorizacion fue correcta");
+                                    //Swal.fire("La Autorizacion fue correcta", 'Presione el boton para cerrar!', 'success');
+
+                                    Swal.fire({
+                                        title: 'La Autorizacion fue correcta',
+                                        text: "Presione el boton para cerrar!",
+                                        type: "success",
+                                        showConfirmButton: true,
+                                        confirmButtonText: "Cerrar",                                    
+                                        animation: false,
+                                        customClass: {
+                                            popup: 'animated tada'
+                                        }
+                                    }). then(function(result){
+                                        window.location.href = "Bascula";
+                                    })
+
+
+                                });//fin siclo
+
+                            }
+                            else
+                            {
+                                //alert("El Usuario NO EXISTE o es invalido reviselo");
+                                //Swal.fire("La usuario no existe", 'Presione el boton para cerrar!', 'error');
+                                Swal.fire({
+                                    title: 'El usuario no existe',
+                                    text: "Presione el boton para cerrar!",
+                                    type: "error",
+                                    animation: false,
+                                    customClass: {
+                                        popup: 'animated tada'
+                                    }
+                                })
+
+                            }
+
+                        }
+                    },
+                });
+        });
+    });
+
+
+    $(function()
+    {
+        $("#Validar").click(function ()
+        {
+            $("#TblMateriales").css("display", "block");
+
+            var IdTipo = ""
+            IdTipo = "Otros"
+
+            var plantaID = @Session["idPlantaDF"];
+            var IdTransporte = $("#VarConsecutivo").val();
+            var Id = $("#VarConsecutivo").val();
+            var Captura = @Session["TipoCaptura"];
+
+            Buscar();
+
+        });
+    });
+
+
+
+
+    $(function()
+    {
+        $("#graba").click(function ()
+        {
+
+            if($("#CPNumPorte").val().length < 1) {
+                //alert("La Carta porte es obligatoria");
+                //Swal.fire("La Carta porte es obligatoria", 'Presione el boton para cerrar!', 'error');
+
+                Swal.fire({
+                    title: 'La Carta porte es obligatoria',
+                    text: "Presione el boton para cerrar!",
+                    type: "error",
+                    animation: false,
+                    customClass: {
+                        popup: 'animated tada'
+                    }
+                })
+                return false;
+            }
+
+
+            if($("#CPNumEconomico").val().length < 1) {
+                //alert("El Economico es obligatorio");
+                //Swal.fire("El Economico es obligatorio", 'Presione el boton para cerrar!', 'error');
+                Swal.fire({
+                    title: 'El Economico es obligatorio',
+                    text: "Presione el boton para cerrar!",
+                    type: "error",
+                    animation: false,
+                    customClass: {
+                        popup: 'animated tada'
+                    }
+                })
+                return false;
+            }
+
+
+            if($("#CPNomConductor").val().length < 1) {
+                //alert("El Conductor es obligatorio");
+                //Swal.fire("El Conductor es obligatorio", 'Presione el boton para cerrar!', 'error');
+                Swal.fire({
+                    title: 'El Conductor es obligatorio',
+                    text: "Presione el boton para cerrar!",
+                    type: "error",
+                    animation: false,
+                    customClass: {
+                        popup: 'animated tada'
+                    }
+                })
+                return false;
+            }
+
+            if($("#CPNumCelular").val().length < 1) {
+                //alert("El Celular es obligatorio");
+                //Swal.fire("El Celular es obligatorio", 'Presione el boton para cerrar!', 'error');
+                Swal.fire({
+                    title: 'El Celular es obligatorio',
+                    text: "Presione el boton para cerrar!",
+                    type: "error",
+                    animation: false,
+                    customClass: {
+                        popup: 'animated tada'
+                    }
+                })
+                return false;
+            }
+
+
+            if($("#CPPlaca").val().length < 1) {
+                //alert("Las Placas son obligatorias");
+                //Swal.fire("Las Placas son obligatorias", 'Presione el boton para cerrar!', 'error');
+                Swal.fire({
+                    title: 'Las Placas son obligatorias',
+                    text: "Presione el boton para cerrar!",
+                    type: "error",
+                    animation: false,
+                    customClass: {
+                        popup: 'animated tada'
+                    }
+                })
+                return false;
+            }
+
+            if($("#IdMaterial").val().length < 1) {
+                //alert("El Material es obligatorio");
+                //Swal.fire("El Material es obligatorio", 'Presione el boton para cerrar!', 'error');
+                Swal.fire({
+                    title: 'Las Placas son obligatorias',
+                    text: "Presione el boton para cerrar!",
+                    type: "error",
+                    animation: false,
+                    customClass: {
+                        popup: 'animated tada'
+                    }
+                })
+                return false;
+            }
+
+
+            if($("#PesoNeto").val() <= 0)
+            {
+                //alert("El peso neto debe ser mayor que cero");
+                //Swal.fire("El peso neto debe ser mayor que cero", 'Presione el boton para cerrar!', 'error');
+                Swal.fire({
+                    title: 'El peso neto debe ser mayor que cero',
+                    text: "Presione el boton para cerrar!",
+                    type: "error",
+                    animation: false,
+                    customClass: {
+                        popup: 'animated tada'
+                    }
+                })
+                return false;
+            }
+        });
+    });
+
+
+
+
+
+
+
+
+    $("#LeerEntradaSC").click(function ()
+    {
+        $("#LeerEntradaSC").val("");
+    });
+
+
+
+
+    $("#LeerArchivoSC").click(function ()
+    {
+        $("#LeerArchivoSC").val("");
+    });
+
+
+
+    $("#LeerPesoEnt").click(function ()
+    {
+        $("#LeerPesoEnt").val("");
+    });
+
+    $(function()
+    {
+        $("#LeerPesoEnt").change(function (e)
+        {
+            /* Para obtener el valor */
+            var cod = e.target.files[0].name;
+            var Tipo = @Session["TipoCaptura"];
+
+            if (cod != "Peso.txt")
+            {
+                if (Tipo != 3)
+                {
+                    //alert("error el archivo no es el correcto, verifiquelo");
+                    Swal.fire("error el archivo no es el correcto, verifiquelo", 'Presione el boton para cerrar!', 'error');
+
+                }
+                else
+                {
+                    var Letra = cod.substring(12,13);
+                    if (Letra != "E")
+                    {
+                        //alert("error el archivo no es el correcto, verifiquelo");
+                        Swal.fire("error el archivo no es el correcto, verifiquelo", 'Presione el boton para cerrar!', 'error');
+                    }
+                    else
+                    {
+                        var Col = 0;
+                        var resultado = "";
+                        var archivo3 = e.target.files[0];
+                        if (!archivo3)
+                        {
+                            return;
+                        }
+                        var lector3 = new FileReader();
+
+                        lector3.onload = function(e) {
+                            var resultado = e.target.result;
+
+                            Col = resultado.indexOf(",");
+
+                            var Cons = resultado.substring(0, Col);
+                            if (Cons != null)
+                            {
+                                //ViewBag.VarConsecutivo = Cons;
+                            }
+
+                            Cons= Cons+","
+                            resultado = resultado.replace(Cons, "")
+
+                            Col = resultado.indexOf(",");
+                            var Placas = resultado.substring(0, Col);
+                            if (Placas != null)
+                            {
+                                //$("#CPPlaca").val(Placas);
+                            }
+                            Placas= Placas+","
+                            resultado = resultado.replace(Placas, "")
+
+                            Col = resultado.indexOf(",");
+                            var Tara = resultado.substring(0, Col);
+                            if (Tara != null)
+                            {
+                                $("#CPPesoEntrada").val(parseInt(Tara));
+                                $("#CPPesoSalida").val(0);
+                                $("#CPPesoNeto").val(0);
+                                $("#CPEntrada").val(true);
+                            }
+                            Tara= Tara+","
+                            resultado = resultado.replace(Tara, "")
+
+
+                            Col = resultado.indexOf(",");
+                            var Bruto = resultado.substring(0, Col);
+                            if (Bruto != null)
+                            {
+                                //$("#CPPesoSalida").val(Bruto);
+                                //$("#CPSalida").val(true);
+                            }
+                            Bruto= Bruto+","
+                            resultado = resultado.replace(Bruto, "")
+
+
+                            Col = resultado.indexOf(",");
+                            var Neto = resultado.substring(0, Col);
+                            if (Neto != null)
+                            {
+                                //$("#CPPesoNeto").val(Neto);
+                            }
+                            Neto= Neto+","
+                            resultado = resultado.replace(Neto, "")
+
+
+                            Col = resultado.indexOf(",");
+                            var FechaEnt = resultado.substring(0, Col);
+                            if (FechaEnt != null)
+                            {
+                                //$("#CPFechaEntrada").val(FechaEnt);
+                            }
+                            FechaEnt= FechaEnt+","
+                            resultado = resultado.replace(FechaEnt, "")
+
+                            Col = resultado.indexOf(",");
+                            var HoraEnt = resultado.substring(0, Col);
+                            if (HoraEnt != null)
+                            {
+                                //$("#CPPlaca").val(HoraEnt);
+                            }
+                            HoraEnt= HoraEnt+","
+                            resultado = resultado.replace(HoraEnt, "")
+
+                            Col = resultado.indexOf(",");
+                            var FechaSal = resultado.substring(0, Col);
+                            if (FechaSal != null)
+                            {
+                                //$("#CpFechaSalida").val(FechaSal);
+                            }
+                            Col = Col + 1;
+                            FechaSal= FechaSal+","
+                            resultado = resultado.replace(FechaSal, "")
+
+                            Col = resultado.indexOf(",");
+                            var HoraSal = resultado.substring(0, Col);
+                            if (HoraSal != null)
+                            {
+                                //$("#CPPlaca").val(HoraSal);
+                            }
+                            HoraSal= HoraSal+","
+                            resultado = resultado.replace(HoraSal, "")
+
+                            var Eco = resultado.substring(0, Col);
+                            if (Eco != null)
+                            {
+                                //$("#CPNumEconomico").val(Eco);
+                            }
+                            Eco= Eco+","
+                            resultado = resultado.replace(Eco, "")
+                        };
+                        lector3.readAsText(archivo3);
+
+
+                    }
+                }
+            }
+            else
+            {
+                if (Tipo == 2)
+                {
+                    var archivo = e.target.files[0];
+                    if (!archivo)
+                    {
+                        return;
+                    }
+                    var lector = new FileReader();
+                    lector.onload = function(e)
+                    {
+                        var contenido = e.target.result;
+                        $("#CPPesoEntrada").val(parseInt(contenido));
+                        $("#CPPesoNeto").val(parseInt(contenido));
+                    };
+                    lector.readAsText(archivo);
+                }
+                else
+                {
+                    //alert("error el archivo no es el correcto, verifiquelo");
+                    Swal.fire("error el archivo no es el correcto, verifiquelo", 'Presione el boton para cerrar!', 'error');
+                }
+
+
+            }
+
+
+        }
+     );
+    });
+
+
+    $("#LeerPesoSal").click(function ()
+    {
+        $("#LeerPesoSal").val("");
+    });
+
+
+    $(function()
+    {
+        $("#LeerPesoSal").change(function (e)
+        {
+            /* Para obtener el valor */
+            var cod = e.target.files[0].name;
+            var Tipo = @Session["TipoCaptura"];
+
+            if (cod != "Peso.txt")
+            {
+                if (Tipo != 3)
+                {
+                    //alert("error el archivo no es el correcto, verifiquelo");
+                    Swal.fire("error el archivo no es el correcto, verifiquelo", 'Presione el boton para cerrar!', 'error');
+                }
+                else
+                {
+                    // alert(nombre);
+                    var Letra = cod.substring(12,13);
+                    if (Letra != "S")
+                    {
+                        //alert("error el archivo no es el correcto, verifiquelo");
+                        Swal.fire("error el archivo no es el correcto, verifiquelo", 'Presione el boton para cerrar!', 'error');
+                    }
+                    else
+                    {
+                        var Col = 0;
+                        var resultado = "";
+                        var archivo3 = e.target.files[0];
+                        if (!archivo3)
+                        {
+                            return;
+                        }
+                        var lector3 = new FileReader();
+
+                        lector3.onload = function(e) {
+                            var resultado = e.target.result;
+
+                            Col = resultado.indexOf(",");
+
+                            var Cons = resultado.substring(0, Col);
+                            if (Cons != null)
+                            {
+                                //ViewBag.VarConsecutivo = Cons;
+                            }
+
+                            Cons= Cons+","
+                            resultado = resultado.replace(Cons, "")
+
+                            Col = resultado.indexOf(",");
+                            var Placas = resultado.substring(0, Col);
+                            if (Placas != null)
+                            {
+                                //$("#CPPlaca").val(Placas);
+                            }
+                            Placas= Placas+","
+                            resultado = resultado.replace(Placas, "")
+
+                            Col = resultado.indexOf(",");
+                            var Tara = resultado.substring(0, Col);
+                            if (Tara != null)
+                            {
+                                //$("#CPPesoEntrada").val(Tara);
+                                $("#CPPesoSalida").val(parseInt(Tara));
+                                $("#CPPesoNeto").val($("#CPPesoSalida").val()-$("#CPPesoEntrada").val());
+                                $("#CPSalida").val(true);
+                            }
+                            Tara= Tara+","
+                            resultado = resultado.replace(Tara, "")
+
+
+                            Col = resultado.indexOf(",");
+                            var Bruto = resultado.substring(0, Col);
+                            if (Bruto != null)
+                            {
+                                //$("#CPPesoSalida").val(Bruto);
+                                //$("#CPSalida").val(true);
+                            }
+                            Bruto= Bruto+","
+                            resultado = resultado.replace(Bruto, "")
+
+
+                            Col = resultado.indexOf(",");
+                            var Neto = resultado.substring(0, Col);
+                            if (Neto != null)
+                            {
+                                //$("#CPPesoNeto").val(Neto);
+                            }
+                            Neto= Neto+","
+                            resultado = resultado.replace(Neto, "")
+
+
+                            Col = resultado.indexOf(",");
+                            var FechaEnt = resultado.substring(0, Col);
+                            if (FechaEnt != null)
+                            {
+                                //$("#CPFechaEntrada").val(FechaEnt);
+                            }
+                            FechaEnt= FechaEnt+","
+                            resultado = resultado.replace(FechaEnt, "")
+
+                            Col = resultado.indexOf(",");
+                            var HoraEnt = resultado.substring(0, Col);
+                            if (HoraEnt != null)
+                            {
+                                //$("#CPPlaca").val(HoraEnt);
+                            }
+                            HoraEnt= HoraEnt+","
+                            resultado = resultado.replace(HoraEnt, "")
+
+                            Col = resultado.indexOf(",");
+                            var FechaSal = resultado.substring(0, Col);
+                            if (FechaSal != null)
+                            {
+                                //$("#CpFechaSalida").val(FechaSal);
+                            }
+                            Col = Col + 1;
+                            FechaSal= FechaSal+","
+                            resultado = resultado.replace(FechaSal, "")
+
+                            Col = resultado.indexOf(",");
+                            var HoraSal = resultado.substring(0, Col);
+                            if (HoraSal != null)
+                            {
+                                //$("#CPPlaca").val(HoraSal);
+                            }
+                            HoraSal= HoraSal+","
+                            resultado = resultado.replace(HoraSal, "")
+
+                            var Eco = resultado.substring(0, Col);
+                            if (Eco != null)
+                            {
+                                //$("#CPNumEconomico").val(Eco);
+                            }
+                            Eco= Eco+","
+                            resultado = resultado.replace(Eco, "")
+                            //mostrarContenido3(contenido3);
+                        };
+                        lector3.readAsText(archivo3);
+                    }
+                }
+            }
+            else
+            {
+                if (Tipo == 2)
+                {
+                    var archivo = e.target.files[0];
+                    if (!archivo)
+                    {
+                        return;
+                    }
+
+                    var lector = new FileReader();
+                    lector.onload = function(e)
+                    {
+                        var contenido = e.target.result;
+                        $("#CPPesoSalida").val(parseInt(contenido));
+                        $("#CPPesoNeto").val($("#CPPesoSalida").val()-$("#CPPesoEntrada").val());
+                    };
+                    lector.readAsText(archivo);
+                }
+                else
+                {
+                    //alert("error el archivo no es el correcto, verifiquelo");
+                    Swal.fire("error el archivo no es el correcto, verifiquelo", 'Presione el boton para cerrar!', 'error');
+                }
+            }
+
+
+        }
+
+     );
+    });
+
+
+
+    function Buscar()
+    {
+        var plantaID = @Session["idPlantaDF"];
+        var Captura = @Session["TipoCaptura"];
+        var IdTransporte = $("#VarConsecutivo").val();
+
+
+        var lista="";
+        $('.listaValores').each(function(i, obj) {
+            lista =lista+obj.value.toString();
+
+        });
+
+        var entity =
+            {
+                IdPlanta: plantaID,
+                Id: IdTransporte,
+                IdTipo: "Otros",
+                valoresList: lista
+            };
+
+        $.ajax({
+            url: "/Bascula/WebSer",
+            method: "post",
+            data: entity,
+            success: function (result)
+            {
+                if (result != null)
+                {
+                    $.each(result, function (index, item)
+                    {
+                        var tablastring = " <tr id='"+item.Codigo.toString()+"'><td>"+item.Requerido.toString()+"</td><td>"+item.Id.toString()+"</td><td>"+item.Descripcion.toString()+"</td></tr>";
+                        $(".tablaAqui").append(tablastring);
+                    });
+                }
+            },
+            error: function (xhr, ajaxOptions, thrownError)
+            {
+                //alert("Error al momento de cargar");
+                //Swal.fire("Error al momento de cargar, verifiquelo", 'Presione el boton para cerrar!', 'error');
+
+                Swal.fire({
+                    title: 'Error al momento de cargar, verifiquelo',
+                    text: "Presione el boton para cerrar!",
+                    type: "error",
+                    showConfirmButton: true,
+                    confirmButtonText: "Cerrar",                                    
+                    animation: false,
+                    customClass: {
+                        popup: 'animated tada'
+                    }
+                }). then(function(result){
+                    window.location.href = "Bascula";
+                })
+            }});
+
+        $.ajax({
+            url: "/Bascula/Index3",
+            method: "post",
+            data: entity,
+            success: function (result)
+            {
+                if(result.toString()=="fallo")
+                {
+                    //alert("Numero de Vehiculo no existe en el sistema SAP, reviselo nuevamente");
+                    //Swal.fire("Numero de Vehiculo no existe en el sistema SAP, reviselo nuevamente", 'Presione el boton para cerrar!', 'error');
+                    //window.location.href = "Bascula";
+
+                    Swal.fire({
+                        title: 'El Numero de ID de Transporte no existe en el sistema SAP',
+                        text: "Presione el boton para cerrar!",
+                        type: "error",
+                        showConfirmButton: true,
+                        confirmButtonText: "Cerrar",                                    
+                        animation: false,
+                        customClass: {
+                            popup: 'animated tada'
+                        }
+                    }). then(function(result){
+                        window.location.href = "Bascula";
+                    })
+                }
+                else
+                {
+                    $("#lblTipoPipa").css("display", "none");
+                    $("#radTipoPipa").css("display", "none");
+
+                    $("#lblIso").css("display", "none");
+                    $("#radIso").css("display", "none");
+
+                    $("#lblOtros").css("display", "none");
+                    $("#radOtros").css("display", "none");
+
+                    $("#Validar").css("display", "none");
+                    $("#transporte").css("display", "none");
+
+                    $("#CPNumEconomico").css("display", "block");
+                    $(".Eco").css("display", "block");
+
+                    $(".CPNumPorte").css("display", "block");
+                    $(".Porte").css("display", "block");
+
+                    $("#CPNomConductor").css("display", "block");
+                    $(".Nom").css("display", "block");
+
+                    $("#CPNumCelular").css("display", "block");
+                    $(".Cel").css("display", "block");
+
+                    $("#CPPlaca").css("display", "block");
+                    $(".Placa").css("display", "block");
+
+                    $(".CPNumPorte").css("display", "block");
+                    $(".Porte").css("display", "block");
+
+                    $("#OpGraba").css("display", "block");
+
+                    $("#CPPesoSalida").css("display", "none");
+                    $(".LblSal").css("display", "none");
+                    $(".TxtSal").css("display", "none");
+
+                    $("#CPPesoEntrada").css("display", "none");
+                    $(".LblEnt").css("display", "none");
+                    $(".TxtEnt").css("display", "none");
+
+                    $("#LblMaterial").css("display", "block");
+                    $("#IdMaterial").css("display", "block");
+
+                    $("#CPPesoNeto").css("display", "none");
+                    $(".LblNeto").css("display", "none");
+                    $(".TxtNeto").css("display", "none");
+
+                    $("#LeerPesoSal").css("display", "none");
+                    $("#LeerPesoEnt").css("display", "none");
+                    $("#LeerArchivoSC").css("display", "none");
+                    $("#LeerEntradaSC").css("display", "none");
+
+                    $("#OpGraba").css("display", "block");
+                    $("#tablaaqui").css("display", "block");
+                    //alert(result);
+                    if(result != -1 && result != -2 && result != -3)
+                    {
+                        $.each(result, function (index, item)
+                        {
+                            if (item.CPIdEmpresa != plantaID)
+                            {
+                                //alert("El Numero de ID de Transporte ya existe en otra Planta");
+                                //Swal.fire("El Numero de ID de Transporte ya existe en otra Planta", 'Presione el boton para cerrar!', 'error');
+                                //window.location.href = "Bascula";
+
+                                Swal.fire({
+                                    title: 'El Numero de ID de Transporte ya existe en otra Planta',
+                                    text: "Presione el boton para cerrar!",
+                                    type: "error",
+                                    showConfirmButton: true,
+                                    confirmButtonText: "Cerrar",                                    
+                                    animation: false,
+                                    customClass: {
+                                        popup: 'animated tada'
+                                    }
+                                }). then(function(result){
+                                    window.location.href = "Bascula";
+                                })
+
+
+                                //sweetAlert({
+                                //    title: "Invited!",
+                                //    text: "Just wait for the email!",
+                                //    type: "success"
+                                //},
+
+                                //function () {
+                                //        //window.location.href = 'index.html';
+                                //        window.location.href = "Bascula";
+                                //    });
+
+
+                                //function successalert() {
+                                //    swal({
+                                //        title: 'Congratulations!',
+                                //        text: 'Your message has been succesfully sent',
+                                //        type: 'success'
+                                //    });
+                                //}
+
+                                    //swal({
+                                    //    title: "El Id de Transporte",
+                                    //    title: "Ya existe en otra planta",
+                                    //    text: "Presione el boton para cerrar!",
+                                    //    type: "warning",
+                                    //    showCancelButton: false,
+                                    //    showLoaderOnConfirm: false,
+                                    //    closeOnConfirm: true,
+                                    //    confirmButtonText: "Ok",
+                                    //    confirmButtonColor: "#ec6c62"
+                                    //}, function() {
+                                    //    $.ajax({
+                                    //        url:  "/Bascula/Bascula",
+                                    //        type: "POST"
+                                    //    })
+                                    //    .done(function(data) {
+                                    //        swal({
+                                    //            title: "Deleted",
+                                    //            text: "Member has been successfully deleted",
+                                    //            type: "success"
+                                    //        },function() {
+                                    //            location.reload();
+                                    //        });
+                                    //    })
+                                    //    .error(function(data) {
+                                    //        swal("Oops", "We couldn't connect to the server!", "error");
+                                    //    });
+                                    //});
+
+
+
+
+                            }
+                            else
+                            {
+                                $("#VarConsecutivo" ).attr('readonly', true);
+                                $("#CPPesoNeto").attr('readonly', true);
+                                $("#CPNumPorte").val(item.CPNumPorte);
+                                $("#CPConsecutivo").val(item.CPConsecutivo);
+                                $("#CPNumEconomico").val(item.CPNumEconomico);
+                                $("#CPPlaca").val(item.CPPlaca);
+                                $("#CPNomConductor").val(item.CPNomConductor);
+                                $("#CPFechaEntrada").val(item.CPFechaEntrada);
+                                $("#CPEntrada").val(item.CPEntrada);
+                                $("#CPSalida").val(item.CPSalida);
+                                $("#CPNumCelular").val(item.CPNumCelular);
+                                $("#CPPesoNeto").val(item.CPPesoNeto);
+                                $("#IdMaterial").val(item.CPIdMaterial);
+
+                                //@Session["IdTransporte"] = $("#CPConsecutivo").val();
+
+                                if (item.CPPesoEntrada > 0)
+                                {
+                                    $("#CPPesoEntrada").val(item.CPPesoEntrada);
+                                }
+                                else
+                                {
+                                    $("#CPPesoEntrada").val("");
+                                }
+
+
+                                if (item.CPPesoSalida > 0)
+                                {
+                                    $("#CPPesoSalida").val(item.CPPesoSalida);
+                                }
+                                else
+                                {
+                                    $("#CPPesoSalida").val("");
+                                }
+
+
+                                if (item.CPPesoNeto > 0)
+                                {
+                                    $("#CPPesoNeto").val(item.CPPesoNeto);
+                                }
+                                else
+                                {
+                                    $("#CPPesoNeto").val("");
+                                }
+
+
+                                if (item.CPPesoEntrada != null && item.CPPesoEntrada > 0)
+                                {
+                                    if (item.CPEstatus >= 2)
+                                    {
+                                        // registros completo
+                                        $("#IdMaterial").css("display", "block");
+                                        $("#LblMaterial").css("display", "block");
+
+                                        $("#IdMaterial" ).attr('readonly', true);
+                                        $(".IdMaterial" ).attr('readonly', true);
+
+                                        $("#VarConsecutivo" ).attr('readonly', true);
+                                        $("#Graba").css("disabled", "true");
+
+                                        $("#LeerEntradaSC").css("display", "none");
+                                        $("#LeerArchivoSC").css("display", "none");
+                                        $("#LeerPesoEnt").css("display", "none");
+                                        $("#LeerPesoSal").css("display", "none");
+
+                                        $("#CPNumPorte").attr('readonly', true);
+                                        $("#CPNumEconomico").attr('readonly', true);
+                                        $("#CPPlaca").attr('readonly', true);
+                                        $("#CPNomConductor").attr('readonly', true);
+                                        $("#CPNumCelular").attr('readonly', true);
+
+                                        $("#Entra").css("display", "block");
+                                        $("#Sale").css("display", "block");
+
+                                        $("#TipoEnt").css("display", "block");
+                                        $("#TipoSal").css("display", "block");
+
+                                        $("#CPPesoSalida").css("display", "block");
+                                        $(".LblSal").css("display", "block");
+                                        $(".TxtSal").css("display", "block");
+
+                                        $("#CPPesoEntrada").css("display", "block");
+                                        $(".LblEnt").css("display", "block");
+                                        $(".TxtEnt").css("display", "block");
+
+                                        $("#CPPesoNeto").css("display", "block");
+                                        $(".LblNeto").css("display", "block");
+                                        $(".TxtNeto").css("display", "block");
+
+                                        $( ".TxtEnt" ).attr('readonly', false);
+                                        $( ".TxtSal" ).attr('readonly', false);
+                                        $( ".TxtNeto").attr('readonly', true);
+
+                                        if (Captura == 3)
+                                        {
+                                            $( ".TxtEnt" ).attr('readonly', true);
+                                            $( ".TxtSal" ).attr('readonly', true);
+                                            $( ".TxtNeto").attr('readonly', true);
+
+                                            $("#Validar").css("display", "none");
+                                            $("#transporte").css("display", "none");
+
+                                            $("#LeerEntradaSC").css("display", "none");
+                                            $("#LeerArchivoSC").css("display", "none");
+                                            $("#LeerPesoSal").css("display", "none");
+                                            $("#LeerPesoEnt").css("display", "none");
+                                        }
+
+
+
+                                        if (Captura == 2)
+                                        {
+                                            $( ".TxtEnt" ).attr('readonly', true);
+                                            $( ".TxtSal" ).attr('readonly', true);
+                                            $( ".TxtNeto").attr('readonly', true);
+
+                                            $("#Validar").css("display", "none");
+                                            $("#transporte").css("display", "none");
+
+                                            $("#LeerEntradaSC").css("display", "none");
+                                            $("#LeerArchivoSC").css("display", "none");
+                                            $("#LeerPesoEnt").css("display", "none");
+                                            $("#LeerPesoSal").css("display", "none");
+                                        }
+
+                                    }
+                                    else
+                                    {
+                                        // registrar salida
+                                        $("#IdMaterial").css("display", "block");
+                                        $("#LblMaterial").css("display", "block");
+                                        $("#IdMaterial" ).attr('readonly', false);
+                                        $("#VarConsecutivo" ).attr('readonly', true);
+
+                                        $("#Entra").attr("checked", true);
+                                        $("#CPPesoEntrada").css("display", "block");
+                                        $(".LblEnt").css("display", "block");
+                                        $(".TxtEnt").css("display", "block");
+
+                                        $("#LeerEntradaSC").css("display", "none");
+                                        $("#LeerArchivoSC").css("display", "none");
+                                        $("#LeerPesoEnt").css("display", "none");
+                                        $("#LeerPesoSal").css("display", "none");
+
+                                        $("#CPNumPorte").attr('readonly', false);
+                                        $("#CPNumEconomico").attr('readonly', false);
+                                        $("#CPPlaca").attr('readonly', false);
+                                        $("#CPNomConductor").attr('readonly', false);
+                                        $("#CPNumCelular").attr('readonly', false);
+
+
+                                        $("#Sale").css("display", "block");
+                                        $("#TipoSal").css("display", "block");
+
+                                        $("#Sale").attr("checked", true);
+
+                                        $("#CPPesoSalida").css("display", "block");
+                                        $(".LblSal").css("display", "block");
+                                        $(".TxtSal").css("display", "block");
+
+
+                                        $("#CPPesoNeto").css("display", "block");
+                                        $(".LblNeto").css("display", "block");
+                                        $(".TxtNeto").css("display", "block");
+
+                                        $("#Entra").css("display", "block");
+                                        $("#Sale").css("display", "block");
+
+                                        $("#TipoEnt").css("display", "block");
+                                        $("#TipoSal").css("display", "block");
+
+                                        $("#CPPesoSalida").css("display", "block");
+                                        $(".LblSal").css("display", "block");
+                                        $(".TxtSal").css("display", "block");
+
+                                        $("#CPPesoEntrada").css("display", "block");
+                                        $(".LblEnt").css("display", "block");
+                                        $(".TxtEnt").css("display", "block");
+
+                                        $("#CPPesoNeto").css("display", "block");
+                                        $(".LblNeto").css("display", "block");
+                                        $(".TxtNeto").css("display", "block");
+
+                                        $( ".TxtEnt" ).attr('readonly', true);
+                                        $( ".TxtSal" ).attr('readonly', false);
+                                        $( ".TxtNeto").attr('readonly', true);
+
+                                        if (Captura == 3)
+                                        {
+                                            $("#Validar").css("display", "none");
+                                            $("#transporte").css("display", "none");
+
+                                            $("#LeerPesoSal").css("display", "block");
+                                            $("#LeerPesoEnt").css("display", "none");
+
+                                            $( ".TxtEnt" ).attr('readonly', true);
+                                            $( ".TxtSal" ).attr('readonly', true);
+                                            $( ".TxtNeto").attr('readonly', true);
+
+                                            $("#CPEntrada").val(true);
+
+                                            $( ".TxtSal" ).attr('readonly', true);
+                                            $("#CPSalida").val(true);
+                                        }
+
+
+
+                                        if (Captura == 2)
+                                        {
+                                            $("#Validar").css("display", "none");
+                                            $("#transporte").css("display", "none");
+
+                                            $("#CPSalida").val(true);
+
+                                            $( ".TxtEnt" ).attr('readonly', true);
+                                            $( ".TxtSal" ).attr('readonly', true);
+                                            $( ".TxtNeto").attr('readonly', true);
+
+                                            $("#LeerPesoEnt").css("display", "none");
+                                            $("#LeerPesoSal").css("display", "block");
+                                        }
+
+                                    }
+
+                                }
+                                else
+                                {
+                                    // registro entrada
+                                    $("#IdMaterial").css("display", "block");
+                                    $("#LblMaterial").css("display", "block");
+                                    $(".IdMaterial" ).attr('readonly', false);
+                                    $("#VarConsecutivo" ).attr('readonly', true);
+                                    $("#LeerArchivoSC").css("display", "none");
+                                    $("#LeerPesoEnt").css("display", "none");
+                                    $("#LeerPesoSal").css("display", "none");
+
+                                    $("#CPNumPorte").attr('readonly', false);
+                                    $("#CPNumEconomico").attr('readonly', false);
+                                    $("#CPPlaca").attr('readonly', false);
+                                    $("#CPNomConductor").attr('readonly', false);
+                                    $("#CPNumCelular").attr('readonly', false);
+
+                                    $("#Entra").css("display", "block");
+                                    $("#TipoEnt").css("display", "block");
+
+                                    $("#Entra").attr("checked", true);
+
+                                    $("#CPPesoEntrada").css("display", "block");
+                                    $(".LblEnt").css("display", "block");
+                                    $(".TxtEnt").css("display", "block");
+
+                                    $("#CPPesoNeto").css("display", "block");
+                                    $(".LblNeto").css("display", "block");
+                                    $(".TxtNeto").css("display", "block");
+
+                                    $("#Entra").css("display", "block");
+                                    $("#Sale").css("display", "none");
+
+                                    $("#TipoEnt").css("display", "block");
+                                    $("#TipoSal").css("display", "none");
+
+                                    $("#CPPesoSalida").css("display", "none");
+                                    $(".LblSal").css("display", "none");
+                                    $(".TxtSal").css("display", "none");
+
+                                    $("#CPPesoEntrada").css("display", "block");
+                                    $(".LblEnt").css("display", "block");
+                                    $(".TxtEnt").css("display", "block");
+
+                                    $("#CPPesoNeto").css("display", "block");
+                                    $(".LblNeto").css("display", "block");
+                                    $(".TxtNeto").css("display", "block");
+
+                                    $( ".TxtEnt" ).attr('readonly', false);
+                                    $( ".TxtSal" ).attr('readonly', true);
+                                    $( ".TxtNeto").attr('readonly', true);
+
+                                    if (Captura == 3)
+                                    {
+                                        $( ".TxtEnt" ).attr('readonly', true);
+                                        $( ".TxtSal" ).attr('readonly', true);
+                                        $( ".TxtNeto").attr('readonly', true);
+
+                                        $("#Validar").css("display", "none");
+                                        $("#transporte").css("display", "none");
+
+                                        $("#LeerPesoSal").css("display", "none");
+                                        $("#LeerPesoEnt").css("display", "block");
+                                    }
+
+
+                                    if (Captura == 2)
+                                    {
+                                        $("#Validar").css("display", "none");
+                                        $("#transporte").css("display", "none");
+
+                                        $( ".TxtEnt" ).attr('readonly', true);
+                                        $( ".TxtSal" ).attr('readonly', true);
+                                        $( ".TxtNeto").attr('readonly', true);
+
+                                        $("#LeerPesoEnt").css("display", "block");
+                                        $("#LeerPesoSal").css("display", "none");
+
+                                    }
+                                }
+
+                            }
+
+                        });//fin siclo
+
+                    }
+                    else
+                    {
+                        //alert(" es negativo ");
+                        if (result == -1)
+                        {
+                            //alert("El Numero de ID de Transporte NO EXISTE EN SAP");
+                            //Swal.fire("El Numero de ID de Transporte NO EXISTE EN SAP", 'Presione el boton para cerrar!', 'error');
+                            //window.location.href = "Bascula";
+
+                            Swal.fire({
+                                title: 'El Numero de ID de Transporte NO EXISTE EN SAP',
+                                text: "Presione el boton para cerrar!",
+                                type: "error",
+                                showConfirmButton: true,
+                                confirmButtonText: "Cerrar",                                    
+                                animation: false,
+                                customClass: {
+                                    popup: 'animated tada'
+                                }
+                            }). then(function(result){
+                                window.location.href = "Bascula";
+                            })
+                        }
+
+                        if (result == -2)
+                        {
+
+                            //alert("El Numero de ID de Transporte NO PERTENECE A ESTA PLANTA, Verifiquelo");
+                            //Swal.fire("El Numero de ID de Transporte NO PERTENECE A ESTA PLANTA, Verifiquelo", 'Presione el boton para cerrar!', 'error');
+                            //window.location.href = "Bascula";
+                            Swal.fire({
+                                title: 'El Numero de ID de Transporte NO PERTENECE A ESTA PLANTA',
+                                text: "Presione el boton para cerrar!",
+                                type: "error",
+                                showConfirmButton: true,
+                                confirmButtonText: "Cerrar",                                    
+                                animation: false,
+                                customClass: {
+                                    popup: 'animated tada'
+                                }
+                            }). then(function(result){
+                                window.location.href = "Bascula";
+                            })
+                        }
+
+                        if (result == -4)
+                        {
+                            $("#CPConsecutivo").val(IdTransporte);
+                            //window.location.href = "Bascula";
+                        }
+
+                        if (result == -3)
+                        {
+                            $("#CPConsecutivo").val(IdTransporte);
+                            //alert("entrada sc")
+                            $("#Entra").css("display", "block");
+                            $("#TipoEnt").css("display", "block");
+
+                            $("#Sale").attr("checked", true);
+
+                            $("#CPPesoEntrada").css("display", "block");
+                            $(".LblEnt").css("display", "block");
+                            $(".TxtEnt").css("display", "block");
+
+                            $("#CPPesoNeto").css("display", "block");
+                            $(".LblNeto").css("display", "block");
+                            $(".TxtNeto").css("display", "block");
+
+                            $( ".TxtEnt" ).attr('readonly', true);
+                            $( ".TxtSal" ).attr('readonly', true);
+
+                            $("#Entra").css("display", "block");
+                            $("#Sale").css("display", "block");
+
+                            $("#TipoEnt").css("display", "block");
+                            $("#TipoSal").css("display", "block");
+
+                            $("#CPPesoSalida").css("display", "block");
+                            $(".LblSal").css("display", "block");
+                            $(".TxtSal").css("display", "block");
+
+                            $("#CPPesoEntrada").css("display", "block");
+                            $(".LblEnt").css("display", "block");
+                            $(".TxtEnt").css("display", "block");
+
+                            $("#CPPesoNeto").css("display", "block");
+                            $(".LblNeto").css("display", "block");
+                            $(".TxtNeto").css("display", "block");
+
+                            $( ".TxtEnt" ).attr('readonly', false);
+                            $( ".TxtSal" ).attr('readonly', false);
+                            $( ".TxtNeto").attr('readonly', true);
+                            $("#TblMateriales").css("display", "block");
+
+                            if (Captura == 3)
+                            {
+                                $("#Validar").css("display", "none");
+                                $("#transporte").css("display", "none");
+
+                                $( ".TxtEnt" ).attr('readonly', true);
+                                $( ".TxtSal" ).attr('readonly', true);
+                                $( ".TxtNeto").attr('readonly', true);
+                                $("#LeerPesoSal").css("display", "none");
+                                $("#LeerPesoEnt").css("display", "block");
+                            }
+
+
+                            if (Captura == 2)
+                            {
+                                $("#Validar").css("display", "none");
+                                $("#transporte").css("display", "none");
+
+                                $( ".TxtEnt" ).attr('readonly', true);
+                                $( ".TxtSal" ).attr('readonly', true);
+                                $( ".TxtNeto").attr('readonly', true);
+
+                                $("#LeerEntradaSC").css("display", "none");
+                                $("#LeerArchivoSC").css("display", "none");
+                                $("#LeerPesoEnt").css("display", "block");
+                                $("#LeerPesoSal").css("display", "none");
+
+                            }
+
+                        }
+                    }
+
+                }
+            },
+            error: function (xhr, ajaxOptions, thrownError)
+            {
+                //Swal.fire("Error al momento de cargar", 'Presione el boton para cerrar!', 'error');
+                alert("Error al momento de cargar");
+                alert(xhr.status);
+                alert(thrownError);
+            }
+            //async: true
+
+
+        });
+
+
+    }
+
+
+
+    $(function() {
+        $("#PesoEnt").click(function ()
+        {
+            var plantaID = @Session["idPlantaDF"];
+
+            var params =
+                {
+                    IdPlanta:@Session["idPlantaDF"], // esta variable viene vacia y no envia nasa
+                    Id: $("#VarConsecutivo").val(),
+                    IdTipo: $('input:radio[name=radio]:checked').val(),
+                };
+
+            $.ajax({
+                url: "/Bascula/PesoEntrada",
+                method: "post",
+                data: params,
+                success: function (result)
+                {
+
+                    $.each(result, function (index, item)
+                    {
+                        $("#CPNumPorte").val(item.CPNumPorte);
+                        $("#CPNumEconomico").val(item.CPNumEconomico);
+                        $("#CPNomConductor").val(item.CPNomConductor);
+                        $("#CPPlaca").val(item.CPPlaca);
+
+                        $("#CPPesoEntrada").val(item.CPPesoEntrada);
+                        $("#CPPesoSalida").val(item.CPPesoSalida);
+                        $("#CPPesoNeto").val(item.CPPesoNeto);
+
+                        $("#CPFechaEntrada").val(item.CPFechaEntrada);
+                        $("#CPEntrada").val(item.CPEntrada);
+                        $("#CPFechaSalida").val(item.CPFechaSalida);
+                        $("#CPSalida").val(item.CPSalida);
+                        $("#CPNumCelular").val(item.CPNumCelular);
+
+                    });//fin siclo
+
+                },
+            });
+        });
+    });
+
+
+
+    $(function() {
+        $("#PesoSal").click(function ()
+        {
+            var plantaID = @Session["idPlantaDF"];
+
+            var params =
+                {
+                    IdPlanta: @Session["idPlantaDF"], // esta variable viene vacia y no envia nasa
+                    Id: $("#VarConsecutivo").val(),
+                    IdTipo: $('input:radio[name=radio]:checked').val(),
+                };
+
+            $.ajax({
+                url: "/Bascula/PesoSalida",
+                method: "post",
+                data: params,
+                success: function (result)
+                {
+
+                    $.each(result, function (index, item)
+                    {
+                        $("#CPNumPorte").val(item.CPNumPorte);
+                        $("#CPNumEconomico").val(item.CPNumEconomico);
+                        $("#CPNomConductor").val(item.CPNomConductor);
+                        $("#CPPlaca").val(item.CPPlaca);
+
+                        $("#CPPesoEntrada").val(item.CPPesoEntrada);
+                        $("#CPPesoSalida").val(item.CPPesoSalida);
+                        $("#CPPesoNeto").val(item.CPPesoNeto);
+
+                        $("#CPFechaEntrada").val(item.CPFechaEntrada);
+                        $("#CPEntrada").val(item.CPEntrada);
+                        $("#CPFechaSalida").val(item.CPFechaSalida);
+                        $("#CPSalida").val(item.CPSalida);
+                        $("#CPNumCelular").val(item.CPNumCelular);
+
+                    });//fin siclo
+
+                },
+            });
+        });
+    });
+</script>
+
+
+
+<style>
+    .swal-wide {
+        width: 850px;
+    }
+
+    table {
+        background-color: #D6EAF8;
+    }
+
+
+    tr:hover {
+        color: #17202A;
+        background-color: #85C1E9;
+    }
+
+    tr th:hover {
+        color: #fff;
+        background-color: #3498DB;
+    }
+
+    th {
+        background-color: #3498DB;
+        color: #fff;
+    }
+</style>

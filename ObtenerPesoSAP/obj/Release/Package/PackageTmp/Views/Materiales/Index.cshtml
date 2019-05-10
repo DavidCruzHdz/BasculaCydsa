@@ -1,0 +1,211 @@
+﻿@model IEnumerable<ObtenerPesoSAP.Models.CPCatMateriales>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<script src="http://code.jquery.com/jquery-2.0.3.min.js" data-semver="2.0.3" data-require="jquery"></script>
+<link href="//cdnjs.cloudflare.com/ajax/libs/datatables/1.9.4/css/jquery.dataTables_themeroller.css" rel="stylesheet" data-semver="1.9.4" data-require="datatables" />
+<link href="//cdnjs.cloudflare.com/ajax/libs/datatables/1.9.4/css/jquery.dataTables.css" rel="stylesheet" data-semver="1.9.4" data-require="datatables" />
+<link href="//cdnjs.cloudflare.com/ajax/libs/datatables/1.9.4/css/demo_table_jui.css" rel="stylesheet" data-semver="1.9.4" data-require="datatables" />
+<link href="//cdnjs.cloudflare.com/ajax/libs/datatables/1.9.4/css/demo_table.css" rel="stylesheet" data-semver="1.9.4" data-require="datatables" />
+<link href="//cdnjs.cloudflare.com/ajax/libs/datatables/1.9.4/css/demo_page.css" rel="stylesheet" data-semver="1.9.4" data-require="datatables" />
+<link data-require="jqueryui" data-semver="1.10.0" rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.0/css/smoothness/jquery-ui-1.10.0.custom.min.css" />
+<script data-require="jqueryui" data-semver="1.10.0" src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.0/jquery-ui.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/datatables/1.9.4/jquery.dataTables.js" data-semver="1.9.4" data-require="datatables"></script>
+
+<br />
+<br />
+<br />
+<br />
+
+<h2>Listado de Materiales a Pesar</h2>
+
+<p>
+    <h4>@Html.ActionLink("Agregar", "Create")</h4>
+</p>
+
+<script type="text/javascript" class="init">
+    $(document).ready(function () {
+        var table = $('#example').DataTable({
+
+            language: {
+                "decimal": "",
+                "emptyTable": "No hay información",
+                "info": "Mostrando _START_ a _END_ de _TOTAL_ Reglones",
+                "infoEmpty": "Mostrando 0 to 0 of 0 Entradas",
+                "infoFiltered": "(Filtrado de _MAX_ total entradas)",
+                "infoPostFix": "",
+                "thousands": ",",
+                "lengthMenu": "Mostrar _MENU_ Reglones",
+                "loadingRecords": "Cargando...",
+                "processing": "Procesando...",
+                "search": "Buscar:",
+                "zeroRecords": "Sin resultados encontrados",
+                "paginate": {
+                    "first": "Primero",
+                    "last": "Ultimo",
+                    "next": "Siguiente",
+                    "previous": "Anterior"
+                }
+            }
+        }
+            );
+
+
+    });
+</script>
+
+
+<div class="form-horizontal container-fluid col-lg-push-8 img-rounded " style="background-color:#5c87b2">
+    <br />
+    <div class="panel panel-primary">
+        <div class="panel-body" style="background-color:#D6EAF8">
+
+            <table class="table display" style="background-color:#D6EAF8" id="example">
+
+                <thead>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.CPIdMaterialAnt)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.CPIdMaterialSAP)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.CPDescripcionMaterial)
+                        </th>
+                        @*<th>
+                            @Html.DisplayNameFor(model => model.CPPesoRequerido)
+                        </th>*@
+                        <th>
+                            @Html.DisplayNameFor(model => model.CPFactorMin)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.CPFactorMax)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.CPSePesa)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.CPRequiereAutoriza)
+                        </th>
+                        @*<th>
+                                @Html.DisplayNameFor(model => model.CPFechaAlta)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.CPFechaCambio)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.CPCatEmpresas.CPDescripcionEmpresa)
+                            </th>*@
+                        <th>
+                            @Html.DisplayNameFor(model => model.CPCatUnidades.CPDescripcionUnidadMedida)
+                        </th>
+                        @*<th>
+                                @Html.DisplayNameFor(model => model.CPUsuario.CPNombreUsuario)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.CPUsuario1.CPNombreUsuario)
+                            </th>*@
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CPIdMaterialAnt)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CPIdMaterialSAP)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CPDescripcionMaterial)
+                            </td>
+                            @*<td>
+                                @Html.DisplayFor(modelItem => item.CPPesoRequerido)
+                            </td>*@
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CPFactorMin)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CPFactorMax)
+                            </td>
+                            <td>
+                                @*@Html.DisplayFor(modelItem => item.CPSePesa)*@
+                                @if (item.CPSePesa == "1")
+                                {
+                                    <span>Si</span>
+                                }
+                                else
+                                {
+                                    <span>No</span>
+                                }
+                            </td>
+                            <td>
+                                @*@Html.DisplayFor(modelItem => item.CPRequiereAutoriza)*@
+                                @if (item.CPRequiereAutoriza == "1")
+                                {
+                                    <span>Si</span>
+                                }
+                                else
+                                {
+                                    <span>No</span>
+                                }
+                            </td>
+                            @*<td>
+                                    @Html.DisplayFor(modelItem => item.CPFechaAlta)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.CPFechaCambio)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.CPCatEmpresas.CPDescripcionEmpresa)
+                                </td>*@
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CPCatUnidades.CPDescripcionUnidadMedida)
+                            </td>
+                            @*<td>
+                                    @Html.DisplayFor(modelItem => item.CPUsuario.CPNombreUsuario)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.CPUsuario1.CPNombreUsuario)
+                                </td>*@
+                            <td>
+                                @Html.ActionLink("Modificar", "Edit", new { id = item.CPIdMaterial }) |
+                                @*@Html.ActionLink("Details", "Details", new { id=item.CPIdMaterial }) |*@
+                                @Html.ActionLink("Borrar", "Delete", new { id = item.CPIdMaterial })
+                            </td>
+                        </tr>
+                    }
+
+
+                </tbody>
+
+            </table>
+
+
+        </div>
+    </div>
+
+</div>
+
+
+
+<style>
+    table div {
+        background-color: #D6EAF8 !important;
+    }
+
+    table tr {
+        background-color: #D6EAF8 !important;
+    }
+
+    .sorting_1 {
+        background-color: #D6EAF8 !important;
+    }
+</style>
+

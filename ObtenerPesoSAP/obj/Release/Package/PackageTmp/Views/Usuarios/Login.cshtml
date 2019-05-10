@@ -1,0 +1,69 @@
+﻿@model ObtenerPesoSAP.Models.CPUsuario
+@{
+    ViewBag.Title = "Acceso al Sistema de Bascula";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<br />
+<br />
+<br />
+<br />
+<div class="col-md-10 jumbotron" style="color:#000000; font:caption; background-color:#5c87b2;">
+    <h2>@ViewBag.Title.</h2>
+    <div class="row">
+        <div class="col-md-10">
+            <section id="loginForm">
+                @using (Html.BeginForm("Login", "Usuarios", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                {
+
+                    @Html.AntiForgeryToken()
+                    <h4>Use una cuenta local para iniciar sesión.</h4>
+                    <hr />
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.CPNombreUsuario, new { @class = "col-md-2 control-label" })
+                        <div class="col-md-10">
+                            @Html.TextBoxFor(m => m.CPNombreUsuario, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.CPNombreUsuario, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.CPPassword, new { @class = "col-md-2 control-label" })
+                        <div class="col-md-10">
+                            @Html.PasswordFor(m => m.CPPassword, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.CPPassword, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-offset-4 col-md-8">
+                            <input type="submit" value="Iniciar sesión" class="btn btn-danger" />
+                        </div>
+                    </div>
+                    @*<p>
+                        @Html.ActionLink("Registrar como nuevo usuario", "/Usuario/Create")
+                    </p>*@
+
+                }
+            </section>
+        </div>
+
+
+    </div>
+
+</div>
+
+
+<div class="row">
+    @section Scripts {
+        @Scripts.Render("~/bundles/jqueryval")
+    }
+</div>
+
+<script>
+    $(document).ready(function () 
+    {
+        @*if(@ViewBag.error!= null)
+        alert(@ViewBag.error)*@
+    });
+</script>

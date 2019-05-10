@@ -1,0 +1,335 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1 user-scalable=no">
+    <title>@ViewBag.Title - Captura de Pesos en Bascula</title>
+   
+
+
+
+
+    @*.navbar-custom {
+        color: #FFFFFF;
+        background-color: #CC3333;
+        }*@
+
+    <style>
+        .maxWidth {
+            width: 100%;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #f9f9f9;
+        }
+
+        .header__logo {
+            background-color: red;
+            padding: 40px;
+        }
+
+        .header__menu ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+            .header__menu ul li {
+                display: inline-block;
+            }
+
+        .main {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .main__content {
+            width: 100%;
+            background-color: #ddd;
+            height: 500px;
+        }
+
+        .nav a {
+            color: #ffffff !important;
+        }
+
+         .nav dropdown-menu  li a {
+            color: black !important;
+            
+               
+        }
+
+        .nav li :hover {
+            color: #808080 !important;
+            background-color: red;
+            background: #8ea8ba;
+            scrollbar-3dlight-color: cornflowerblue;
+            scrollbar-base-color: azure;
+        }
+
+        li .my-class {
+            color: black !important;
+        }
+
+        .jumbotron{
+            position: relative;
+            padding:20px !important;
+            margin-top:70px !important;
+            background: #eee;
+            margin-top: 23px;
+            text-align: left;
+            margin-bottom: 0 !important;
+	        //border:2px solid blue;
+	        //border-bottom:2px solid red;
+            }
+
+        .jumbotron .container-fluid{
+            padding:0 !important;
+            }
+
+
+        /*if (screen.width < 1024)
+        {
+            document.write ("Pequeña");
+        }
+
+        else
+        {
+           if (screen.width < 1280)
+            {
+                 document.write ("Mediana");
+            }
+            else
+            {
+                 document.write ("Grande");
+            }
+
+        }*/
+
+
+    </style>
+
+   @* <script src="http://code.jquery.com/jquery-2.0.3.min.js" data-semver="2.0.3" data-require="jquery"></script>
+    <link href="//cdnjs.cloudflare.com/ajax/libs/datatables/1.9.4/css/jquery.dataTables_themeroller.css" rel="stylesheet" data-semver="1.9.4" data-require="datatables" />
+    <link href="//cdnjs.cloudflare.com/ajax/libs/datatables/1.9.4/css/jquery.dataTables.css" rel="stylesheet" data-semver="1.9.4" data-require="datatables" />
+    <link href="//cdnjs.cloudflare.com/ajax/libs/datatables/1.9.4/css/demo_table_jui.css" rel="stylesheet" data-semver="1.9.4" data-require="datatables" />
+    <link href="//cdnjs.cloudflare.com/ajax/libs/datatables/1.9.4/css/demo_table.css" rel="stylesheet" data-semver="1.9.4" data-require="datatables" />
+    <link href="//cdnjs.cloudflare.com/ajax/libs/datatables/1.9.4/css/demo_page.css" rel="stylesheet" data-semver="1.9.4" data-require="datatables" />
+    <link data-require="jqueryui" data-semver="1.10.0" rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.0/css/smoothness/jquery-ui-1.10.0.custom.min.css" />
+    <script data-require="jqueryui" data-semver="1.10.0" src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.0/jquery-ui.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/datatables/1.9.4/jquery.dataTables.js" data-semver="1.9.4" data-require="datatables"></script>*@
+
+    @* <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css">
+        <script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+           <script type="text/javascript" language="javascript" rel="stylesheet" href="~/Scripts/jquery-latest.js" data-semver="2.0.3" data-require="jquery"></script>
+        <script src="http://code.jquery.com/jquery-latest.js"></script>*@
+
+
+    
+
+    @*<script type="text/javascript" src="/ap/bootstrap-3.3.1/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/ap/bootstrap-3.3.1/dist/css/bootstrap.min.css">*@
+    <link rel="stylesheet" href="~/Content/bootstrap.min.css">
+
+    <link rel="stylesheet" href="~/Content/jquery.dataTables_themeroller.css" data-semver="1.9.4" data-require="datatables" />
+    <link rel="stylesheet" href="~/Content/jquery.dataTables.css" data-semver="1.9.4" data-require="datatables"/>
+    <link rel="stylesheet" href="~/Content/demo_table_jui.css" data-semver="1.9.4" data-require="datatables"/>
+    <link rel="stylesheet" href="~/Content/demo_table.css" data-semver="1.9.4" data-require="datatables"/>
+    <link rel="stylesheet" href="~/Content/demo_page.css" data-semver="1.9.4" data-require="datatables"/>
+    <link rel="stylesheet" href="~/Content/jquery-ui-1.10.0.custom.min.css" data-semver="1.10.0" data-require="jqueryui"  />
+    <link rel="stylesheet" href="~/Content/jquery.dataTables.min.css" data-semver="1.10.13" data-require="jqueryui" />
+
+    @*<script type="text/javascript" language="javascript" rel="stylesheet" href="~/Scripts/jquery-ui.js" data-semver="2.0.3" data-require="jquery"></script>
+    <script type="text/javascript" language="javascript" rel="stylesheet" href="~/Scripts/jquery.dataTables.js" data-semver="2.0.3" data-require="jquery"></script>    
+    <script type="text/javascript" language="javascript" rel="stylesheet" href="~/Scripts/jquery.dataTables.min.js" data-semver="2.0.3" data-require="jquery"></script>
+    <script type="text/javascript" language="javascript" rel="stylesheet" href="~/Scripts/jquery-1.12.4.js" data-semver="2.0.3" data-require="jquery"></script>
+    <script type="text/javascript" language="javascript" rel="stylesheet" href="~/Scripts/bootstrap.min.js" data-semver="2.0.3" data-require="jquery"></script>    
+    <script type="text/javascript" language="javascript" rel="stylesheet" href="~/Scripts/jquery-2.0.3.min.js" data-semver="2.0.3" data-require="jquery"></script>    
+    <script type="text/javascript" language="javascript" rel="stylesheet" href="~/Scripts/jquery-1.12.4.js" data-semver="2.0.3" data-require="jquery"></script>*@
+
+    <script src="~/Scripts/jquery-ui.js" type="text/javascript"></script>   
+    <script src="~/Scripts/jquery.dataTables.js" type="text/javascript"></script>   
+    <script src="~/Scripts/jquery.dataTables.min.js" type="text/javascript"></script>   
+    <script src="~/Scripts/bootstrap.min.js" type="text/javascript"></script>   
+    <script src="~/Scripts/jquery-1.12.4.js" type="text/javascript"></script>       
+    <script src="~/Scripts/jquery-latest.js" type="text/javascript"></script>   
+
+
+    @*<link rel="stylesheet" type="text/css" href="/css/datatables.min.css">
+
+    <script type="text/javascript" src="/js/jquery-ultimate.min.js"></script>
+
+    <script type="text/javascript" src="/js/datatables.min.js"></script>
+    <script type="text/javascript" src="/js/datatables-natural.js"></script>*@
+
+
+
+</head>
+
+@*<style>
+        body {
+            color: black;
+            background: '~/Content/images/cielo.png';
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Do not repeat the image */
+            background-size: cover;
+        }
+
+        em {
+            font-style: normal;
+            color: red;
+        }
+    </style>*@
+
+
+
+
+
+@*<body bgcolor="#ffffff" text="#ffffff" link="#0000ff" vlink="#800080" alink="#ff0000" class="img-responsive mt-0 mb=0 pt=0 pb=0" style="height:auto;  width:auto url('~/Content/images/fondo.png'); align-content:center;  background-size: cover; background-repeat: inherit;">*@
+<body style="height:100%;  width:100%;  background-image:url('/Content/images/fondo.png'); background-size: cover; background-repeat: no-repeat; margin:0; border:0; padding:0;">
+    @*<body  class="#fondo  img-responsive mt-0 mb=0 pt=0 pb=0" style="width: 100%; height: 100%; align-content:center;">
+        <img id="fondo" scr="~/Content/images/cielo2.png" alt="background image" />*@
+
+    <div class="container">
+        @* <nav class="navbar navbar-inverse navbar-fixed-top navbar-custom" style="background-image: url('/Content/images/encabezado.png'); width: 100%; height: 65Px; align-content:center;  ">*@
+        <nav class="navbar navbar-inverse navbar-fixed-top navbar-custom" style="background-image: url('/Content/images/encabezado.png'); width: 100%; height: 70Px;">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    @Html.ActionLink(" ", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+
+                    <img src="~/Content/images/logo.png" style="width:100px; height:50px;" alt="imgf" />
+                    @* <img src="~/Content/images/logo.png" width="160" height="65" alt="imgf" />*@
+                    @*<a class="navbar-brand" href="#">LogoCYDSA.png</a>*@
+
+                </div>
+                <div font="bold" class="navbar-collapse collapse" style="color:#ffffff; font:caption;">
+                    @Html.Partial("_LoginPartial")
+
+                    <ul class="nav navbar-nav">
+
+                        @if ((bool)Session["logeado"])
+                        {
+                            <li>@Html.ActionLink("Inicio", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Pesos Bascula", "Bascula", "Bascula")</li>
+                            <li>@Html.ActionLink("Modificaciones", "Index", "ListadoPesos")</li>
+
+                            <li>@Html.ActionLink("Bitacora", "Bitacora", "Bitacora")</li>
+
+
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    <span class="glyphicon glyphicon-paste">
+                                    </span> Catalogos <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu" style="background-color:#5c87b2; font:caption b !important" text="#black !important">
+                                    <li>@Html.ActionLink("Cambiar de Empresa", "CambiarPlanta", "CambiarPlanta")</li>
+                                    <li>@Html.ActionLink("Materiales", "Index", "Materiales")</li>
+                                    <li>@Html.ActionLink("Plantas", "Index", "Plantas")</li>
+                                    <li>@Html.ActionLink("Usuarios", "Index", "Usuarios")</li>
+                                    <li class="dropdown-divider"></li>
+                                    <li>@Html.ActionLink("Configuracion", "Index", "usuarios")</li>
+                                </ul>
+                            </li>
+
+
+                        }
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <p style="background-color:#5c87b2" text="#000000"></p>
+        <div class="container body-content info">
+
+            @RenderBody()
+            <hr />
+            <footer>
+                <p>&copy; @DateTime.Now.Year CYDSA. All Rights Reserved.</p>
+            </footer>
+        </div>
+
+
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
+
+
+
+        @Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")
+    </div>
+    </header>
+
+
+</body>
+
+</html>
+
+@*<script language="javascript" type="text/javascript">
+
+        $().ready(function() {
+
+        $(document).everyTime(3000, function() {
+
+                $.ajax({
+                    type: "POST",
+                    url: "ValidarSession1.aspx/KeepActiveSession",
+                    data: {},
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    async: true,
+                    success: VerifySessionState,
+                    error: function(XMLHttpRequest, textStatus, errorThrown) {
+                        alert(textStatus + ": " + XMLHttpRequest.responseText);
+                    }
+                });
+
+            });
+
+
+        });
+
+        var cantValidaciones = 0;
+
+        function VerifySessionState(result) {
+
+            if (result.d) {
+                $("#EstadoSession").text("activo");
+            }
+            else
+                $("#EstadoSession").text("expiro");
+
+            $("#cantValidaciones").text(cantValidaciones);
+            cantValidaciones++;
+
+        }
+
+        function SessionAbandon() {
+
+            $.ajax({
+                type: "POST",
+                url: "ValidarSession1.aspx/SessionAbandon",
+                data: {},
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                async: true,
+                error: function(XMLHttpRequest, textStatus, errorThrown) {
+                    alert(textStatus + ": " + XMLHttpRequest.responseText);
+                }
+            });
+
+        }
+</script>*@

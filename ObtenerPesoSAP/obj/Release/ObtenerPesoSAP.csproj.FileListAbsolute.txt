@@ -1,0 +1,1048 @@
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\ApplicationInsights.config
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\ObtenerPesoSAP.dll.config
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\ObtenerPesoSAP.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\ObtenerPesoSAP.pdb
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\roslyn\csc.exe
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\roslyn\csc.exe.config
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\roslyn\csc.rsp
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\roslyn\csi.exe
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\roslyn\csi.rsp
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\roslyn\System.AppContext.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\roslyn\System.Collections.Immutable.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\roslyn\System.IO.FileSystem.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\roslyn\System.Reflection.Metadata.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\roslyn\vbc.exe
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\roslyn\vbc.exe.config
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\roslyn\vbc.rsp
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\roslyn\VBCSCompiler.exe
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\roslyn\VBCSCompiler.exe.config
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Antlr3.Runtime.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\EntityFramework.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\EntityFramework.SqlServer.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Microsoft.AI.DependencyCollector.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Microsoft.AI.Web.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Microsoft.AI.WindowsServer.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Microsoft.ApplicationInsights.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Microsoft.Owin.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Microsoft.Owin.Security.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Google.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Microsoft.Web.Infrastructure.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Newtonsoft.Json.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Owin.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\System.Web.Helpers.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\System.Web.Mvc.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\System.Web.Optimization.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\System.Web.Razor.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\System.Web.WebPages.Deployment.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\System.Web.WebPages.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\System.Web.WebPages.Razor.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\WebGrease.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\System.Web.Helpers.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\System.Web.Mvc.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\System.Web.Optimization.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\System.Web.Razor.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\System.Web.WebPages.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\System.Web.WebPages.Deployment.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\System.Web.WebPages.Razor.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Newtonsoft.Json.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Antlr3.Runtime.pdb
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\EntityFramework.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\EntityFramework.SqlServer.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Microsoft.Owin.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Microsoft.Owin.Security.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Google.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Microsoft.AI.DependencyCollector.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Microsoft.AI.WindowsServer.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Microsoft.AI.Web.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\es\System.Web.Helpers.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\es\System.Web.Mvc.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\es\System.Web.Optimization.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\es\System.Web.Razor.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\es\System.Web.WebPages.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\obj\Release\ObtenerPesoSAP.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\obj\Release\ObtenerPesoSAP.pdb
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\obj\Release\ObtenerPesoSAP.csprojResolveAssemblyReference.cache
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\NLog.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\SerialPortLib.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\NLog.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\SerialPortLib.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\ApplicationInsights.config
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\ObtenerPesoSAP.dll.config
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\ObtenerPesoSAP.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\ObtenerPesoSAP.pdb
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\roslyn\csc.exe
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\roslyn\csc.exe.config
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\roslyn\csc.rsp
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\roslyn\csi.exe
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\roslyn\csi.rsp
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\roslyn\System.AppContext.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\roslyn\System.Collections.Immutable.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\roslyn\System.IO.FileSystem.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\roslyn\System.Reflection.Metadata.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\roslyn\vbc.exe
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\roslyn\vbc.exe.config
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\roslyn\vbc.rsp
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\roslyn\VBCSCompiler.exe
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\roslyn\VBCSCompiler.exe.config
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Antlr3.Runtime.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\EntityFramework.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\EntityFramework.SqlServer.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Microsoft.AI.DependencyCollector.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Microsoft.AI.Web.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Microsoft.AI.WindowsServer.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Microsoft.ApplicationInsights.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Microsoft.Owin.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Microsoft.Owin.Security.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Google.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Microsoft.Web.Infrastructure.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Newtonsoft.Json.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\NLog.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Owin.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\SerialPortLib.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\System.Web.Helpers.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\System.Web.Mvc.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\System.Web.Optimization.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\System.Web.Razor.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\System.Web.WebPages.Deployment.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\System.Web.WebPages.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\System.Web.WebPages.Razor.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\WebGrease.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\NLog.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\SerialPortLib.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\System.Web.Helpers.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\System.Web.Mvc.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\System.Web.Optimization.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\System.Web.Razor.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\System.Web.WebPages.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\System.Web.WebPages.Deployment.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\System.Web.WebPages.Razor.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Newtonsoft.Json.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Antlr3.Runtime.pdb
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\EntityFramework.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\EntityFramework.SqlServer.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Microsoft.Owin.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Microsoft.Owin.Security.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Google.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Microsoft.AI.DependencyCollector.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Microsoft.AI.WindowsServer.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Microsoft.AI.Web.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\es\System.Web.Helpers.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\es\System.Web.Mvc.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\es\System.Web.Optimization.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\es\System.Web.Razor.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\es\System.Web.WebPages.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\es\EntityFramework.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\obj\Release\ObtenerPesoSAP.csprojResolveAssemblyReference.cache
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\obj\Release\ObtenerPesoSAP.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 19012019\ObtenerPesoSAP\obj\Release\ObtenerPesoSAP.pdb
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\ApplicationInsights.config
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\ObtenerPesoSAP.dll.config
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\ObtenerPesoSAP.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\ObtenerPesoSAP.pdb
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\roslyn\csc.exe
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\roslyn\csc.exe.config
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\roslyn\csc.rsp
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\roslyn\csi.exe
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\roslyn\csi.rsp
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\roslyn\System.AppContext.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\roslyn\System.Collections.Immutable.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\roslyn\System.IO.FileSystem.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\roslyn\System.Reflection.Metadata.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\roslyn\vbc.exe
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\roslyn\vbc.exe.config
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\roslyn\vbc.rsp
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\roslyn\VBCSCompiler.exe
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\roslyn\VBCSCompiler.exe.config
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Antlr3.Runtime.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\EntityFramework.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\EntityFramework.SqlServer.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Microsoft.AI.DependencyCollector.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Microsoft.AI.Web.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Microsoft.AI.WindowsServer.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Microsoft.ApplicationInsights.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Microsoft.Owin.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Microsoft.Owin.Security.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Google.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Microsoft.Web.Infrastructure.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Newtonsoft.Json.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\NLog.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Owin.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\SerialPortLib.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\System.Web.Helpers.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\System.Web.Mvc.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\System.Web.Optimization.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\System.Web.Razor.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\System.Web.WebPages.Deployment.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\System.Web.WebPages.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\System.Web.WebPages.Razor.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\WebGrease.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\EntityFramework.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\EntityFramework.SqlServer.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\NLog.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\SerialPortLib.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\System.Web.Helpers.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\System.Web.Mvc.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\System.Web.Optimization.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\System.Web.Razor.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\System.Web.WebPages.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\System.Web.WebPages.Deployment.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\System.Web.WebPages.Razor.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Newtonsoft.Json.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Antlr3.Runtime.pdb
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Microsoft.Owin.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Microsoft.Owin.Security.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Google.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Microsoft.AI.DependencyCollector.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Microsoft.AI.WindowsServer.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Microsoft.AI.Web.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\es\System.Web.Helpers.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\es\System.Web.Mvc.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\es\System.Web.Optimization.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\es\System.Web.Razor.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\es\System.Web.WebPages.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\obj\Release\ObtenerPesoSAP.csprojResolveAssemblyReference.cache
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\obj\Release\ObtenerPesoSAP.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 27012019\ObtenerPesoSAP\obj\Release\ObtenerPesoSAP.pdb
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\ApplicationInsights.config
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\ObtenerPesoSAP.dll.config
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\ObtenerPesoSAP.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\ObtenerPesoSAP.pdb
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\roslyn\csc.exe
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\roslyn\csc.exe.config
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\roslyn\csc.rsp
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\roslyn\csi.exe
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\roslyn\csi.rsp
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\roslyn\System.AppContext.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\roslyn\System.Collections.Immutable.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\roslyn\System.IO.FileSystem.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\roslyn\System.Reflection.Metadata.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\roslyn\vbc.exe
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\roslyn\vbc.exe.config
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\roslyn\vbc.rsp
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\roslyn\VBCSCompiler.exe
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\roslyn\VBCSCompiler.exe.config
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Antlr3.Runtime.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\EntityFramework.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\EntityFramework.SqlServer.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Microsoft.AI.DependencyCollector.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Microsoft.AI.Web.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Microsoft.AI.WindowsServer.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Microsoft.ApplicationInsights.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Microsoft.Owin.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Microsoft.Owin.Security.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Google.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Microsoft.Web.Infrastructure.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Newtonsoft.Json.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\NLog.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Owin.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\SerialPortLib.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\System.Web.Helpers.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\System.Web.Mvc.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\System.Web.Optimization.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\System.Web.Razor.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\System.Web.WebPages.Deployment.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\System.Web.WebPages.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\System.Web.WebPages.Razor.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\WebGrease.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\EntityFramework.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\EntityFramework.SqlServer.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\NLog.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\SerialPortLib.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\System.Web.Helpers.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\System.Web.Mvc.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\System.Web.Optimization.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\System.Web.Razor.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\System.Web.WebPages.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\System.Web.WebPages.Deployment.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\System.Web.WebPages.Razor.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Newtonsoft.Json.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Antlr3.Runtime.pdb
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Microsoft.Owin.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Microsoft.Owin.Security.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Google.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Microsoft.AI.DependencyCollector.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Microsoft.AI.WindowsServer.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Microsoft.AI.Web.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\es\System.Web.Helpers.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\es\System.Web.Mvc.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\es\System.Web.Optimization.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\es\System.Web.Razor.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\es\System.Web.WebPages.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\obj\Release\ObtenerPesoSAP.csprojResolveAssemblyReference.cache
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\obj\Release\ObtenerPesoSAP.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 17022019 Ultima version en preprod jalando los 3 webservice nuevo password\ObtenerPesoSAP\obj\Release\ObtenerPesoSAP.pdb
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\System.Net.Http.Formatting.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\System.Web.Http.Common.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\System.Web.Http.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\System.Net.Http.Formatting.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\System.Web.Http.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP\ObtenerPesoSAP\bin\System.Web.Http.Common.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\ApplicationInsights.config
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\ObtenerPesoSAP.dll.config
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\ObtenerPesoSAP.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\ObtenerPesoSAP.pdb
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\roslyn\csc.exe
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\roslyn\csc.exe.config
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\roslyn\csc.rsp
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\roslyn\csi.exe
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\roslyn\csi.rsp
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\roslyn\System.AppContext.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\roslyn\System.Collections.Immutable.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\roslyn\System.IO.FileSystem.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\roslyn\System.Reflection.Metadata.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\roslyn\vbc.exe
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\roslyn\vbc.exe.config
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\roslyn\vbc.rsp
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\roslyn\VBCSCompiler.exe
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\roslyn\VBCSCompiler.exe.config
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Antlr3.Runtime.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\EntityFramework.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\EntityFramework.SqlServer.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Microsoft.AI.DependencyCollector.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Microsoft.AI.Web.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Microsoft.AI.WindowsServer.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Microsoft.ApplicationInsights.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Microsoft.Owin.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Microsoft.Owin.Security.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Google.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Microsoft.Web.Infrastructure.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Newtonsoft.Json.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\NLog.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Owin.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\SerialPortLib.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\System.Net.Http.Formatting.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\System.Web.Helpers.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\System.Web.Http.Common.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\System.Web.Http.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\System.Web.Mvc.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\System.Web.Optimization.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\System.Web.Razor.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\System.Web.WebPages.Deployment.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\System.Web.WebPages.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\System.Web.WebPages.Razor.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\WebGrease.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\EntityFramework.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\EntityFramework.SqlServer.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\NLog.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\SerialPortLib.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\System.Net.Http.Formatting.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\System.Web.Http.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\System.Web.Http.Common.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\System.Web.Helpers.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\System.Web.Mvc.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\System.Web.Optimization.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\System.Web.Razor.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\System.Web.WebPages.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\System.Web.WebPages.Deployment.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\System.Web.WebPages.Razor.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Newtonsoft.Json.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Antlr3.Runtime.pdb
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Microsoft.Owin.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Microsoft.Owin.Security.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Google.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Microsoft.AI.DependencyCollector.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Microsoft.AI.WindowsServer.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Microsoft.AI.Web.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\es\EntityFramework.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\es\System.Web.Helpers.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\es\System.Web.Mvc.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\es\System.Web.Optimization.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\es\System.Web.Razor.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\es\System.Web.WebPages.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\obj\Release\ObtenerPesoSAP.csprojResolveAssemblyReference.cache
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\obj\Release\ObtenerPesoSAP.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 10032019 sin los ultimos webservices\ObtenerPesoSAP\obj\Release\ObtenerPesoSAP.pdb
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\ApplicationInsights.config
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\ObtenerPesoSAP.dll.config
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\ObtenerPesoSAP.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\ObtenerPesoSAP.pdb
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\roslyn\csc.exe
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\roslyn\csc.exe.config
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\roslyn\csc.rsp
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\roslyn\csi.exe
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\roslyn\csi.rsp
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\roslyn\System.AppContext.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\roslyn\System.Collections.Immutable.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\roslyn\System.IO.FileSystem.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\roslyn\System.Reflection.Metadata.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\roslyn\vbc.exe
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\roslyn\vbc.exe.config
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\roslyn\vbc.rsp
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\roslyn\VBCSCompiler.exe
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\roslyn\VBCSCompiler.exe.config
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Antlr3.Runtime.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\EntityFramework.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\EntityFramework.SqlServer.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Microsoft.AI.DependencyCollector.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Microsoft.AI.Web.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Microsoft.AI.WindowsServer.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Microsoft.ApplicationInsights.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Microsoft.Owin.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Microsoft.Owin.Security.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Google.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Microsoft.Web.Infrastructure.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Newtonsoft.Json.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\NLog.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Owin.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\SerialPortLib.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\System.Net.Http.Formatting.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\System.Web.Helpers.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\System.Web.Http.Common.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\System.Web.Http.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\System.Web.Mvc.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\System.Web.Optimization.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\System.Web.Razor.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\System.Web.WebPages.Deployment.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\System.Web.WebPages.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\System.Web.WebPages.Razor.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\WebGrease.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\EntityFramework.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\EntityFramework.SqlServer.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\NLog.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\SerialPortLib.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\System.Net.Http.Formatting.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\System.Web.Http.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\System.Web.Http.Common.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\System.Web.Helpers.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\System.Web.Mvc.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\System.Web.Optimization.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\System.Web.Razor.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\System.Web.WebPages.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\System.Web.WebPages.Deployment.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\System.Web.WebPages.Razor.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Newtonsoft.Json.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Antlr3.Runtime.pdb
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Microsoft.Owin.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Microsoft.Owin.Security.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Google.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Microsoft.AI.DependencyCollector.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Microsoft.AI.WindowsServer.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Microsoft.AI.Web.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\es\System.Web.Helpers.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\es\System.Web.Mvc.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\es\System.Web.Optimization.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\es\System.Web.Razor.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\es\System.Web.WebPages.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\obj\Release\ObtenerPesoSAP.csprojResolveAssemblyReference.cache
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\obj\Release\ObtenerPesoSAP.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP - 25032019 ya con cambio en los factores\ObtenerPesoSAP\obj\Release\ObtenerPesoSAP.pdb
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\ApplicationInsights.config
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\ObtenerPesoSAP.dll.config
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\ObtenerPesoSAP.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\ObtenerPesoSAP.pdb
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\roslyn\csc.exe
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\roslyn\csc.exe.config
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\roslyn\csc.rsp
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\roslyn\csi.exe
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\roslyn\csi.rsp
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\roslyn\System.AppContext.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\roslyn\System.Collections.Immutable.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\roslyn\System.IO.FileSystem.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\roslyn\System.Reflection.Metadata.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\roslyn\vbc.exe
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\roslyn\vbc.exe.config
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\roslyn\vbc.rsp
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\roslyn\VBCSCompiler.exe
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\roslyn\VBCSCompiler.exe.config
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Antlr3.Runtime.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\EntityFramework.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\EntityFramework.SqlServer.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Microsoft.AI.DependencyCollector.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Microsoft.AI.Web.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Microsoft.AI.WindowsServer.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Microsoft.ApplicationInsights.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Microsoft.Owin.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Microsoft.Owin.Security.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Google.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Microsoft.Web.Infrastructure.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Newtonsoft.Json.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\NLog.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Owin.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\SerialPortLib.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\System.Net.Http.Formatting.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\System.Web.Helpers.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\System.Web.Http.Common.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\System.Web.Http.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\System.Web.Mvc.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\System.Web.Optimization.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\System.Web.Razor.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\System.Web.WebPages.Deployment.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\System.Web.WebPages.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\System.Web.WebPages.Razor.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\WebGrease.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\EntityFramework.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\EntityFramework.SqlServer.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\NLog.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\SerialPortLib.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\System.Net.Http.Formatting.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\System.Web.Http.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\System.Web.Http.Common.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\System.Web.Helpers.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\System.Web.Mvc.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\System.Web.Optimization.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\System.Web.Razor.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\System.Web.WebPages.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\System.Web.WebPages.Deployment.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\System.Web.WebPages.Razor.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Newtonsoft.Json.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Antlr3.Runtime.pdb
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Microsoft.Owin.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Microsoft.Owin.Security.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Google.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Microsoft.AI.DependencyCollector.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Microsoft.AI.WindowsServer.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Microsoft.AI.Web.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\es\System.Web.Helpers.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\es\System.Web.Mvc.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\es\System.Web.Optimization.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\es\System.Web.Razor.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\es\System.Web.WebPages.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\obj\Release\ObtenerPesoSAP.csprojResolveAssemblyReference.cache
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\obj\Release\ObtenerPesoSAP.dll
+C:\Proyecto Cydsa\ObtenerPesoSAP Produccion\ObtenerPesoSAP\obj\Release\ObtenerPesoSAP.pdb
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\ApplicationInsights.config
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\ObtenerPesoSAP.dll.config
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\ObtenerPesoSAP.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\ObtenerPesoSAP.pdb
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\csc.exe
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\csc.exe.config
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\csc.rsp
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\csi.exe
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\csi.rsp
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\System.AppContext.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\vbc.exe
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\vbc.exe.config
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\vbc.rsp
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\VBCSCompiler.exe
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Antlr3.Runtime.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\EntityFramework.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\EntityFramework.SqlServer.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.AI.Web.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.Owin.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.Owin.Security.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Newtonsoft.Json.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\NLog.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Owin.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\SerialPortLib.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Net.Http.Formatting.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Web.Helpers.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Web.Http.Common.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Web.Http.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Web.Mvc.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Web.Optimization.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Web.Razor.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Web.WebPages.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Web.WebPages.Razor.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\WebGrease.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\EntityFramework.xml
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\EntityFramework.SqlServer.xml
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\NLog.xml
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\SerialPortLib.xml
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Net.Http.Formatting.xml
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Web.Http.xml
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Web.Http.Common.xml
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Web.Helpers.xml
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Web.Mvc.xml
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Web.Optimization.xml
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Web.Razor.xml
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Web.WebPages.xml
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Web.WebPages.Razor.xml
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Newtonsoft.Json.xml
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Antlr3.Runtime.pdb
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.Owin.xml
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.Owin.Security.xml
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.AI.Web.xml
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\es\System.Web.Razor.resources.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\obj\Release\ObtenerPesoSAP.csprojResolveAssemblyReference.cache
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\obj\Release\ObtenerPesoSAP.dll
+C:\Users\Consultor Vitek\Desktop\ProyectosCydsa\Bascula_CYDSA\ObtenerPesoSAP\obj\Release\ObtenerPesoSAP.pdb
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\ApplicationInsights.config
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\ObtenerPesoSAP.dll.config
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\ObtenerPesoSAP.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\ObtenerPesoSAP.pdb
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\csc.exe
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\csc.exe.config
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\csc.rsp
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\csi.exe
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\csi.rsp
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\System.AppContext.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\vbc.exe
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\vbc.exe.config
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\vbc.rsp
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\VBCSCompiler.exe
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Antlr3.Runtime.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\EntityFramework.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\EntityFramework.SqlServer.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.AI.Web.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.Owin.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.Owin.Security.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Newtonsoft.Json.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\NLog.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Owin.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\SerialPortLib.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Net.Http.Formatting.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Web.Helpers.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Web.Http.Common.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Web.Http.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Web.Mvc.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Web.Optimization.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Web.Razor.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Web.WebPages.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Web.WebPages.Razor.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\WebGrease.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\EntityFramework.xml
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\EntityFramework.SqlServer.xml
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\NLog.xml
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\SerialPortLib.xml
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Net.Http.Formatting.xml
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Web.Http.xml
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Web.Http.Common.xml
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Web.Helpers.xml
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Web.Mvc.xml
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Web.Optimization.xml
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Web.Razor.xml
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Web.WebPages.xml
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Web.WebPages.Razor.xml
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Newtonsoft.Json.xml
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Antlr3.Runtime.pdb
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.Owin.xml
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.Owin.Security.xml
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.AI.Web.xml
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\es\System.Web.Razor.resources.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\obj\Release\ObtenerPesoSAP.csprojResolveAssemblyReference.cache
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\obj\Release\ObtenerPesoSAP.dll
+C:\Users\Consultor Vitek\Desktop\Bascula_CYDSA\ObtenerPesoSAP\obj\Release\ObtenerPesoSAP.pdb

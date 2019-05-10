@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:p1="http://cydsa.com/PL/TM/TM101/Receiver/WebServices/PesoVehiculo_ConsultaNumCarga" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" name="SI_OS_Consulta_NumCarga" targetNamespace="http://cydsa.com/PL/TM/TM101/Receiver/WebServices/PesoVehiculo_ConsultaNumCarga" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation />
+  <wsp:UsingPolicy wsdl:required="true" />
+  <wsp:Policy wsu:Id="OP_SI_OS_Consulta_NumCarga" />
+  <wsdl:types>
+    <xsd:schema xmlns="http://cydsa.com/PL/TM/TM101/Receiver/WebServices/PesoVehiculo_ConsultaNumCarga" targetNamespace="http://cydsa.com/PL/TM/TM101/Receiver/WebServices/PesoVehiculo_ConsultaNumCarga" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <xsd:element name="MT_Consulta_NumCarga_Resp" type="p1:DT_Consulta_NumCarga_Resp" />
+      <xsd:element name="MT_Consulta_NumCarga" type="p1:DT_Consulta_NumCarga" />
+      <xsd:complexType name="DT_Consulta_NumCarga">
+        <xsd:annotation>
+          <xsd:appinfo source="http://sap.com/xi/VersionID">683f30aa395811e9901f0000001096ae</xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="data">
+            <xsd:annotation>
+              <xsd:appinfo source="http://sap.com/xi/TextID">691f9b10395811e9896c025041000001</xsd:appinfo>
+            </xsd:annotation>
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="0" name="Numero_Transporte" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">691f9b0f395811e9c9b7025041000001</xsd:appinfo>
+                  </xsd:annotation>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="DT_Consulta_NumCarga_Resp">
+        <xsd:annotation>
+          <xsd:appinfo source="http://sap.com/xi/VersionID">e3394f474b3411e9934f0000001096ae</xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="OPTIONS">
+            <xsd:annotation>
+              <xsd:appinfo source="http://sap.com/xi/TextID">2fdf64403aac11e9a299025041000001</xsd:appinfo>
+            </xsd:annotation>
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="Type" type="xsd:string">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">d64dc8bf3ab511e99f2b025041000001</xsd:appinfo>
+                  </xsd:annotation>
+                </xsd:element>
+                <xsd:element minOccurs="0" maxOccurs="unbounded" name="item">
+                  <xsd:annotation>
+                    <xsd:appinfo source="http://sap.com/xi/TextID">2fdf643f3aac11e9b024025041000001</xsd:appinfo>
+                  </xsd:annotation>
+                  <xsd:complexType>
+                    <xsd:sequence>
+                      <xsd:element minOccurs="0" name="Response" type="xsd:string">
+                        <xsd:annotation>
+                          <xsd:appinfo source="http://sap.com/xi/TextID">2fdf643e3aac11e9cdfe025041000001</xsd:appinfo>
+                        </xsd:annotation>
+                      </xsd:element>
+                    </xsd:sequence>
+                  </xsd:complexType>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="MT_Consulta_NumCarga">
+    <wsdl:documentation />
+    <wsdl:part name="MT_Consulta_NumCarga" element="p1:MT_Consulta_NumCarga" />
+  </wsdl:message>
+  <wsdl:message name="MT_Consulta_NumCarga_Resp">
+    <wsdl:documentation />
+    <wsdl:part name="MT_Consulta_NumCarga_Resp" element="p1:MT_Consulta_NumCarga_Resp" />
+  </wsdl:message>
+  <wsdl:portType name="SI_OS_Consulta_NumCarga">
+    <wsdl:documentation />
+    <wsdl:operation name="SI_OS_Consulta_NumCarga">
+      <wsdl:documentation />
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_SI_OS_Consulta_NumCarga" />
+      </wsp:Policy>
+      <wsdl:input message="p1:MT_Consulta_NumCarga" />
+      <wsdl:output message="p1:MT_Consulta_NumCarga_Resp" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SI_OS_Consulta_NumCargaBinding" type="p1:SI_OS_Consulta_NumCarga">
+    <binding transport="http://schemas.xmlsoap.org/soap/http" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    <wsdl:operation name="SI_OS_Consulta_NumCarga">
+      <operation soapAction="http://sap.com/xi/WebService/soap1.1" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <wsdl:input>
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </wsdl:input>
+      <wsdl:output>
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SI_OS_Consulta_NumCargaService">
+    <wsdl:port name="HTTP_Port" binding="p1:SI_OS_Consulta_NumCargaBinding">
+      <address location="http://mtyqas09.cydsa.com:50000/XISOAPAdapter/MessageServlet?senderParty=&amp;senderService=ZBS_LEGADOS_PRX&amp;receiverParty=&amp;receiverService=&amp;interface=SI_OS_Consulta_NumCarga&amp;interfaceNamespace=http%3A%2F%2Fcydsa.com%2FPL%2FTM%2FTM101%2FReceiver%2FWebServices%2FPesoVehiculo_ConsultaNumCarga" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    </wsdl:port>
+    <wsdl:port name="HTTPS_Port" binding="p1:SI_OS_Consulta_NumCargaBinding">
+      <address location="https://mtyqas09.cydsa.com:50001/XISOAPAdapter/MessageServlet?senderParty=&amp;senderService=ZBS_LEGADOS_PRX&amp;receiverParty=&amp;receiverService=&amp;interface=SI_OS_Consulta_NumCarga&amp;interfaceNamespace=http%3A%2F%2Fcydsa.com%2FPL%2FTM%2FTM101%2FReceiver%2FWebServices%2FPesoVehiculo_ConsultaNumCarga" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

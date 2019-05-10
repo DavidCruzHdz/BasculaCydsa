@@ -1,0 +1,72 @@
+﻿@model IList<ObtenerPesoSAP.Models.CPPantallas>
+@{
+    ViewBag.Title = "Pantallas";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+<br />
+<br />
+<br />
+<div class="container form-group col-md-12  jumbotron" style="background-color:#5c87b2;">
+
+    <h2>Permisos Asignados</h2>
+
+    <p>
+            <h4>Accesos a pantallas </h4>
+        </p>
+    @using (Html.BeginForm())
+    {
+
+        <div class="form-horizontal">
+
+            @for (var i = 0; i < Model.Count; i++)
+            {
+                <div class="container form-group col-md-2">
+                    @Html.HiddenFor(x => x[i].Id, new { @class = "form-control" })
+                    <span></span>
+                </div>
+
+                <div class="container form-group col-md-4" style="text-align-last:right; font-size:20px; font-style:normal; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">
+                    @Html.DisplayFor(x => x[i].nombre, new { @class = "form-control", @style = "align-items:right" })
+                </div>
+
+
+                <div class="container form-group col-md-6" style="text-align-last:left">
+                    @Html.CheckBoxFor(x => x[i].checkeado, new { @class = "form-control", @style = "align-items:left" })
+                </div>
+
+
+
+            }
+        </div>
+
+        <br />
+        <br />
+        <div class="form-horizontal col-md-12">
+            <input type="submit" value="Guardar" class="btn btn-danger" />
+            <a href="~/Usuarios" , class='btn btn-danger'>Regresar</a>
+        </div>
+
+
+    }
+   
+
+</div>
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+
+
+
+
+
+
+
+
+
